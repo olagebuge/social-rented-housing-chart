@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  </head>
+  <body>
+    <canvas id="myChart"></canvas>
+
+    <script>
+      const ctx = document.getElementById("myChart");
+
+      fetch("http://127.0.0.1:5500/cityhouse.json")
+        .then((res) => res.json())
+        .then((data) => {
+          //只要臺北市
+          const filteredData = data
+            .filter((item) => item.city === "臺北市" && item.startdate !== "")
+            .map((item) => ({
+              mayor: item.mayor,
+              name: item.casename,
+              x: new Date(item.startdate),
+              y: parseFloat(item.households),
+            }))
+            .sort((a, b) => a.x - b.x);
+
+          const taipeiMayor = filteredData.filter(
+            (item) => item.mayor === "臺北市政府"
+          );
+
+          new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: taipeiMayor.map((point) => point.x),
+              datasets: [
+                {
+                  label: "戶數",
+                  data: taipeiMayor.map((point) => ({
+                    x: point.x,
+                    y: point.y,
+                    name: point.name,
+                  })),
+                  borderWidth: 1,
+                },
+              ],
+            },
+            options: {
+              scales: {
+                x: {
+                  type: "time",
+                  time: {
+                    unit: "year",
+                  },
+                },
+                y: {
+                  beginAtZero: true,
+                  title: {
+                    display: true,
+                    text: "戶數",
+                  },
+                },
+              },
+            },
+
+          });
+
+          
+
+        });
+    </script>
+  </body>
+</html>

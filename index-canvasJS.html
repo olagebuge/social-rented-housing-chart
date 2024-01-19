@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.canvasjs.com/ga/canvasjs.min.js"></script>
+  </head>
+  <body>
+    <div id="chartContainer" style="height: 370px; width: 100%"></div>
+
+    <script type="text/javascript">
+      window.onload = function () {
+        fetch("http://127.0.0.1:5500/cityhouse.json")
+          .then((res) => res.json())
+          .then((data) => {
+            //只要臺北市
+            const filteredData = data.filter(
+              (item) => item.city === "臺北市" && item.startdate !== "");
+            var dataPoints = filteredData.map((item) => ({
+              label: item.mayor,
+              x: new Date(item.startdate),
+              y: parseFloat(item.households),
+            }));
+            dataPoints.sort((a, b) => a.x - b.x);
+
+            var taipeiData = dataPoints.filter(function (point) {
+              return point.label === "臺北市政府";
+            });                   
+
+            var centerData = dataPoints.filter(function (point) {
+              return point.label === "住都中心";
+            });
+
+            let accumTaipeiData = [];
+            let total = 0;
+            for (let point of taipeiData) {
+              total += point.y;
+              accumTaipeiData.push({
+                x: point.x,
+                y: total,
+              });
+            }   
+              
+            let accumCenterData = [];
+            let totalCenter = 0;
+            for (let point of centerData) {
+              totalCenter += point.y;
+              accumCenterData.push({
+                x: point.x,
+                y: totalCenter,
+              });
+            }   
+            
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+              theme: "light1",
+              animationEnabled: true,
+              title: {
+                text: "臺北市社會住宅",
+              },
+              axisX: {
+                title: "開工日期",
+                minimum: new Date(2014, 0),
+                
+              },
+              axisY: {
+                title: "戶數",
+              },
+
+              data: [
+                {
+                  name: "臺北市政府",
+                  showInLegend: true,
+                  legendMarkerType: "square",
+                  type: "scatter",
+                  dataPoints: accumTaipeiData.map(function (point) {
+                    return { x: point.x, y: point.y };
+                  }),
+                },
+                {
+                  name: "住都中心",
+                  showInLegend: true,
+                  legendMarkerType: "square",
+                  type: "scatter",
+                  dataPoints: accumCenterData.map(function (point) {
+                    return { x: point.x, y: point.y };
+                  }),
+                },
+              ],
+            });
+
+            // 渲染图表
+            chart.render();
+          })
+          .catch((error) => console.error("Error loading JSON:", error));
+      };
+    </script>
+  </body>
+</html>
