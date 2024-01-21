@@ -11,8 +11,6 @@
     <canvas id="myChart"></canvas>
 
     <script>
-      const ctx = document.getElementById("myChart");
-
       fetch("http://127.0.0.1:5500/cityhouse.json")
         .then((res) => res.json())
         .then((data) => {
@@ -22,6 +20,7 @@
             .map((item) => ({
               mayor: item.mayor,
               name: item.casename,
+              households: item.households,
               x: new Date(item.startdate),
               y: parseFloat(item.households),
             }))
@@ -30,30 +29,107 @@
           const taipeiMayor = filteredData.filter(
             (item) => item.mayor === "臺北市政府"
           );
+          const centerMayor = filteredData.filter(
+            (item) => item.mayor === "住都中心"
+          );
 
-          new Chart(ctx, {
+          let accumTaipeiData = [];
+          let tapeiTotal = 0;
+          for (let point of taipeiMayor) {
+            tapeiTotal += point.y;
+            accumTaipeiData.push({
+              x: point.x,
+              y: tapeiTotal,
+              name: point.name,
+              households: point.households,
+            });
+          }
+
+          let accumCenterData = [];
+          let centerTotal = 0;
+          for (let point of centerMayor) {
+            centerTotal += point.y;
+            accumCenterData.push({
+              x: point.x,
+              y: centerTotal,
+              name: point.name,
+              households: point.households,
+            });
+          }
+
+          const taipeidata = {
+            labels: ["臺北市政府", "住都中心"],
+            datasets: [
+              {
+                label: "臺北市政府",
+                data: accumTaipeiData.map((point) => ({
+                  x: point.x,
+                  y: point.y,
+                  name: point.name,
+                  households: point.households,
+                })),
+                borderWidth: 1,
+              },
+              {
+                label: "住都中心",
+                data: accumCenterData.map((point) => ({
+                  x: point.x,
+                  y: point.y,
+                  name: point.name,
+                  households: point.households,
+                })),
+                borderWidth: 1,
+              },
+            ],
+          };          
+
+          const config = {
             type: "line",
-            data: {
-              labels: taipeiMayor.map((point) => point.x),
-              datasets: [
-                {
-                  label: "戶數",
-                  data: taipeiMayor.map((point) => ({
-                    x: point.x,
-                    y: point.y,
-                    name: point.name,
-                  })),
-                  borderWidth: 1,
-                },
-              ],
-            },
+            data: taipeidata,
             options: {
+              plugins: {
+                tooltip: {
+                  callbacks: {
+                    beforeTitle: function (context) {
+                      const datasetIndex = context[0].datasetIndex; // 取得 dataset 的索引
+                      const dataIndex = context[0].dataIndex; // 取得目前 tooltip 所在點的索引
+                      const caseName =
+                        taipeidata.datasets[datasetIndex].data[dataIndex].name;
+                      const caseHolds =
+                        taipeidata.datasets[datasetIndex].data[dataIndex]
+                          .households;
+                      return `${caseName} + ${caseHolds}戶`;
+                    },
+                    title: function (context) {
+                      const datasetIndex = context[0].datasetIndex;
+                      const dataIndex = context[0].dataIndex;
+                      const date = new Date(
+                        taipeidata.datasets[datasetIndex].data[dataIndex].x
+                      );
+                      const formattedDate = date.toLocaleDateString();
+                      return `日期: ${formattedDate}`;
+                    },
+                    afterTitle: function (context) {
+                      return "======================";
+                    },
+                    label: function (context) {
+                      const label = context.dataset.label || "";
+                      const value = context.parsed.y;
+                      return `${label} 共 ${value}戶`;
+                    },
+                  },
+                },
+              },
               scales: {
                 x: {
                   type: "time",
                   time: {
                     unit: "year",
                   },
+                  title: {
+                    display: true,
+                    text: "開工日期",
+                  },                  
                 },
                 y: {
                   beginAtZero: true,
@@ -64,11 +140,11 @@
                 },
               },
             },
+          };
 
-          });
-
-          
-
+          //賦予圖表
+          const ctx = document.getElementById("myChart");
+          new Chart(ctx, config);
         });
     </script>
   </body>
