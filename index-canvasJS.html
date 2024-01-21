@@ -16,9 +16,11 @@
           .then((data) => {
             //只要臺北市
             const filteredData = data.filter(
-              (item) => item.city === "臺北市" && item.startdate !== "");
+              (item) => item.city === "臺北市" && item.startdate !== ""
+            );
             var dataPoints = filteredData.map((item) => ({
               label: item.mayor,
+              name: item.casename,
               x: new Date(item.startdate),
               y: parseFloat(item.households),
             }));
@@ -26,32 +28,35 @@
 
             var taipeiData = dataPoints.filter(function (point) {
               return point.label === "臺北市政府";
-            });                   
+            });
 
             var centerData = dataPoints.filter(function (point) {
               return point.label === "住都中心";
             });
 
             let accumTaipeiData = [];
-            let total = 0;
+            let taipeiTotal = 0;
             for (let point of taipeiData) {
-              total += point.y;
+              taipeiTotal += point.y;
               accumTaipeiData.push({
                 x: point.x,
-                y: total,
+                y: taipeiTotal,
+                households: point.y,
+                name: point.name,
               });
-            }   
-              
+            }
+
             let accumCenterData = [];
-            let totalCenter = 0;
+            let centerTotal = 0;
             for (let point of centerData) {
-              totalCenter += point.y;
+              centerTotal += point.y;
               accumCenterData.push({
                 x: point.x,
-                y: totalCenter,
+                y: centerTotal,
+                households: point.y,
+                name: point.name,
               });
-            }   
-            
+            }
 
             var chart = new CanvasJS.Chart("chartContainer", {
               theme: "light1",
@@ -61,8 +66,8 @@
               },
               axisX: {
                 title: "開工日期",
-                minimum: new Date(2014, 0),
-                
+                minimum: new Date(2010, 0),
+                valueFormatString: "YYYY",
               },
               axisY: {
                 title: "戶數",
@@ -73,21 +78,47 @@
                   name: "臺北市政府",
                   showInLegend: true,
                   legendMarkerType: "square",
-                  type: "scatter",
+                  type: "line",
                   dataPoints: accumTaipeiData.map(function (point) {
-                    return { x: point.x, y: point.y };
-                  }),
+                    return {
+                      x: point.x,
+                      y: point.y,
+                      name: point.name,
+                      households: point.households,
+                    };
+                  }),                  
                 },
                 {
                   name: "住都中心",
                   showInLegend: true,
                   legendMarkerType: "square",
-                  type: "scatter",
+                  type: "line",
                   dataPoints: accumCenterData.map(function (point) {
-                    return { x: point.x, y: point.y };
-                  }),
+                    return {
+                      x: point.x,
+                      y: point.y,
+                      name: point.name,
+                      households: point.households,
+                    };
+                  }),                 
                 },
               ],
+              toolTip: {
+                contentFormatter: function (e) {
+                  var content = "";
+                  for (var i = 0; i < e.entries.length; i++) {
+                    var date = CanvasJS.formatDate(
+                      e.entries[i].dataPoint.x,
+                      "YYYY/MM/DD"
+                    );
+                    var name = e.entries[i].dataPoint.name;
+                    var households = e.entries[i].dataPoint.households;
+                    var total = e.entries[i].dataPoint.y;
+                    content += `${date} 開工<br>${name} + ${households}戶<br>${e.entries[i].dataSeries.name}累計 ${total} 戶<br>`;
+                  }
+                  return content;
+                },
+              },
             });
 
             // 渲染图表
