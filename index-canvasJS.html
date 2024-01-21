@@ -5,127 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.canvasjs.com/ga/canvasjs.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .flexBox {
+        display: flex;
+        justify-content: center;
+      }
+      section.flexBox {
+        padding: 20px;
+      }
+      .flexBox h4 {
+        margin-right: 10px;
+      }
+      .count-type {
+        margin-right: 20px;
+      }
+    </style>
   </head>
   <body>
+    <section class="flexBox">
+      <div class="count-type">
+        <input type="checkbox" name="accumulate" checked />
+        <label for="accumulate">累加</label>
+      </div>
+      <div class="flexBox">
+        <h4>選擇區域</h4>
+        <select id="select-city" onchange="selectCity()">
+          <option value="臺北市">臺北市</option>
+          <option value="新北市">新北市</option>
+          <option value="桃園市">桃園市</option>
+          <option value="臺中市">臺中市</option>
+          <option value="臺南市">臺南市</option>
+          <option value="高雄市">高雄市</option>
+          <option value="">全國</option>
+        </select>
+      </div>
+    </section>
+
     <div id="chartContainer" style="height: 370px; width: 100%"></div>
 
     <script type="text/javascript">
-      window.onload = function () {
-        fetch("https://olagebuge.github.io/custom-chart/cityhouse.json")
-          .then((res) => res.json())
-          .then((data) => {
-            //只要臺北市
-            const filteredData = data.filter(
-              (item) => item.city === "臺北市" && item.startdate !== ""
-            );
-            var dataPoints = filteredData.map((item) => ({
-              label: item.mayor,
-              name: item.casename,
-              x: new Date(item.startdate),
-              y: parseFloat(item.households),
-            }));
-            dataPoints.sort((a, b) => a.x - b.x);
+      
+      function selectCity() {        
+        fetchCity();
+      }
+      
+      function fetchCity() {        
+          let selectCity = document.querySelector("#select-city");
+          let selectedCity = selectCity.value;
 
-            var taipeiData = dataPoints.filter(function (point) {
-              return point.label === "臺北市政府";
-            });
+          fetch("http://127.0.0.1:5500/cityhouse.json")
+            .then((res) => res.json())
+            .then((data) => {
+              //只要臺北市
+              const filteredData = data.filter(
+                (item) => item.startdate !== "" && item.city === selectedCity
+              );
+              var dataPoints = filteredData.map((item) => ({
+                label: item.mayor,
+                name: item.casename,
+                x: new Date(item.startdate),
+                y: parseFloat(item.households),
+              }));
+              dataPoints.sort((a, b) => a.x - b.x);
 
-            var centerData = dataPoints.filter(function (point) {
-              return point.label === "住都中心";
-            });
-
-            let accumTaipeiData = [];
-            let taipeiTotal = 0;
-            for (let point of taipeiData) {
-              taipeiTotal += point.y;
-              accumTaipeiData.push({
-                x: point.x,
-                y: taipeiTotal,
-                households: point.y,
-                name: point.name,
+              var taipeiData = dataPoints.filter(function (point) {
+                return point.label === `${selectedCity}政府`;
               });
-            }
 
-            let accumCenterData = [];
-            let centerTotal = 0;
-            for (let point of centerData) {
-              centerTotal += point.y;
-              accumCenterData.push({
-                x: point.x,
-                y: centerTotal,
-                households: point.y,
-                name: point.name,
+              var centerData = dataPoints.filter(function (point) {
+                return point.label === "住都中心";
               });
-            }
 
-            var chart = new CanvasJS.Chart("chartContainer", {
-              theme: "light1",
-              animationEnabled: true,
-              title: {
-                text: "臺北市社會住宅",
-              },
-              axisX: {
-                title: "開工日期",
-                minimum: new Date(2010, 0),
-                valueFormatString: "YYYY",
-              },
-              axisY: {
-                title: "戶數",
-              },
+              let accumTaipeiData = [];
+              let taipeiTotal = 0;
+              for (let point of taipeiData) {
+                taipeiTotal += point.y;
+                accumTaipeiData.push({
+                  x: point.x,
+                  y: taipeiTotal,
+                  households: point.y,
+                  name: point.name,
+                });
+              }
 
-              data: [
-                {
-                  name: "臺北市政府",
-                  showInLegend: true,
-                  legendMarkerType: "square",
-                  type: "line",
-                  dataPoints: accumTaipeiData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  }),                  
-                },
-                {
-                  name: "住都中心",
-                  showInLegend: true,
-                  legendMarkerType: "square",
-                  type: "line",
-                  dataPoints: accumCenterData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  }),                 
-                },
-              ],
-              toolTip: {
-                contentFormatter: function (e) {
-                  var content = "";
-                  for (var i = 0; i < e.entries.length; i++) {
-                    var date = CanvasJS.formatDate(
-                      e.entries[i].dataPoint.x,
-                      "YYYY/MM/DD"
-                    );
-                    var name = e.entries[i].dataPoint.name;
-                    var households = e.entries[i].dataPoint.households;
-                    var total = e.entries[i].dataPoint.y;
-                    content += `${date} 開工<br>${name} + ${households}戶<br>${e.entries[i].dataSeries.name}累計 ${total} 戶<br>`;
-                  }
-                  return content;
-                },
-              },
-            });
+              let accumCenterData = [];
+              let centerTotal = 0;
+              for (let point of centerData) {
+                centerTotal += point.y;
+                accumCenterData.push({
+                  x: point.x,
+                  y: centerTotal,
+                  households: point.y,
+                  name: point.name,
+                });
+              }
 
-            // 渲染图表
-            chart.render();
-          })
-          .catch((error) => console.error("Error loading JSON:", error));
-      };
+              var chart = new CanvasJS.Chart("chartContainer", {
+                theme: "light1",
+                animationEnabled: true,
+                title: {
+                  text: `${selectedCity}社會住宅`,
+                },
+                axisX: {
+                  title: "開工日期",
+                  minimum: new Date(2010, 0),
+                  valueFormatString: "YYYY",
+                },
+                axisY: {
+                  title: "戶數",
+                },
+
+                data: [
+                  {
+                    name: `${selectedCity}政府`,
+                    showInLegend: true,
+                    legendMarkerType: "square",
+                    type: "line",
+                    dataPoints: accumTaipeiData.map(function (point) {
+                      return {
+                        x: point.x,
+                        y: point.y,
+                        name: point.name,
+                        households: point.households,
+                      };
+                    }),
+                  },
+                  {
+                    name: "住都中心",
+                    showInLegend: true,
+                    legendMarkerType: "square",
+                    type: "line",
+                    dataPoints: accumCenterData.map(function (point) {
+                      return {
+                        x: point.x,
+                        y: point.y,
+                        name: point.name,
+                        households: point.households,
+                      };
+                    }),
+                  },
+                ],
+                toolTip: {
+                  contentFormatter: function (e) {
+                    var content = "";
+                    for (var i = 0; i < e.entries.length; i++) {
+                      var date = CanvasJS.formatDate(
+                        e.entries[i].dataPoint.x,
+                        "YYYY/MM/DD"
+                      );
+                      var name = e.entries[i].dataPoint.name;
+                      var label = e.entries[i].dataSeries.name;                      
+                      var households = e.entries[i].dataPoint.households;
+                      var total = e.entries[i].dataPoint.y;
+                      content += `${date} 開工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶<br>`;
+                    }
+                    return content;
+                  },
+                },
+              });
+
+              // 渲染图表
+              chart.render();
+            })
+            .catch((error) => console.error("Error loading JSON:", error));
+        };
+      fetchCity();
     </script>
   </body>
 </html>
