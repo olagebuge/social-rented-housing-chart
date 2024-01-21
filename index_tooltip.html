@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+
+      //資料
+      const data = {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [
+          {
+            label: "1 of Votes",
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1,
+          },
+          {
+            label: "2 of Votes",
+            data: [3, 10, 28, 5, 1, 4],
+            borderWidth: 1,
+          },
+        ],
+      };
+
+      //圖表設定
+      const config = {
+        type: "line",
+        data: data,
+        options: {
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          plugins: {
+            tooltip: {
+              callbacks: {
+                beforeTitle: function (context) {
+                  return "標題之前"
+                }
+              },
+            },
+          },
+        },
+      };
+
+      //賦予圖表
+      const ctx = document.getElementById("myChart");
+      new Chart(ctx, config);
+    </script>
+  </body>
+</html>
