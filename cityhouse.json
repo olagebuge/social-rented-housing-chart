@@ -1,698 +1,829 @@
 [
-{"city":"臺北市","casename":"延吉好室","mayor":"住都中心","households":"160","status":"興建中","decidedate":"2020/11/11","startdate":"2021/12/30","finishdate":"2024/7/31"}
-,
-{"city":"臺北市","casename":"延壽Ｐ出租國宅","mayor":"臺北市政府","households":"99","status":"既有","decidedate":"","startdate":"","finishdate":"1998/7/31"}
-,
-{"city":"臺北市","casename":"健康社會住宅","mayor":"臺北市政府","households":"507","status":"新完工","decidedate":"2014/10/14","startdate":"2014/12/17","finishdate":"2017/12/26"}
-,
-{"city":"臺北市","casename":"臺北市松山區延吉段一小段119地號等8筆土地都市更新計畫案","mayor":"住都中心","households":"3","status":"興建中","decidedate":"","startdate":"2019/7/25","finishdate":"2024/12/31"}
-,
-{"city":"臺北市","casename":"延吉平宅","mayor":"臺北市政府","households":"120","status":"既有","decidedate":"1971/1/31","startdate":"","finishdate":"1971/1/31"}
-,
-{"city":"臺北市","casename":"懷生出租國宅","mayor":"臺北市政府","households":"205","status":"既有","decidedate":"","startdate":"","finishdate":"1997/12/31"}
-,
-{"city":"臺北市","casename":"金華社會住宅(特四、五)","mayor":"臺北市政府","households":"515","status":"已決標待開工","decidedate":"2023/2/23","startdate":"2025/12/31","finishdate":"2029/6/30"}
-,
-{"city":"臺北市","casename":"臺北市大安區懷生段二小段16地號等6筆土地都市更新案","mayor":"住都中心","households":"2","status":"新完工","decidedate":"","startdate":"2017/7/11","finishdate":"2022/3/24"}
-,
-{"city":"臺北市","casename":"南海段都更案基地","mayor":"臺北市政府","households":"214","status":"興建中","decidedate":"2012/6/25","startdate":"2023/10/30","finishdate":"2026/10/31"}
-,
-{"city":"臺北市","casename":"臺北市中正區南海段二小段41-4地號等55筆土地都市更新案","mayor":"住都中心","households":"2","status":"規劃中","decidedate":"","startdate":"2024/5/31","finishdate":"2027/5/31"}
-,
-{"city":"臺北市","casename":"萬華安居A","mayor":"住都中心","households":"158","status":"興建中","decidedate":"2021/1/21","startdate":"2021/12/23","finishdate":"2024/11/30"}
-,
-{"city":"臺北市","casename":"萬華安居B","mayor":"住都中心","households":"142","status":"興建中","decidedate":"2021/1/21","startdate":"2021/12/23","finishdate":"2024/11/30"}
-,
-{"city":"臺北市","casename":"大理街出租國宅","mayor":"臺北市政府","households":"35","status":"既有","decidedate":"","startdate":"","finishdate":"1998/9/1"}
-,
-{"city":"臺北市","casename":"中正出租國宅","mayor":"臺北市政府","households":"523","status":"既有","decidedate":"","startdate":"","finishdate":"1982/2/1"}
-,
-{"city":"臺北市","casename":"西寧出租國宅","mayor":"臺北市政府","households":"475","status":"既有","decidedate":"","startdate":"1977/2/23","finishdate":"1982/7/14"}
-,
-{"city":"臺北市","casename":"華昌出租國宅","mayor":"臺北市政府","households":"490","status":"既有","decidedate":"","startdate":"1977/11/24","finishdate":"1982/4/28"}
-,
-{"city":"臺北市","casename":"龍山綜合大樓出租國宅","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"1991/4/24","finishdate":"1994/10/21"}
-,
-{"city":"臺北市","casename":"福民平宅","mayor":"臺北市政府","households":"180","status":"既有","decidedate":"","startdate":"1976/5/5","finishdate":"1977/11/23"}
-,
-{"city":"臺北市","casename":"龍山寺聯開宅","mayor":"臺北市政府","households":"7","status":"既有","decidedate":"","startdate":"2008/5/28","finishdate":"2011/3/15"}
-,
-{"city":"臺北市","casename":"萬華青年社會住宅1區","mayor":"臺北市政府","households":"273","status":"新完工","decidedate":"2015/11/11","startdate":"2016/2/18","finishdate":"2018/12/22"}
-,
-{"city":"臺北市","casename":"萬華青年社會住宅2區","mayor":"臺北市政府","households":"518","status":"興建中","decidedate":"2017/4/21","startdate":"2017/7/17","finishdate":"2023/11/30"}
-,
-{"city":"臺北市","casename":"莒光社會住宅","mayor":"臺北市政府","households":"201","status":"新完工","decidedate":"2017/10/3","startdate":"2017/12/28","finishdate":"2022/6/14"}
-,
-{"city":"臺北市","casename":"福星社會住宅","mayor":"臺北市政府","households":"255","status":"新完工","decidedate":"2019/3/25","startdate":"2019/10/23","finishdate":"2023/6/27"}
-,
-{"city":"臺北市","casename":"福民社會住宅1區","mayor":"臺北市政府","households":"131","status":"新完工","decidedate":"2022/1/17","startdate":"2022/4/13","finishdate":"2026/6/30"}
-,
-{"city":"臺北市","casename":"福星段都更案基地","mayor":"臺北市政府","households":"173","status":"興建中","decidedate":"2015/9/15","startdate":"2022/9/7","finishdate":"2025/9/30"}
-,
-{"city":"臺北市","casename":"凌霄好室","mayor":"住都中心","households":"112","status":"已決標待開工","decidedate":"2023/8/18","startdate":"2024/9/30","finishdate":"2028/3/31"}
-,
-{"city":"臺北市","casename":"臺北市萬華區漢中段三小段24地號等39筆土地都市更新案","mayor":"住都中心","households":"4","status":"新完工","decidedate":"","startdate":"2018/8/8","finishdate":"2022/7/26"}
-,
-{"city":"臺北市","casename":"臺北市萬華區萬大段一小段519-2地號等35筆土地都市更新案","mayor":"住都中心","households":"1","status":"興建中","decidedate":"","startdate":"2020/2/1","finishdate":"2024/1/31"}
-,
-{"city":"臺北市","casename":"臺北市大龍老人住宅","mayor":"臺北市政府","households":"70","status":"既有","decidedate":"2008/5/31","startdate":"2008/9/30","finishdate":"2010/8/31"}
-,
-{"city":"臺北市","casename":"敦煌社會住宅","mayor":"臺北市政府","households":"3","status":"既有","decidedate":"","startdate":"2007/4/19","finishdate":"2009/11/2"}
-,
-{"city":"臺北市","casename":"大龍峒社會住宅","mayor":"臺北市政府","households":"110","status":"既有","decidedate":"","startdate":"2009/3/3","finishdate":"2011/8/23"}
-,
-{"city":"臺北市","casename":"延北社會住宅","mayor":"臺北市政府","households":"56","status":"規劃中","decidedate":"","startdate":"2027/12/31","finishdate":"2030/12/31"}
-,
-{"city":"臺北市","casename":"大橋頭社會住宅","mayor":"臺北市政府","households":"47","status":"新完工","decidedate":"","startdate":"2016/4/7","finishdate":"2019/6/25"}
-,
-{"city":"臺北市","casename":"明倫社會住宅","mayor":"臺北市政府","households":"380","status":"新完工","decidedate":"2017/1/12","startdate":"2017/3/10","finishdate":"2020/8/14"}
-,
-{"city":"臺北市","casename":"斯文社會住宅","mayor":"臺北市政府","households":"138","status":"新完工","decidedate":"2018/5/17","startdate":"2018/9/13","finishdate":"2022/1/24"}
-,
-{"city":"臺北市","casename":"榮星出租國宅","mayor":"臺北市政府","households":"34","status":"既有","decidedate":"","startdate":"","finishdate":"1999/11/26"}
-,
-{"city":"臺北市","casename":"臺北市朱崙老人公寓","mayor":"臺北市政府","households":"45","status":"既有","decidedate":"2000/12/31","startdate":"2001/2/16","finishdate":"2004/3/23"}
-,
-{"city":"臺北市","casename":"臺北市中山老人住宅暨服務中心","mayor":"臺北市政府","households":"112","status":"既有","decidedate":"2008/8/31","startdate":"2008/10/31","finishdate":"2010/5/31"}
-,
-{"city":"臺北市","casename":"行天宮站社會住宅","mayor":"臺北市政府","households":"30","status":"既有","decidedate":"","startdate":"2006/10/19","finishdate":"2010/1/5"}
-,
-{"city":"臺北市","casename":"培英社會住宅","mayor":"臺北市政府","households":"96","status":"興建中","decidedate":"2019/10/1","startdate":"2020/2/27","finishdate":"2025/8/31"}
-,
-{"city":"臺北市","casename":"錦州社會住宅","mayor":"臺北市政府","households":"387","status":"興建中","decidedate":"2019/8/27","startdate":"2020/2/17","finishdate":"2025/3/31"}
-,
-{"city":"臺北市","casename":"新興社會住宅(新興市場整建)","mayor":"臺北市政府","households":"37","status":"新完工","decidedate":"","startdate":"2018/7/16","finishdate":"2018/12/7"}
-,
-{"city":"臺北市","casename":"力行社會住宅","mayor":"臺北市政府","households":"35","status":"興建中","decidedate":"2023/2/23","startdate":"2023/6/28","finishdate":"2025/1/31"}
-,
-{"city":"臺北市","casename":"臺北市中山區長春段二小段626地號等24筆(原20筆)土地都市更新計畫案","mayor":"住都中心","households":"8","status":"已決標待開工","decidedate":"2023/5/24","startdate":"2024/8/31","finishdate":"2026/10/31"}
-,
-{"city":"臺北市","casename":"臺北市中山區北安段三小段818地號等12筆土地都市更新案","mayor":"住都中心","households":"4","status":"新完工","decidedate":"","startdate":"2019/6/6","finishdate":"2022/4/19"}
-,
-{"city":"臺北市","casename":"臺北市中山區德惠段二小段813-1地號等6筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2020/4/24","finishdate":"2023/2/3"}
-,
-{"city":"臺北市","casename":"軍功出租國宅","mayor":"臺北市政府","households":"33","status":"既有","decidedate":"","startdate":"","finishdate":"1983/7/15"}
-,
-{"city":"臺北市","casename":"萬芳Ｃ出租國宅","mayor":"臺北市政府","households":"228","status":"既有","decidedate":"","startdate":"","finishdate":"1996/5/6"}
-,
-{"city":"臺北市","casename":"萬芳社區出租國宅","mayor":"臺北市政府","households":"310","status":"既有","decidedate":"","startdate":"","finishdate":"1997/1/19"}
-,
-{"city":"臺北市","casename":"萬美出租國宅","mayor":"臺北市政府","households":"192","status":"既有","decidedate":"","startdate":"1981/12/23","finishdate":"1984/8/3"}
-,
-{"city":"臺北市","casename":"萬寧出租國宅","mayor":"臺北市政府","households":"10","status":"既有","decidedate":"","startdate":"1993/6/22","finishdate":"1997/10/30"}
-,
-{"city":"臺北市","casename":"萬樂出租國宅","mayor":"臺北市政府","households":"224","status":"既有","decidedate":"","startdate":"","finishdate":"1984/8/3"}
-,
-{"city":"臺北市","casename":"安康平宅","mayor":"臺北市政府","households":"304","status":"既有","decidedate":"","startdate":"","finishdate":"1971/1/10"}
-,
-{"city":"臺北市","casename":"萬隆站社會住宅","mayor":"臺北市政府","households":"41","status":"既有","decidedate":"","startdate":"2006/5/10","finishdate":"2011/11/17"}
-,
-{"city":"臺北市","casename":"景文社會住宅","mayor":"臺北市政府","households":"42","status":"既有","decidedate":"","startdate":"2010/3/15","finishdate":"2012/11/12"}
-,
-{"city":"臺北市","casename":"興隆社會住宅D1區","mayor":"臺北市政府","households":"272","status":"既有","decidedate":"2013/1/31","startdate":"2013/7/17","finishdate":"2015/5/15"}
-,
-{"city":"臺北市","casename":"興隆社會住宅D2區","mayor":"臺北市政府","households":"510","status":"新完工","decidedate":"2014/4/16","startdate":"2014/11/13","finishdate":"2018/5/9"}
-,
-{"city":"臺北市","casename":"木柵社會住宅","mayor":"臺北市政府","households":"119","status":"新完工","decidedate":"2017/5/17","startdate":"2017/8/17","finishdate":"2020/4/27"}
-,
-{"city":"臺北市","casename":"景豐社會住宅1區","mayor":"臺北市政府","households":"90","status":"興建中","decidedate":"2020/3/26","startdate":"2020/10/5","finishdate":"2025/6/30"}
-,
-{"city":"臺北市","casename":"樟新水岸社會住宅","mayor":"臺北市政府","households":"192","status":"興建中","decidedate":"2019/4/18","startdate":"2019/12/18","finishdate":"2024/12/31"}
-,
-{"city":"臺北市","casename":"和興水岸社會住宅","mayor":"臺北市政府","households":"174","status":"興建中","decidedate":"2019/4/19","startdate":"2019/11/26","finishdate":"2024/1/31"}
-,
-{"city":"臺北市","casename":"景豐社會住宅2區","mayor":"臺北市政府","households":"80","status":"規劃中","decidedate":"2024/3/31","startdate":"2024/9/30","finishdate":"2028/10/31"}
-,
-{"city":"臺北市","casename":"興隆A區社會住宅","mayor":"臺北市政府","households":"340","status":"興建中","decidedate":"2019/2/20","startdate":"2019/7/1","finishdate":"2024/5/31"}
-,
-{"city":"臺北市","casename":"興隆E區社會住宅","mayor":"臺北市政府","households":"263","status":"興建中","decidedate":"2019/3/15","startdate":"2019/7/1","finishdate":"2024/6/30"}
-,
-{"city":"臺北市","casename":"興隆I區社會住宅","mayor":"臺北市政府","households":"500","status":"興建中","decidedate":"2020/3/20","startdate":"2020/6/18","finishdate":"2025/6/30"}
-,
-{"city":"臺北市","casename":"興隆FH區社會住宅","mayor":"臺北市政府","households":"447","status":"規劃中","decidedate":"2025/2/28","startdate":"2025/4/30","finishdate":"2028/6/30"}
-,
-{"city":"臺北市","casename":"保儀安居","mayor":"住都中心","households":"220","status":"規劃中","decidedate":"2024/7/31","startdate":"2025/3/31","finishdate":"47118"}
-,
-{"city":"臺北市","casename":"慶仁安居","mayor":"住都中心","households":"973","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/5/31","finishdate":"2029/5/31"}
-,
-{"city":"臺北市","casename":"博嘉安居","mayor":"住都中心","households":"516","status":"已決標待開工","decidedate":"2022/10/20","startdate":"2024/5/31","finishdate":"2027/8/31"}
-,
-{"city":"臺北市","casename":"臺北市文山區萬隆段二小段519地號等23筆土地都市更新案","mayor":"住都中心","households":"40","status":"新完工","decidedate":"","startdate":"2018/7/16","finishdate":"2023/4/20"}
-,
-{"city":"臺北市","casename":"臺北市文山區興安段四小段122地號等27筆土地都市更新案","mayor":"住都中心","households":"12","status":"新完工","decidedate":"","startdate":"2019/12/2","finishdate":"2023/3/27"}
-,
-{"city":"臺北市","casename":"臺北市文山區萬芳段二小段183-1地號等30筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2020/8/11","finishdate":"2023/6/1"}
-,
-{"city":"臺北市","casename":"台肥出租國宅","mayor":"臺北市政府","households":"28","status":"既有","decidedate":"","startdate":"","finishdate":"1985/4/6"}
-,
-{"city":"臺北市","casename":"南港一號出租國宅","mayor":"臺北市政府","households":"287","status":"既有","decidedate":"","startdate":"","finishdate":"1999/8/21"}
-,
-{"city":"臺北市","casename":"基河三期中繼住宅AB區","mayor":"臺北市政府","households":"22","status":"既有","decidedate":"","startdate":"2001/1/1","finishdate":"2001/1/1"}
-,
-{"city":"臺北市","casename":"基河三期中繼住宅CD區","mayor":"臺北市政府","households":"306","status":"既有","decidedate":"","startdate":"2001/1/1","finishdate":"2001/1/1"}
-,
-{"city":"臺北市","casename":"玉成社會住宅","mayor":"臺北市政府","households":"402","status":"興建中","decidedate":"2019/11/14","startdate":"2020/10/30","finishdate":"2025/10/31"}
-,
-{"city":"臺北市","casename":"南港機廠社會住宅1區","mayor":"臺北市政府","households":"1442","status":"興建中","decidedate":"2019/2/27","startdate":"2019/2/1","finishdate":"2025/4/30"}
-,
-{"city":"臺北市","casename":"經貿社會住宅","mayor":"臺北市政府","households":"118","status":"興建中","decidedate":"2020/6/19","startdate":"2020/11/12","finishdate":"2024/4/30"}
-,
-{"city":"臺北市","casename":"中南社會住宅","mayor":"臺北市政府","households":"119","status":"新完工","decidedate":"2017/7/19","startdate":"2017/11/9","finishdate":"2020/12/31"}
-,
-{"city":"臺北市","casename":"東明社會住宅","mayor":"臺北市政府","households":"700","status":"新完工","decidedate":"2015/12/28","startdate":"2016/2/24","finishdate":"2019/7/31"}
-,
-{"city":"臺北市","casename":"小彎社會住宅","mayor":"臺北市政府","households":"341","status":"新完工","decidedate":"2017/11/15","startdate":"2018/3/8","finishdate":"2021/10/23"}
-,
-{"city":"臺北市","casename":"南港玉成都市更新案","mayor":"住都中心","households":"150","status":"已決標待開工","decidedate":"2021/9/17","startdate":"2024/2/29","finishdate":"2026/5/31"}
-,
-{"city":"臺北市","casename":"樂康安居(A)","mayor":"住都中心","households":"160","status":"規劃中","decidedate":"2025/2/28","startdate":"2026/4/30","finishdate":"2029/10/31"}
-,
-{"city":"臺北市","casename":"樂康安居(B)","mayor":"住都中心","households":"220","status":"規劃中","decidedate":"2025/2/28","startdate":"2026/4/30","finishdate":"2029/10/31"}
-,
-{"city":"臺北市","casename":"東湖C出租國宅","mayor":"臺北市政府","households":"88","status":"既有","decidedate":"","startdate":"1991/11/30","finishdate":"1996/9/30"}
-,
-{"city":"臺北市","casename":"東湖Ｅ基地出租國宅(原民會)","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"","finishdate":"1995/2/13"}
-,
-{"city":"臺北市","casename":"貿三出租國宅","mayor":"臺北市政府","households":"114","status":"既有","decidedate":"","startdate":"","finishdate":"1984/3/14"}
-,
-{"city":"臺北市","casename":"港墘聯開宅","mayor":"臺北市政府","households":"3","status":"既有","decidedate":"","startdate":"2009/4/14","finishdate":"2010/11/23"}
-,
-{"city":"臺北市","casename":"瑞光社會住宅","mayor":"臺北市政府","households":"389","status":"新完工","decidedate":"2017/5/12","startdate":"2017/10/5","finishdate":"2020/11/21"}
-,
-{"city":"臺北市","casename":"舊宗社會住宅","mayor":"臺北市政府","households":"97","status":"興建中","decidedate":"2019/9/5","startdate":"2020/2/24","finishdate":"2023/11/30"}
-,
-{"city":"臺北市","casename":"行善社會住宅","mayor":"臺北市政府","households":"526","status":"新完工","decidedate":"2018/8/17","startdate":"2018/10/29","finishdate":"2022/8/23"}
-,
-{"city":"臺北市","casename":"金龍都更分回戶","mayor":"臺北市政府","households":"8","status":"新完工","decidedate":"","startdate":"2014/6/9","finishdate":"2019/4/18"}
-,
-{"city":"臺北市","casename":"臺北市內湖區石潭段三小段482地號等8筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2018/10/30","finishdate":"2021/10/5"}
-,
-{"city":"臺北市","casename":"延平出租國宅","mayor":"臺北市政府","households":"42","status":"既有","decidedate":"","startdate":"","finishdate":"2000/12/11"}
-,
-{"city":"臺北市","casename":"永平中繼住宅","mayor":"臺北市政府","households":"37","status":"既有","decidedate":"","startdate":"1989/8/10","finishdate":"2004/12/15"}
-,
-{"city":"臺北市","casename":"永平社會住宅","mayor":"臺北市政府","households":"51","status":"既有","decidedate":"","startdate":"2000/8/10","finishdate":"2004/12/23"}
-,
-{"city":"臺北市","casename":"臺北市陽明老人公寓","mayor":"臺北市政府","households":"97","status":"既有","decidedate":"1994/12/31","startdate":"1995/4/30","finishdate":"1997/12/31"}
-,
-{"city":"臺北市","casename":"百齡水岸社會住宅","mayor":"臺北市政府","households":"266","status":"興建中","decidedate":"2020/3/18","startdate":"2020/8/10","finishdate":"2025/5/31"}
-,
-{"city":"臺北市","casename":"華榮市場都更分回戶","mayor":"臺北市政府","households":"118","status":"興建中","decidedate":"2019/1/22","startdate":"2019/5/23","finishdate":"2023/12/31"}
-,
-{"city":"臺北市","casename":"芝山安居","mayor":"住都中心","households":"825","status":"規劃中","decidedate":"2024/3/31","startdate":"2025/5/31","finishdate":"2029/12/31"}
-,
-{"city":"臺北市","casename":"臺北市士林區三玉段五小段445地號等20筆土地都市更新案","mayor":"住都中心","households":"2","status":"新完工","decidedate":"","startdate":"2019/6/3","finishdate":"2021/12/22"}
-,
-{"city":"臺北市","casename":"臺北市士林區陽明段一小段19地號等12筆土地都市更新案","mayor":"住都中心","households":"1","status":"興建中","decidedate":"","startdate":"2018/10/4","finishdate":"2024/3/31"}
-,
-{"city":"臺北市","casename":"奇岩出租國宅","mayor":"臺北市政府","households":"72","status":"既有","decidedate":"","startdate":"","finishdate":"1980/12/16"}
-,
-{"city":"臺北市","casename":"大同之家","mayor":"臺北市政府","households":"60","status":"既有","decidedate":"","startdate":"","finishdate":"1971/1/1"}
-,
-{"city":"臺北市","casename":"洲美社會住宅","mayor":"臺北市政府","households":"144","status":"新完工","decidedate":"","startdate":"2016/3/15","finishdate":"2017/7/11"}
-,
-{"city":"臺北市","casename":"福國社會住宅","mayor":"臺北市政府","households":"365","status":"興建中","decidedate":"2019/8/26","startdate":"2020/6/12","finishdate":"2025/6/30"}
-,
-{"city":"臺北市","casename":"新奇岩社會住宅","mayor":"臺北市政府","households":"288","status":"新完工","decidedate":"2017/2/21","startdate":"2017/5/26","finishdate":"2021/3/31"}
-,
-{"city":"臺北市","casename":"臺北市北投區奇岩段五小段444地號等7筆土地都市更新案","mayor":"住都中心","households":"3","status":"興建中","decidedate":"","startdate":"2019/12/26","finishdate":"2024/12/31"}
-,
-{"city":"臺北市","casename":"臺北市北投區奇岩段三小段1-1地號等11筆土地都市更新案","mayor":"住都中心","households":"2","status":"興建中","decidedate":"","startdate":"2022/2/19","finishdate":"2024/12/31"}
-,
-{"city":"臺北市","casename":"四四東村C出租國宅","mayor":"臺北市政府","households":"30","status":"既有","decidedate":"","startdate":"","finishdate":"1995/7/10"}
-,
-{"city":"臺北市","casename":"廣慈社會住宅3區","mayor":"臺北市政府","households":"476","status":"興建中","decidedate":"2018/4/12","startdate":"2018/8/9","finishdate":"2023/11/30"}
-,
-{"city":"臺北市","casename":"信義區廣慈社會住宅2區","mayor":"臺北市政府","households":"522","status":"新完工","decidedate":"2017/10/6","startdate":"2018/1/10","finishdate":"2022/1/21"}
-,
-{"city":"臺北市","casename":"信義區廣慈社會住宅1區","mayor":"臺北市政府","households":"522","status":"新完工","decidedate":"2017/10/6","startdate":"2018/1/10","finishdate":"2021/12/30"}
-,
-{"city":"臺北市","casename":"三興社會住宅","mayor":"臺北市政府","households":"560","status":"興建中","decidedate":"2019/7/8","startdate":"2019/9/4","finishdate":"2025/12/31"}
-,
-{"city":"臺北市","casename":"六張犁A、B區社會住宅","mayor":"臺北市政府","households":"722","status":"興建中","decidedate":"2018/5/4","startdate":"2018/9/18","finishdate":"2024/3/31"}
-,
-{"city":"臺北市","casename":"犁和段都更案基地","mayor":"臺北市政府","households":"81","status":"興建中","decidedate":"2012/8/16","startdate":"2020/1/2","finishdate":"2023/12/31"}
-,
-{"city":"臺北市","casename":"松信社會住宅新建工程","mayor":"臺北市政府","households":"90","status":"興建中","decidedate":"2022/10/20","startdate":"2023/3/15","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"新莊新豐青年社會住宅","mayor":"新北市政府","households":"76","status":"新完工","decidedate":"","startdate":"2014/10/1","finishdate":"2017/9/25"}
-,
-{"city":"新北市","casename":"新莊副都心段一小段224地號","mayor":"新北市政府","households":"23","status":"新完工","decidedate":"2019/5/22","startdate":"2019/5/22","finishdate":"2023/7/5"}
-,
-{"city":"新北市","casename":"立言段10等1筆地號","mayor":"新北市政府","households":"16","status":"興建中","decidedate":"2020/5/9","startdate":"2020/5/9","finishdate":"2024/2/29"}
-,
-{"city":"新北市","casename":"新知段71等1筆地號","mayor":"新北市政府","households":"18","status":"興建中","decidedate":"2020/8/19","startdate":"2022/5/9","finishdate":"2027/2/28"}
-,
-{"city":"新北市","casename":"安和段115等1筆地號","mayor":"新北市政府","households":"28","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"雙鳳段186、188、187、185、184、191、190、220、183、189、221、182、180、161等14筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"立德段688等114筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新莊區復興段433及立德段6-5共5筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新泰塭仔圳重劃區","mayor":"新北市政府","households":"2100","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/7/31","finishdate":"2028/9/30"}
-,
-{"city":"新北市","casename":"林口世大運選手村社會住宅","mayor":"住都中心","households":"2907","status":"新完工","decidedate":"2013/8/9","startdate":"2014/5/8","finishdate":"2018/8/31"}
-,
-{"city":"新北市","casename":"文仁安居","mayor":"住都中心","households":"1066","status":"已決標待開工","decidedate":"2022/8/24","startdate":"2024/3/31","finishdate":"2027/9/30"}
-,
-{"city":"新北市","casename":"麗林二段1等63筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"五股銀髮住宅","mayor":"新北市政府","households":"71","status":"既有","decidedate":"","startdate":"2016/1/1","finishdate":"2001/2/28"}
-,
-{"city":"新北市","casename":"五股芳洲(203)青年社會住宅","mayor":"新北市政府","households":"23","status":"興建中","decidedate":"2019/1/31","startdate":"2019/10/15","finishdate":"2024/4/30"}
-,
-{"city":"新北市","casename":"成州段77-7等1筆地號","mayor":"新北市政府","households":"10","status":"興建中","decidedate":"2019/12/13","startdate":"2019/12/13","finishdate":"2024/1/31"}
-,
-{"city":"新北市","casename":"成州段4等1筆地號","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2020/10/14","startdate":"2020/10/14","finishdate":"2024/7/31"}
-,
-{"city":"新北市","casename":"蘆洲南側農業區","mayor":"新北市政府","households":"1300","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"蘆洲北側農業區","mayor":"新北市政府","households":"1100","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"蘆洲光華青年社會住宅","mayor":"新北市政府","households":"660","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/6/30","finishdate":"2028/7/31"}
-,
-{"city":"新北市","casename":"富貴好室","mayor":"住都中心","households":"142","status":"興建中","decidedate":"2020/9/21","startdate":"2021/11/18","finishdate":"2025/2/28"}
-,
-{"city":"新北市","casename":"五谷好室","mayor":"住都中心","households":"161","status":"興建中","decidedate":"2020/9/21","startdate":"2021/11/18","finishdate":"2024/12/31"}
-,
-{"city":"新北市","casename":"臺北橋聯開宅","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"2010/9/2","finishdate":"2012/12/20"}
-,
-{"city":"新北市","casename":"大安青年社會住宅(三重1館)","mayor":"新北市政府","households":"133","status":"新完工","decidedate":"","startdate":"2014/3/7","finishdate":"2016/5/15"}
-,
-{"city":"新北市","casename":"大同南青年社會住宅(三重2館-西側)","mayor":"新北市政府","households":"119","status":"新完工","decidedate":"","startdate":"2014/3/7","finishdate":"2016/3/15"}
-,
-{"city":"新北市","casename":"大同南青年社會住宅(三重3館-東側)","mayor":"新北市政府","households":"75","status":"新完工","decidedate":"","startdate":"2015/3/10","finishdate":"2017/1/10"}
-,
-{"city":"新北市","casename":"三重集美段社宅","mayor":"新北市政府","households":"8","status":"既有","decidedate":"","startdate":"2016/1/1","finishdate":"2016/1/1"}
-,
-{"city":"新北市","casename":"三重五谷王(27)青年社會住宅","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"","startdate":"2018/3/28","finishdate":"2020/4/29"}
-,
-{"city":"新北市","casename":"三重段309等1筆地號","mayor":"新北市政府","households":"18","status":"興建中","decidedate":"2020/2/19","startdate":"2020/2/19","finishdate":"2024/6/30"}
-,
-{"city":"新北市","casename":"五谷王段349、348、347、346、340、339等6筆地號","mayor":"新北市政府","households":"19","status":"興建中","decidedate":"2020/12/18","startdate":"2020/12/18","finishdate":"2024/6/30"}
-,
-{"city":"新北市","casename":"永安段2158、2157、2134等3筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"三重區光興段1008等17筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"三重區中興段1464等40筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"銀新未來城","mayor":"新北市政府","households":"758","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/10/31","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"三重三重青年社會住宅","mayor":"新北市政府","households":"440","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"泰山中山段青年社會住宅","mayor":"新北市政府","households":"210","status":"興建中","decidedate":"2020/4/10","startdate":"2021/3/31","finishdate":"2024/9/30"}
-,
-{"city":"新北市","casename":"貴和安居","mayor":"住都中心","households":"560","status":"興建中","decidedate":"2021/6/3","startdate":"2022/5/17","finishdate":"2025/11/30"}
-,
-{"city":"新北市","casename":"貴和安居B","mayor":"住都中心","households":"680","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/12/31","finishdate":"2029/1/31"}
-,
-{"city":"新北市","casename":"信華段五小段6、8、5-1等3筆地號","mayor":"新北市政府","households":"14","status":"興建中","decidedate":"2019/10/1","startdate":"2019/10/1","finishdate":"2024/1/31"}
-,
-{"city":"新北市","casename":"信華段一小段8、7、信華段二小段19、18、17、16、15、14、12等9筆地號","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2020/8/19","startdate":"2020/8/19","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"信華段五小段1、信華段三小段4-2、4-1、4等4筆地號","mayor":"新北市政府","households":"12","status":"興建中","decidedate":"2020/5/15","startdate":"2020/5/15","finishdate":"2026/12/31"}
-,
-{"city":"新北市","casename":"小碧潭站社會住宅戶(新北市新店區新店機廠聯開宅)","mayor":"臺北市政府","households":"37","status":"既有","decidedate":"","startdate":"2015/1/1","finishdate":"2015/1/1"}
-,
-{"city":"新北市","casename":"新店中正國宅","mayor":"新北市政府","households":"56","status":"既有","decidedate":"","startdate":"1991/4/30","finishdate":"1993/8/31"}
-,
-{"city":"新北市","casename":"新店央北青年社會住宅","mayor":"新北市政府","households":"1070","status":"新完工","decidedate":"2016/4/28","startdate":"2017/3/21","finishdate":"2020/1/23"}
-,
-{"city":"新北市","casename":"新店民安段青年社會住宅","mayor":"新北市政府","households":"194","status":"興建中","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2024/3/31"}
-,
-{"city":"新北市","casename":"新店斯馨(2)青年社會住宅","mayor":"新北市政府","households":"14","status":"新完工","decidedate":"","startdate":"2018/4/10","finishdate":"2022/4/22"}
-,
-{"city":"新北市","casename":"新店斯馨(13、15)青年社會住宅","mayor":"新北市政府","households":"20","status":"興建中","decidedate":"2018/8/21","startdate":"2018/11/7","finishdate":"2024/3/31"}
-,
-{"city":"新北市","casename":"新店斯馨(100)青年社會住宅","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"","startdate":"2019/9/11","finishdate":"2022/1/26"}
-,
-{"city":"新北市","casename":"溪園安居","mayor":"住都中心","households":"275","status":"規劃中","decidedate":"2025/3/31","startdate":"2026/4/30","finishdate":"2029/3/31"}
-,
-{"city":"新北市","casename":"中華段1015等57筆地號","mayor":"新北市政府","households":"20","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"寶元段26等43筆地號","mayor":"新北市政府","households":"24","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"文山段563等63筆地號","mayor":"新北市政府","households":"130","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"廣明段853等128筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中華段865等40筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新店區文山段761及廣明段521等26筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新店區寶元段392等24筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"碧潭段130等48筆地號","mayor":"新北市政府","households":"16","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新店區安和段144等7筆地號","mayor":"新北市政府","households":"16","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新店區寶元段210等47筆地號","mayor":"新北市政府","households":"30","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新店十四張B單元","mayor":"新北市政府","households":"1200","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"懷石好室","mayor":"住都中心","households":"92","status":"興建中","decidedate":"2020/9/21","startdate":"2021/9/30","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"玫瑰好室","mayor":"住都中心","households":"120","status":"興建中","decidedate":"2020/10/13","startdate":"2021/10/25","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"稚匯好室","mayor":"住都中心","households":"111","status":"興建中","decidedate":"2020/9/21","startdate":"2021/9/30","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"浮洲合宜住宅出租單元","mayor":"新北市政府","households":"446","status":"新完工","decidedate":"","startdate":"2011/12/21","finishdate":"2018/1/4"}
-,
-{"city":"新北市","casename":"板橋府中青年社會住宅","mayor":"新北市政府","households":"72","status":"新完工","decidedate":"2015/11/24","startdate":"2015/11/24","finishdate":"2018/3/15"}
-,
-{"city":"新北市","casename":"板橋永翠(39)","mayor":"新北市政府","households":"21","status":"新完工","decidedate":"","startdate":"2018/4/30","finishdate":"2021/11/17"}
-,
-{"city":"新北市","casename":"板橋江翠(31)","mayor":"新北市政府","households":"52","status":"興建中","decidedate":"2018/7/2","startdate":"2018/10/22","finishdate":"2024/1/31"}
-,
-{"city":"新北市","casename":"板橋江翠(96)青年社會住宅","mayor":"新北市政府","households":"130","status":"興建中","decidedate":"2021/3/25","startdate":"2022/10/20","finishdate":"2025/5/31"}
-,
-{"city":"新北市","casename":"光環安居","mayor":"住都中心","households":"330","status":"興建中","decidedate":"2021/11/24","startdate":"2021/10/25","finishdate":"2025/11/30"}
-,
-{"city":"新北市","casename":"江翠好室","mayor":"住都中心","households":"100","status":"興建中","decidedate":"2020/10/13","startdate":"2021/10/25","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"板橋區中山段1928等45筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"板橋區中山段1716等77筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中山段237-24等17筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"江子翠段溪頭小段119-47等17筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"板橋區公館段1169及江子翠段新埔小段22-2等14筆地號","mayor":"新北市政府","households":"15","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"板橋區港子嘴段1-18等39筆地號","mayor":"新北市政府","households":"18","status":"規劃中","decidedate":"","startdate":"2024/7/31","finishdate":"2027/6/30"}
-,
-{"city":"新北市","casename":"板橋民權青年社會住宅","mayor":"新北市政府","households":"199","status":"新完工","decidedate":"","startdate":"2019/3/20","finishdate":"2021/11/29"}
-,
-{"city":"新北市","casename":"三峽隆恩埔(原民宅)","mayor":"新北市政府","households":"150","status":"既有","decidedate":"","startdate":"2005/6/30","finishdate":"2007/5/31"}
-,
-{"city":"新北市","casename":"三峽國光一期青年社會住宅","mayor":"新北市政府","households":"241","status":"新完工","decidedate":"2017/8/11","startdate":"2018/3/19","finishdate":"2019/11/1"}
-,
-{"city":"新北市","casename":"三峽國光二期青年社會住宅","mayor":"新北市政府","households":"921","status":"興建中","decidedate":"2020/4/22","startdate":"2021/1/12","finishdate":"2024/5/31"}
-,
-{"city":"新北市","casename":"三峽北大青年社會住宅","mayor":"新北市政府","households":"28","status":"新完工","decidedate":"2012/12/12","startdate":"2013/12/5","finishdate":"2017/1/7"}
-,
-{"city":"新北市","casename":"鶯陶安居","mayor":"住都中心","households":"380","status":"興建中","decidedate":"2021/6/22","startdate":"2022/10/12","finishdate":"2025/4/30"}
-,
-{"city":"新北市","casename":"樹德安居A","mayor":"住都中心","households":"236","status":"已決標待開工","decidedate":"2022/12/16","startdate":"2024/2/29","finishdate":"2027/12/31"}
-,
-{"city":"新北市","casename":"樹德安居B","mayor":"住都中心","households":"342","status":"已決標待開工","decidedate":"2022/12/16","startdate":"2024/2/29","finishdate":"2027/12/31"}
-,
-{"city":"新北市","casename":"樹林區樹德段743等14筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和安邦段青年社會住宅","mayor":"新北市政府","households":"632","status":"興建中","decidedate":"2019/6/26","startdate":"2020/7/10","finishdate":"2024/4/30"}
-,
-{"city":"新北市","casename":"中和保二基地警消專案社宅","mayor":"住都中心","households":"317","status":"興建中","decidedate":"2020/6/20","startdate":"2021/2/5","finishdate":"2025/3/31"}
-,
-{"city":"新北市","casename":"中和秀峰青年社會住宅","mayor":"新北市政府","households":"816","status":"新完工","decidedate":"","startdate":"2014/1/28","finishdate":"2016/10/15"}
-,
-{"city":"新北市","casename":"莒光安居","mayor":"住都中心","households":"296","status":"興建中","decidedate":"2021/10/21","startdate":"2022/9/16","finishdate":"2026/1/31"}
-,
-{"city":"新北市","casename":"連城安居","mayor":"住都中心","households":"370","status":"興建中","decidedate":"2022/10/13","startdate":"2023/10/2","finishdate":"2027/8/31"}
-,
-{"city":"新北市","casename":"德穗安居","mayor":"住都中心","households":"339","status":"已決標待開工","decidedate":"2023/12/14","startdate":"2025/2/28","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"保二總隊基地都市更新案","mayor":"住都中心","households":"399","status":"興建中","decidedate":"2021/3/25","startdate":"2022/11/7","finishdate":"2028/5/31"}
-,
-{"city":"新北市","casename":"民樂段15、14、13、11、9、10、8、7、6、12等10筆地號","mayor":"新北市政府","households":"44","status":"興建中","decidedate":"2019/3/28","startdate":"2019/3/28","finishdate":"2024/6/30"}
-,
-{"city":"新北市","casename":"南山段848等10筆地號","mayor":"新北市政府","households":"60","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新和段237等41筆地號","mayor":"新北市政府","households":"153","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"錦和段25等24筆地號","mayor":"新北市政府","households":"64","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和區國道段145等24筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和區中和段43等27筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和區捷運段376-1等65筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"南勢段955等48筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和區復興段613等19筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和區台貿段1274等25筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"中和灰?","mayor":"新北市政府","households":"1300","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"中和區景新段63等6筆地號","mayor":"新北市政府","households":"68","status":"已決標待開工","decidedate":"2020/7/7","startdate":"2024/7/31","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"新北市中和區景福段695地號等7筆土地都市更新計畫案","mayor":"住都中心","households":"2","status":"興建中","decidedate":"","startdate":"2021/1/28","finishdate":"2024/12/31"}
-,
-{"city":"新北市","casename":"土城員和段青年社會住宅","mayor":"新北市政府","households":"534","status":"新完工","decidedate":"2018/3/28","startdate":"2019/3/20","finishdate":"2021/12/31"}
-,
-{"city":"新北市","casename":"土城永和段青年社會住宅","mayor":"新北市政府","households":"66","status":"新完工","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2023/11/22"}
-,
-{"city":"新北市","casename":"土城大安段青年社會住宅","mayor":"新北市政府","households":"88","status":"新完工","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2023/11/8"}
-,
-{"city":"新北市","casename":"土城明德(211、218)","mayor":"新北市政府","households":"30","status":"新完工","decidedate":"","startdate":"2017/12/19","finishdate":"2020/3/29"}
-,
-{"city":"新北市","casename":"土城明德(23)","mayor":"新北市政府","households":"24","status":"興建中","decidedate":"2018/8/10","startdate":"2018/9/19","finishdate":"2024/1/31"}
-,
-{"city":"新北市","casename":"頂福安居B","mayor":"住都中心","households":"481","status":"興建中","decidedate":"2021/11/26","startdate":"2023/4/24","finishdate":"2026/11/30"}
-,
-{"city":"新北市","casename":"青山安居","mayor":"住都中心","households":"600","status":"規劃中","decidedate":"2024/12/31","startdate":"2026/1/31","finishdate":"2030/1/31"}
-,
-{"city":"新北市","casename":"土城明德3","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2019/10/16","startdate":"2019/12/25","finishdate":"2024/1/31"}
-,
-{"city":"新北市","casename":"永福好室","mayor":"住都中心","households":"170","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/9/30","finishdate":"2028/9/30"}
-,
-{"city":"新北市","casename":"頂埔安居","mayor":"住都中心","households":"253","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/9/30","finishdate":"2028/9/30"}
-,
-{"city":"新北市","casename":"頂福安居A","mayor":"住都中心","households":"813","status":"興建中","decidedate":"2021/11/26","startdate":"2023/4/24","finishdate":"2026/11/30"}
-,
-{"city":"新北市","casename":"明德段306地號等3筆土地","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"2019/10/18","startdate":"2019/10/18","finishdate":"2023/7/24"}
-,
-{"city":"新北市","casename":"員和段128、127、123-11、123-4等4筆地號","mayor":"新北市政府","households":"135","status":"興建中","decidedate":"2020/7/24","startdate":"2020/7/31","finishdate":"2025/6/30"}
-,
-{"city":"新北市","casename":"土城彈藥庫","mayor":"新北市政府","households":"2200","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
-,
-{"city":"新北市","casename":"新北市土城區運校段12地號等7筆土地都市更新計畫案","mayor":"住都中心","households":"7","status":"新完工","decidedate":"2022/10/20","startdate":"2019/5/7","finishdate":"2023/5/2"}
-,
-{"city":"新北市","casename":"福城好室","mayor":"住都中心","households":"88","status":"已決標待開工","decidedate":"2023/12/21","startdate":"2025/3/31","finishdate":"2028/12/31"}
-,
-{"city":"新北市","casename":"淡金安居","mayor":"住都中心","households":"620","status":"已決標待開工","decidedate":"2023/7/13","startdate":"2024/7/31","finishdate":"2028/9/30"}
-,
-{"city":"新北市","casename":"淡海安居","mayor":"住都中心","households":"1140","status":"興建中","decidedate":"2022/1/28","startdate":"2023/3/24","finishdate":"2027/6/30"}
-,
-{"city":"新北市","casename":"淡水海天青年社會住宅","mayor":"新北市政府","households":"85","status":"規劃中","decidedate":"2025/1/31","startdate":"2026/1/31","finishdate":"2028/8/31"}
-,
-{"city":"新北市","casename":"汐止花東新村","mayor":"新北市政府","households":"126","status":"既有","decidedate":"","startdate":"","finishdate":"1999/6/24"}
-,
-{"city":"新北市","casename":"崇德好室","mayor":"住都中心","households":"186","status":"興建中","decidedate":"2022/12/29","startdate":"2023/11/8","finishdate":"2027/6/30"}
-,
-{"city":"新北市","casename":"永和國光青年住宅","mayor":"新北市政府","households":"7","status":"既有","decidedate":"2012/1/16","startdate":"2012/5/15","finishdate":"2013/4/12"}
-,
-{"city":"新北市","casename":"永和中正橋青年社會住宅","mayor":"新北市政府","households":"70","status":"新完工","decidedate":"2017/10/20","startdate":"2020/12/7","finishdate":"2021/12/31"}
-,
-{"city":"新北市","casename":"永和秀朗青年社會住宅","mayor":"新北市政府","households":"36","status":"新完工","decidedate":"2013/12/13","startdate":"2015/2/10","finishdate":"2017/3/21"}
-,
-{"city":"新北市","casename":"中信段912等28筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"保福段453等221筆地號","mayor":"新北市政府","households":"12","status":"已決標待開工","decidedate":"2021/12/29","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"永和區文化段446等136筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"永和區樂華段133等90筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"得和段961等36筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"永和區保福段1208等66筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"永和區福和段732等87筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"永和區信義段435等37筆地號","mayor":"新北市政府","households":"7","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
-,
-{"city":"新北市","casename":"新北市永和區信義段435地號等39筆土地都市更新計畫案","mayor":"住都中心","households":"8","status":"已決標待開工","decidedate":"2023/5/3","startdate":"2024/5/31","finishdate":"2027/4/30"}
-,
-{"city":"新北市","casename":"新北市永和區中興段689地號等140筆(原139筆)土地都市更新計畫案","mayor":"住都中心","households":"4","status":"已決標待開工","decidedate":"2023/4/28","startdate":"2024/10/31","finishdate":"2028/3/31"}
-,
-{"city":"桃園市","casename":"東門段208-1地號都市更新事業(東門停車場)","mayor":"桃園市政府","households":"70","status":"興建中","decidedate":"2018/9/12","startdate":"2020/7/14","finishdate":"2024/1/31"}
-,
-{"city":"桃園市","casename":"中路一號社會住宅","mayor":"桃園市政府","households":"169","status":"新完工","decidedate":"2018/8/24","startdate":"2018/10/31","finishdate":"2021/5/17"}
-,
-{"city":"桃園市","casename":"中路二號社會住宅","mayor":"桃園市政府","households":"212","status":"新完工","decidedate":"2016/8/3","startdate":"2017/1/25","finishdate":"2019/6/21"}
-,
-{"city":"桃園市","casename":"中正段1209地號等16筆土地及法政段1222等3筆土地都市更新事業(正光路警察宿舍)","mayor":"桃園市政府","households":"255","status":"興建中","decidedate":"2022/12/29","startdate":"2023/5/19","finishdate":"2026/10/31"}
-,
-{"city":"桃園市","casename":"中路三號社會住宅","mayor":"桃園市政府","households":"417","status":"新完工","decidedate":"2018/8/30","startdate":"2018/11/19","finishdate":"2022/6/27"}
-,
-{"city":"桃園市","casename":"慈文安居","mayor":"住都中心","households":"288","status":"興建中","decidedate":"2021/3/9","startdate":"2022/3/7","finishdate":"2025/1/31"}
-,
-{"city":"桃園市","casename":"桃園區三民段","mayor":"桃園市政府","households":"120","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/10/31"}
-,
-{"city":"桃園市","casename":"桃園區桃合段","mayor":"桃園市政府","households":"260","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/12/31"}
-,
-{"city":"桃園市","casename":"中路地區整體開發案","mayor":"桃園市政府","households":"600","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
-,
-{"city":"桃園市","casename":"中路四號社會住宅","mayor":"桃園市政府","households":"350","status":"新完工","decidedate":"2018/12/10","startdate":"2019/2/27","finishdate":"2022/9/16"}
-,
-{"city":"桃園市","casename":"桃園段武陵小段31地號都市更新事業(復興路)","mayor":"桃園市政府","households":"75","status":"已決標待開工","decidedate":"2020/9/1","startdate":"2024/1/31","finishdate":"2026/8/31"}
-,
-{"city":"桃園市","casename":"大溪區仁武段(石門管理處)","mayor":"桃園市政府","households":"45","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2029/8/31"}
-,
-{"city":"桃園市","casename":"大溪區田心子段","mayor":"桃園市政府","households":"40","status":"規劃中","decidedate":"2024/5/31","startdate":"2025/5/31","finishdate":"2027/5/31"}
-,
-{"city":"桃園市","casename":"太武安居","mayor":"住都中心","households":"486","status":"已決標待開工","decidedate":"2023/3/15","startdate":"2024/6/30","finishdate":"2027/11/30"}
-,
-{"city":"桃園市","casename":"埔頂營區","mayor":"桃園市政府","households":"640","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
-,
-{"city":"桃園市","casename":"中壢區內壢段","mayor":"桃園市政府","households":"230","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
-,
-{"city":"桃園市","casename":"北富台新村","mayor":"桃園市政府","households":"210","status":"規劃中","decidedate":"2024/4/30","startdate":"2024/11/30","finishdate":"2028/3/31"}
-,
-{"city":"桃園市","casename":"富台安居","mayor":"住都中心","households":"310","status":"已決標待開工","decidedate":"2023/11/27","startdate":"2024/11/30","finishdate":"2028/8/31"}
-,
-{"city":"桃園市","casename":"中壢一號社會住宅","mayor":"桃園市政府","households":"957","status":"新完工","decidedate":"2018/7/16","startdate":"2019/8/7","finishdate":"2022/8/12"}
-,
-{"city":"桃園市","casename":"中壢老小段100地號都市更新事業(中興巷警察宿舍)","mayor":"桃園市政府","households":"94","status":"興建中","decidedate":"2018/1/5","startdate":"2020/4/1","finishdate":"2024/1/31"}
-,
-{"city":"桃園市","casename":"中壢區雙嶺段(石門管理處)","mayor":"桃園市政府","households":"77","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
-,
-{"city":"桃園市","casename":"中壢區遠東段(居廣、居敬、篤行五村)","mayor":"桃園市政府","households":"350","status":"規劃中","decidedate":"2024/2/29","startdate":"2024/11/30","finishdate":"2028/1/31"}
-,
-{"city":"桃園市","casename":"龍岡好室","mayor":"住都中心","households":"150","status":"興建中","decidedate":"2021/5/19","startdate":"2022/6/2","finishdate":"2024/2/29"}
-,
-{"city":"桃園市","casename":"龍安安居","mayor":"住都中心","households":"465","status":"已決標待開工","decidedate":"2022/12/29","startdate":"2024/12/31","finishdate":"2028/9/30"}
-,
-{"city":"桃園市","casename":"振興安居","mayor":"住都中心","households":"370","status":"已決標待開工","decidedate":"2023/8/16","startdate":"2024/10/31","finishdate":"2028/5/31"}
-,
-{"city":"桃園市","casename":"捷運A20站","mayor":"桃園市政府","households":"400","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/4/30","finishdate":"2028/1/31"}
-,
-{"city":"桃園市","casename":"捷運A21站","mayor":"桃園市政府","households":"280","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
-,
-{"city":"桃園市","casename":"龍岡體育園區","mayor":"桃園市政府","households":"640","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2031/2/28"}
-,
-{"city":"桃園市","casename":"中壢區青溪段(桃園管理處)","mayor":"桃園市政府","households":"80","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/9/30","finishdate":"2027/12/31"}
-,
-{"city":"桃園市","casename":"楊梅一號社會住宅-第一期","mayor":"桃園市政府","households":"216","status":"新完工","decidedate":"2019/10/24","startdate":"2020/7/18","finishdate":"2023/9/3"}
-,
-{"city":"桃園市","casename":"楊梅一號社會住宅-第二期","mayor":"桃園市政府","households":"284","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/9/30","finishdate":"2028/3/31"}
-,
-{"city":"桃園市","casename":"埔心安居","mayor":"住都中心","households":"486","status":"已決標待開工","decidedate":"2023/6/28","startdate":"2024/9/30","finishdate":"2027/7/31"}
-,
-{"city":"桃園市","casename":"蘆竹區大興段","mayor":"桃園市政府","households":"73","status":"已決標待開工","decidedate":"2023/7/14","startdate":"2024/8/31","finishdate":"2027/7/31"}
-,
-{"city":"桃園市","casename":"蘆竹二號社會住宅","mayor":"桃園市政府","households":"416","status":"新完工","decidedate":"2017/6/26","startdate":"2018/4/10","finishdate":"2022/1/25"}
-,
-{"city":"桃園市","casename":"蘆竹一號社會住宅","mayor":"桃園市政府","households":"114","status":"新完工","decidedate":"2019/11/8","startdate":"2020/1/22","finishdate":"2022/10/3"}
-,
-{"city":"桃園市","casename":"大華安居","mayor":"住都中心","households":"225","status":"已決標待開工","decidedate":"2023/12/29","startdate":"2025/3/31","finishdate":"2027/1/31"}
-,
-{"city":"桃園市","casename":"捷運A10站","mayor":"桃園市政府","households":"352","status":"已決標待開工","decidedate":"2023/7/14","startdate":"2024/8/31","finishdate":"2027/7/31"}
-,
-{"city":"桃園市","casename":"大園區北園段","mayor":"桃園市政府","households":"160","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
-,
-{"city":"桃園市","casename":"龜山區興安段","mayor":"桃園市政府","households":"125","status":"已決標待開工","decidedate":"2023/7/31","startdate":"2024/8/31","finishdate":"2027/10/31"}
-,
-{"city":"桃園市","casename":"龜山區善捷段","mayor":"桃園市政府","households":"295","status":"已決標待開工","decidedate":"2023/7/31","startdate":"2024/8/31","finishdate":"2027/10/31"}
-,
-{"city":"桃園市","casename":"樂善安居","mayor":"住都中心","households":"790","status":"已決標待開工","decidedate":"2023/6/28","startdate":"2024/9/30","finishdate":"2028/12/31"}
-,
-{"city":"桃園市","casename":"八德一號社會住宅","mayor":"桃園市政府","households":"418","status":"新完工","decidedate":"2017/5/3","startdate":"2017/10/31","finishdate":"2020/7/21"}
-,
-{"city":"桃園市","casename":"八德二號社會住宅","mayor":"桃園市政府","households":"354","status":"新完工","decidedate":"2017/5/23","startdate":"2017/5/24","finishdate":"2020/12/30"}
-,
-{"city":"桃園市","casename":"八德三號社會住宅","mayor":"桃園市政府","households":"524","status":"新完工","decidedate":"2017/12/14","startdate":"2018/9/7","finishdate":"2023/2/21"}
-,
-{"city":"桃園市","casename":"八德區茄苳段","mayor":"桃園市政府","households":"100","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/10/31"}
-,
-{"city":"桃園市","casename":"八德區興豐段","mayor":"桃園市政府","households":"140","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
-,
-{"city":"桃園市","casename":"上林好室","mayor":"住都中心","households":"140","status":"已決標待開工","decidedate":"2023/4/18","startdate":"2025/2/28","finishdate":"2030/7/31"}
-,
-{"city":"桃園市","casename":"平鎮一號社會住宅","mayor":"桃園市政府","households":"64","status":"新完工","decidedate":"2019/10/24","startdate":"2020/7/18","finishdate":"2023/3/25"}
-,
-{"city":"桃園市","casename":"湧光安居","mayor":"住都中心","households":"239","status":"已決標待開工","decidedate":"2023/7/18","startdate":"2024/9/30","finishdate":"2028/5/31"}
-,
-{"city":"臺中市","casename":"東勢子段","mayor":"臺中市政府","households":"100","status":"興建中","decidedate":"2020/7/6","startdate":"2021/3/16","finishdate":"2024/3/31"}
-,
-{"city":"臺中市","casename":"尚武段","mayor":"臺中市政府","households":"802","status":"新完工","decidedate":"2019/1/11","startdate":"2019/4/2","finishdate":"2023/5/6"}
-,
-{"city":"臺中市","casename":"東區練武段1060地號","mayor":"臺中市政府","households":"486","status":"已決標待開工","decidedate":"2023/7/13","startdate":"2024/3/31","finishdate":"2026/6/30"}
-,
-{"city":"臺中市","casename":"東區尚武段二期","mayor":"臺中市政府","households":"20","status":"規劃中","decidedate":"2024/7/31","startdate":"2024/12/31","finishdate":"2026/12/31"}
-,
-{"city":"臺中市","casename":"明新安居","mayor":"住都中心","households":"292","status":"規劃中","decidedate":"2024/3/31","startdate":"2025/3/31","finishdate":"2028/12/31"}
-,
-{"city":"臺中市","casename":"北區圓滿好宅","mayor":"臺中市政府","households":"1085","status":"規劃中","decidedate":"2024/3/31","startdate":"2024/10/31","finishdate":"2029/6/30"}
-,
-{"city":"臺中市","casename":"國安段一期","mayor":"臺中市政府","households":"500","status":"興建中","decidedate":"2020/7/31","startdate":"2021/5/11","finishdate":"2024/6/30"}
-,
-{"city":"臺中市","casename":"惠來厝段","mayor":"臺中市政府","households":"400","status":"興建中","decidedate":"2021/8/27","startdate":"2021/12/22","finishdate":"2025/7/31"}
-,
-{"city":"臺中市","casename":"惠民安居","mayor":"住都中心","households":"210","status":"興建中","decidedate":"2022/3/22","startdate":"2023/6/2","finishdate":"2027/2/28"}
-,
-{"city":"臺中市","casename":"鑫港尾段","mayor":"臺中市政府","households":"125","status":"已決標待開工","decidedate":"2023/7/7","startdate":"2025/3/31","finishdate":"2027/12/31"}
-,
-{"city":"臺中市","casename":"國安段二期暨三期","mayor":"臺中市政府","households":"780","status":"已決標待開工","decidedate":"2023/9/15","startdate":"2024/7/31","finishdate":"2029/4/30"}
-,
-{"city":"臺中市","casename":"建功段4-1地號","mayor":"臺中市政府","households":"98","status":"興建中","decidedate":"","startdate":"2019/10/28","finishdate":"2024/5/31"}
-,
-{"city":"臺中市","casename":"建功段26地號","mayor":"臺中市政府","households":"78","status":"新完工","decidedate":"","startdate":"2019/9/12","finishdate":"2022/10/28"}
-,
-{"city":"臺中市","casename":"精密機械科技創新園區「勞工住宅」社區","mayor":"臺中市政府","households":"190","status":"新完工","decidedate":"","startdate":"2017/4/28","finishdate":"2019/8/27"}
-,
-{"city":"臺中市","casename":"春社安居B","mayor":"住都中心","households":"351","status":"規劃中","decidedate":"2024/9/30","startdate":"2026/1/31","finishdate":"2028/12/31"}
-,
-{"city":"臺中市","casename":"春社安居A","mayor":"住都中心","households":"402","status":"已決標待開工","decidedate":"2022/6/30","startdate":"2024/3/31","finishdate":"2027/5/31"}
-,
-{"city":"臺中市","casename":"南屯區建功段31-1地號","mayor":"臺中市政府","households":"91","status":"興建中","decidedate":"","startdate":"2020/9/30","finishdate":"2024/4/30"}
-,
-{"city":"臺中市","casename":"南屯區建功段7地號","mayor":"臺中市政府","households":"101","status":"興建中","decidedate":"","startdate":"2021/8/31","finishdate":"2025/12/31"}
-,
-{"city":"臺中市","casename":"春安安居","mayor":"住都中心","households":"306","status":"已決標待開工","decidedate":"2023/12/22","startdate":"2024/12/31","finishdate":"2028/8/31"}
-,
-{"city":"臺中市","casename":"同榮段","mayor":"臺中市政府","households":"560","status":"興建中","decidedate":"2018/7/31","startdate":"2018/11/7","finishdate":"2024/12/31"}
-,
-{"city":"臺中市","casename":"北屯段","mayor":"臺中市政府","households":"220","status":"新完工","decidedate":"2018/5/25","startdate":"2018/11/15","finishdate":"2022/4/29"}
-,
-{"city":"臺中市","casename":"廍子安居","mayor":"住都中心","households":"1390","status":"已決標待開工","decidedate":"2023/5/24","startdate":"2024/10/31","finishdate":"2028/10/31"}
-,
-{"city":"臺中市","casename":"國豐安居","mayor":"住都中心","households":"210","status":"規劃中","decidedate":"2024/11/30","startdate":"2025/11/30","finishdate":"2029/11/30"}
-,
-{"city":"臺中市","casename":"東光好室","mayor":"住都中心","households":"123","status":"已決標待開工","decidedate":"2023/6/30","startdate":"2024/7/31","finishdate":"2027/10/31"}
-,
-{"city":"臺中市","casename":"松竹好室","mayor":"住都中心","households":"110","status":"已決標待開工","decidedate":"2023/6/30","startdate":"2024/7/31","finishdate":"2027/10/31"}
-,
-{"city":"臺中市","casename":"北屯洲際好宅","mayor":"臺中市政府","households":"890","status":"規劃中","decidedate":"2024/6/30","startdate":"2025/2/28","finishdate":"2029/12/31"}
-,
-{"city":"臺中市","casename":"北屯區同榮段二期","mayor":"臺中市政府","households":"310","status":"規劃中","decidedate":"2024/4/30","startdate":"2024/12/31","finishdate":"2027/7/31"}
-,
-{"city":"臺中市","casename":"安康段一期","mayor":"臺中市政府","households":"200","status":"新完工","decidedate":"2015/10/2","startdate":"2015/11/9","finishdate":"2018/3/20"}
-,
-{"city":"臺中市","casename":"安康段二期","mayor":"臺中市政府","households":"500","status":"興建中","decidedate":"2019/11/5","startdate":"2020/2/11","finishdate":"2025/2/28"}
-,
-{"city":"臺中市","casename":"沙鹿區平等段","mayor":"臺中市政府","households":"287","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/2/28","finishdate":"2028/2/29"}
-,
-{"city":"臺中市","casename":"三民段一期","mayor":"臺中市政府","households":"300","status":"新完工","decidedate":"2018/8/14","startdate":"2018/10/15","finishdate":"2021/6/30"}
-,
-{"city":"臺中市","casename":"頭家安居","mayor":"住都中心","households":"490","status":"興建中","decidedate":"2021/8/27","startdate":"2023/8/7","finishdate":"2026/1/31"}
-,
-{"city":"臺中市","casename":"烏日區新榮和段","mayor":"臺中市政府","households":"270","status":"興建中","decidedate":"2021/10/5","startdate":"2022/5/16","finishdate":"2025/3/31"}
-,
-{"city":"臺中市","casename":"榮泉安居","mayor":"住都中心","households":"205","status":"已決標待開工","decidedate":"2022/9/23","startdate":"2024/7/31","finishdate":"2028/3/31"}
-,
-{"city":"臺中市","casename":"台糖公營學苑","mayor":"住都中心","households":"203","status":"新完工","decidedate":"2022/8/29","startdate":"2023/4/12","finishdate":"2023/7/10"}
-,
-{"city":"臺中市","casename":"吉峰安居","mayor":"住都中心","households":"533","status":"已決標待開工","decidedate":"2023/6/6","startdate":"2024/2/29","finishdate":"2027/8/31"}
-,
-{"city":"臺中市","casename":"育賢段一期","mayor":"臺中市政府","households":"300","status":"新完工","decidedate":"2017/6/29","startdate":"2017/8/12","finishdate":"2020/6/29"}
-,
-{"city":"臺中市","casename":"育賢段三期","mayor":"臺中市政府","households":"250","status":"興建中","decidedate":"2021/4/9","startdate":"2021/6/23","finishdate":"2024/9/30"}
-,
-{"city":"臺中市","casename":"育賢段二期","mayor":"臺中市政府","households":"428","status":"新完工","decidedate":"2018/11/28","startdate":"2019/2/17","finishdate":"2023/6/5"}
-,
-{"city":"臺中市","casename":"永億段","mayor":"臺中市政府","households":"160","status":"興建中","decidedate":"2020/11/4","startdate":"2021/3/1","finishdate":"2024/4/30"}
-,
-{"city":"臺中市","casename":"光正段一期","mayor":"臺中市政府","households":"201","status":"新完工","decidedate":"2016/7/20","startdate":"2016/9/1","finishdate":"2018/10/27"}
-,
-{"city":"臺中市","casename":"光正段二期","mayor":"臺中市政府","households":"230","status":"興建中","decidedate":"2020/11/10","startdate":"2021/3/28","finishdate":"2024/3/31"}
-,
-{"city":"臺中市","casename":"大里區光正段三期","mayor":"臺中市政府","households":"550","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/6/30","finishdate":"2028/12/31"}
-
-]
+    {"city":"臺北市","casename":"延吉好室","mayor":"住都中心","households":"160","status":"興建中","decidedate":"2020/11/11","startdate":"2021/12/30","finishdate":"2024/7/31"}
+    ,
+    {"city":"臺北市","casename":"延壽Ｐ出租國宅","mayor":"臺北市政府","households":"99","status":"既有","decidedate":"","startdate":"","finishdate":"1998/7/31"}
+    ,
+    {"city":"臺北市","casename":"健康社會住宅","mayor":"臺北市政府","households":"507","status":"新完工","decidedate":"2014/10/14","startdate":"2014/12/17","finishdate":"2017/12/26"}
+    ,
+    {"city":"臺北市","casename":"臺北市松山區延吉段一小段119地號等8筆土地都市更新計畫案","mayor":"住都中心","households":"3","status":"興建中","decidedate":"","startdate":"2019/7/25","finishdate":"2024/12/31"}
+    ,
+    {"city":"臺北市","casename":"延吉平宅","mayor":"臺北市政府","households":"120","status":"既有","decidedate":"1971/1/31","startdate":"","finishdate":"1971/1/31"}
+    ,
+    {"city":"臺北市","casename":"懷生出租國宅","mayor":"臺北市政府","households":"205","status":"既有","decidedate":"","startdate":"","finishdate":"1997/12/31"}
+    ,
+    {"city":"臺北市","casename":"金華社會住宅(特四、五)","mayor":"臺北市政府","households":"515","status":"已決標待開工","decidedate":"2023/2/23","startdate":"2025/12/31","finishdate":"2029/6/30"}
+    ,
+    {"city":"臺北市","casename":"臺北市大安區懷生段二小段16地號等6筆土地都市更新案","mayor":"住都中心","households":"2","status":"新完工","decidedate":"","startdate":"2017/7/11","finishdate":"2022/3/24"}
+    ,
+    {"city":"臺北市","casename":"南海段都更案基地","mayor":"臺北市政府","households":"214","status":"興建中","decidedate":"2012/6/25","startdate":"2023/10/30","finishdate":"2026/10/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市中正區南海段二小段41-4地號等55筆土地都市更新案","mayor":"住都中心","households":"2","status":"規劃中","decidedate":"","startdate":"2024/5/31","finishdate":"2027/5/31"}
+    ,
+    {"city":"臺北市","casename":"萬華安居A","mayor":"住都中心","households":"158","status":"興建中","decidedate":"2021/1/21","startdate":"2021/12/23","finishdate":"2024/11/30"}
+    ,
+    {"city":"臺北市","casename":"萬華安居B","mayor":"住都中心","households":"142","status":"興建中","decidedate":"2021/1/21","startdate":"2021/12/23","finishdate":"2024/11/30"}
+    ,
+    {"city":"臺北市","casename":"大理街出租國宅","mayor":"臺北市政府","households":"35","status":"既有","decidedate":"","startdate":"","finishdate":"1998/9/1"}
+    ,
+    {"city":"臺北市","casename":"中正出租國宅","mayor":"臺北市政府","households":"523","status":"既有","decidedate":"","startdate":"","finishdate":"1982/2/1"}
+    ,
+    {"city":"臺北市","casename":"西寧出租國宅","mayor":"臺北市政府","households":"475","status":"既有","decidedate":"","startdate":"1977/2/23","finishdate":"1982/7/14"}
+    ,
+    {"city":"臺北市","casename":"華昌出租國宅","mayor":"臺北市政府","households":"490","status":"既有","decidedate":"","startdate":"1977/11/24","finishdate":"1982/4/28"}
+    ,
+    {"city":"臺北市","casename":"龍山綜合大樓出租國宅","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"1991/4/24","finishdate":"1994/10/21"}
+    ,
+    {"city":"臺北市","casename":"福民平宅","mayor":"臺北市政府","households":"180","status":"既有","decidedate":"","startdate":"1976/5/5","finishdate":"1977/11/23"}
+    ,
+    {"city":"臺北市","casename":"龍山寺聯開宅","mayor":"臺北市政府","households":"7","status":"既有","decidedate":"","startdate":"2008/5/28","finishdate":"2011/3/15"}
+    ,
+    {"city":"臺北市","casename":"萬華青年社會住宅1區","mayor":"臺北市政府","households":"273","status":"新完工","decidedate":"2015/11/11","startdate":"2016/2/18","finishdate":"2018/12/22"}
+    ,
+    {"city":"臺北市","casename":"萬華青年社會住宅2區","mayor":"臺北市政府","households":"518","status":"興建中","decidedate":"2017/4/21","startdate":"2017/7/17","finishdate":"2023/11/30"}
+    ,
+    {"city":"臺北市","casename":"莒光社會住宅","mayor":"臺北市政府","households":"201","status":"新完工","decidedate":"2017/10/3","startdate":"2017/12/28","finishdate":"2022/6/14"}
+    ,
+    {"city":"臺北市","casename":"福星社會住宅","mayor":"臺北市政府","households":"255","status":"新完工","decidedate":"2019/3/25","startdate":"2019/10/23","finishdate":"2023/6/27"}
+    ,
+    {"city":"臺北市","casename":"福民社會住宅1區","mayor":"臺北市政府","households":"131","status":"新完工","decidedate":"2022/1/17","startdate":"2022/4/13","finishdate":"2026/6/30"}
+    ,
+    {"city":"臺北市","casename":"福星段都更案基地","mayor":"臺北市政府","households":"173","status":"興建中","decidedate":"2015/9/15","startdate":"2022/9/7","finishdate":"2025/9/30"}
+    ,
+    {"city":"臺北市","casename":"凌霄好室","mayor":"住都中心","households":"112","status":"已決標待開工","decidedate":"2023/8/18","startdate":"2024/9/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市萬華區漢中段三小段24地號等39筆土地都市更新案","mayor":"住都中心","households":"4","status":"新完工","decidedate":"","startdate":"2018/8/8","finishdate":"2022/7/26"}
+    ,
+    {"city":"臺北市","casename":"臺北市萬華區萬大段一小段519-2地號等35筆土地都市更新案","mayor":"住都中心","households":"1","status":"興建中","decidedate":"","startdate":"2020/2/1","finishdate":"2024/1/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市大龍老人住宅","mayor":"臺北市政府","households":"70","status":"既有","decidedate":"2008/5/31","startdate":"2008/9/30","finishdate":"2010/8/31"}
+    ,
+    {"city":"臺北市","casename":"敦煌社會住宅","mayor":"臺北市政府","households":"3","status":"既有","decidedate":"","startdate":"2007/4/19","finishdate":"2009/11/2"}
+    ,
+    {"city":"臺北市","casename":"大龍峒社會住宅","mayor":"臺北市政府","households":"110","status":"既有","decidedate":"","startdate":"2009/3/3","finishdate":"2011/8/23"}
+    ,
+    {"city":"臺北市","casename":"延北社會住宅","mayor":"臺北市政府","households":"56","status":"規劃中","decidedate":"","startdate":"2027/12/31","finishdate":"2030/12/31"}
+    ,
+    {"city":"臺北市","casename":"大橋頭社會住宅","mayor":"臺北市政府","households":"47","status":"新完工","decidedate":"","startdate":"2016/4/7","finishdate":"2019/6/25"}
+    ,
+    {"city":"臺北市","casename":"明倫社會住宅","mayor":"臺北市政府","households":"380","status":"新完工","decidedate":"2017/1/12","startdate":"2017/3/10","finishdate":"2020/8/14"}
+    ,
+    {"city":"臺北市","casename":"斯文社會住宅","mayor":"臺北市政府","households":"138","status":"新完工","decidedate":"2018/5/17","startdate":"2018/9/13","finishdate":"2022/1/24"}
+    ,
+    {"city":"臺北市","casename":"榮星出租國宅","mayor":"臺北市政府","households":"34","status":"既有","decidedate":"","startdate":"","finishdate":"1999/11/26"}
+    ,
+    {"city":"臺北市","casename":"臺北市朱崙老人公寓","mayor":"臺北市政府","households":"45","status":"既有","decidedate":"2000/12/31","startdate":"2001/2/16","finishdate":"2004/3/23"}
+    ,
+    {"city":"臺北市","casename":"臺北市中山老人住宅暨服務中心","mayor":"臺北市政府","households":"112","status":"既有","decidedate":"2008/8/31","startdate":"2008/10/31","finishdate":"2010/5/31"}
+    ,
+    {"city":"臺北市","casename":"行天宮站社會住宅","mayor":"臺北市政府","households":"30","status":"既有","decidedate":"","startdate":"2006/10/19","finishdate":"2010/1/5"}
+    ,
+    {"city":"臺北市","casename":"培英社會住宅","mayor":"臺北市政府","households":"96","status":"興建中","decidedate":"2019/10/1","startdate":"2020/2/27","finishdate":"2025/8/31"}
+    ,
+    {"city":"臺北市","casename":"錦州社會住宅","mayor":"臺北市政府","households":"387","status":"興建中","decidedate":"2019/8/27","startdate":"2020/2/17","finishdate":"2025/3/31"}
+    ,
+    {"city":"臺北市","casename":"新興社會住宅(新興市場整建)","mayor":"臺北市政府","households":"37","status":"新完工","decidedate":"","startdate":"2018/7/16","finishdate":"2018/12/7"}
+    ,
+    {"city":"臺北市","casename":"力行社會住宅","mayor":"臺北市政府","households":"35","status":"興建中","decidedate":"2023/2/23","startdate":"2023/6/28","finishdate":"2025/1/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市中山區長春段二小段626地號等24筆(原20筆)土地都市更新計畫案","mayor":"住都中心","households":"8","status":"已決標待開工","decidedate":"2023/5/24","startdate":"2024/8/31","finishdate":"2026/10/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市中山區北安段三小段818地號等12筆土地都市更新案","mayor":"住都中心","households":"4","status":"新完工","decidedate":"","startdate":"2019/6/6","finishdate":"2022/4/19"}
+    ,
+    {"city":"臺北市","casename":"臺北市中山區德惠段二小段813-1地號等6筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2020/4/24","finishdate":"2023/2/3"}
+    ,
+    {"city":"臺北市","casename":"軍功出租國宅","mayor":"臺北市政府","households":"33","status":"既有","decidedate":"","startdate":"","finishdate":"1983/7/15"}
+    ,
+    {"city":"臺北市","casename":"萬芳Ｃ出租國宅","mayor":"臺北市政府","households":"228","status":"既有","decidedate":"","startdate":"","finishdate":"1996/5/6"}
+    ,
+    {"city":"臺北市","casename":"萬芳社區出租國宅","mayor":"臺北市政府","households":"310","status":"既有","decidedate":"","startdate":"","finishdate":"1997/1/19"}
+    ,
+    {"city":"臺北市","casename":"萬美出租國宅","mayor":"臺北市政府","households":"192","status":"既有","decidedate":"","startdate":"1981/12/23","finishdate":"1984/8/3"}
+    ,
+    {"city":"臺北市","casename":"萬寧出租國宅","mayor":"臺北市政府","households":"10","status":"既有","decidedate":"","startdate":"1993/6/22","finishdate":"1997/10/30"}
+    ,
+    {"city":"臺北市","casename":"萬樂出租國宅","mayor":"臺北市政府","households":"224","status":"既有","decidedate":"","startdate":"","finishdate":"1984/8/3"}
+    ,
+    {"city":"臺北市","casename":"安康平宅","mayor":"臺北市政府","households":"304","status":"既有","decidedate":"","startdate":"","finishdate":"1971/1/10"}
+    ,
+    {"city":"臺北市","casename":"萬隆站社會住宅","mayor":"臺北市政府","households":"41","status":"既有","decidedate":"","startdate":"2006/5/10","finishdate":"2011/11/17"}
+    ,
+    {"city":"臺北市","casename":"景文社會住宅","mayor":"臺北市政府","households":"42","status":"既有","decidedate":"","startdate":"2010/3/15","finishdate":"2012/11/12"}
+    ,
+    {"city":"臺北市","casename":"興隆社會住宅D1區","mayor":"臺北市政府","households":"272","status":"既有","decidedate":"2013/1/31","startdate":"2013/7/17","finishdate":"2015/5/15"}
+    ,
+    {"city":"臺北市","casename":"興隆社會住宅D2區","mayor":"臺北市政府","households":"510","status":"新完工","decidedate":"2014/4/16","startdate":"2014/11/13","finishdate":"2018/5/9"}
+    ,
+    {"city":"臺北市","casename":"木柵社會住宅","mayor":"臺北市政府","households":"119","status":"新完工","decidedate":"2017/5/17","startdate":"2017/8/17","finishdate":"2020/4/27"}
+    ,
+    {"city":"臺北市","casename":"景豐社會住宅1區","mayor":"臺北市政府","households":"90","status":"興建中","decidedate":"2020/3/26","startdate":"2020/10/5","finishdate":"2025/6/30"}
+    ,
+    {"city":"臺北市","casename":"樟新水岸社會住宅","mayor":"臺北市政府","households":"192","status":"興建中","decidedate":"2019/4/18","startdate":"2019/12/18","finishdate":"2024/12/31"}
+    ,
+    {"city":"臺北市","casename":"和興水岸社會住宅","mayor":"臺北市政府","households":"174","status":"興建中","decidedate":"2019/4/19","startdate":"2019/11/26","finishdate":"2024/1/31"}
+    ,
+    {"city":"臺北市","casename":"景豐社會住宅2區","mayor":"臺北市政府","households":"80","status":"規劃中","decidedate":"2024/3/31","startdate":"2024/9/30","finishdate":"2028/10/31"}
+    ,
+    {"city":"臺北市","casename":"興隆A區社會住宅","mayor":"臺北市政府","households":"340","status":"興建中","decidedate":"2019/2/20","startdate":"2019/7/1","finishdate":"2024/5/31"}
+    ,
+    {"city":"臺北市","casename":"興隆E區社會住宅","mayor":"臺北市政府","households":"263","status":"興建中","decidedate":"2019/3/15","startdate":"2019/7/1","finishdate":"2024/6/30"}
+    ,
+    {"city":"臺北市","casename":"興隆I區社會住宅","mayor":"臺北市政府","households":"500","status":"興建中","decidedate":"2020/3/20","startdate":"2020/6/18","finishdate":"2025/6/30"}
+    ,
+    {"city":"臺北市","casename":"興隆FH區社會住宅","mayor":"臺北市政府","households":"447","status":"規劃中","decidedate":"2025/2/28","startdate":"2025/4/30","finishdate":"2028/6/30"}
+    ,
+    {"city":"臺北市","casename":"保儀安居","mayor":"住都中心","households":"220","status":"規劃中","decidedate":"2024/7/31","startdate":"2025/3/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"臺北市","casename":"慶仁安居","mayor":"住都中心","households":"973","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/5/31","finishdate":"2029/5/31"}
+    ,
+    {"city":"臺北市","casename":"博嘉安居","mayor":"住都中心","households":"516","status":"已決標待開工","decidedate":"2022/10/20","startdate":"2024/5/31","finishdate":"2027/8/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市文山區萬隆段二小段519地號等23筆土地都市更新案","mayor":"住都中心","households":"40","status":"新完工","decidedate":"","startdate":"2018/7/16","finishdate":"2023/4/20"}
+    ,
+    {"city":"臺北市","casename":"臺北市文山區興安段四小段122地號等27筆土地都市更新案","mayor":"住都中心","households":"12","status":"新完工","decidedate":"","startdate":"2019/12/2","finishdate":"2023/3/27"}
+    ,
+    {"city":"臺北市","casename":"臺北市文山區萬芳段二小段183-1地號等30筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2020/8/11","finishdate":"2023/6/1"}
+    ,
+    {"city":"臺北市","casename":"台肥出租國宅","mayor":"臺北市政府","households":"28","status":"既有","decidedate":"","startdate":"","finishdate":"1985/4/6"}
+    ,
+    {"city":"臺北市","casename":"南港一號出租國宅","mayor":"臺北市政府","households":"287","status":"既有","decidedate":"","startdate":"","finishdate":"1999/8/21"}
+    ,
+    {"city":"臺北市","casename":"基河三期中繼住宅AB區","mayor":"臺北市政府","households":"22","status":"既有","decidedate":"","startdate":"2001/1/1","finishdate":"2001/1/1"}
+    ,
+    {"city":"臺北市","casename":"基河三期中繼住宅CD區","mayor":"臺北市政府","households":"306","status":"既有","decidedate":"","startdate":"2001/1/1","finishdate":"2001/1/1"}
+    ,
+    {"city":"臺北市","casename":"玉成社會住宅","mayor":"臺北市政府","households":"402","status":"興建中","decidedate":"2019/11/14","startdate":"2020/10/30","finishdate":"2025/10/31"}
+    ,
+    {"city":"臺北市","casename":"南港機廠社會住宅1區","mayor":"臺北市政府","households":"1442","status":"興建中","decidedate":"2019/2/27","startdate":"2019/2/1","finishdate":"2025/4/30"}
+    ,
+    {"city":"臺北市","casename":"經貿社會住宅","mayor":"臺北市政府","households":"118","status":"興建中","decidedate":"2020/6/19","startdate":"2020/11/12","finishdate":"2024/4/30"}
+    ,
+    {"city":"臺北市","casename":"中南社會住宅","mayor":"臺北市政府","households":"119","status":"新完工","decidedate":"2017/7/19","startdate":"2017/11/9","finishdate":"2020/12/31"}
+    ,
+    {"city":"臺北市","casename":"東明社會住宅","mayor":"臺北市政府","households":"700","status":"新完工","decidedate":"2015/12/28","startdate":"2016/2/24","finishdate":"2019/7/31"}
+    ,
+    {"city":"臺北市","casename":"小彎社會住宅","mayor":"臺北市政府","households":"341","status":"新完工","decidedate":"2017/11/15","startdate":"2018/3/8","finishdate":"2021/10/23"}
+    ,
+    {"city":"臺北市","casename":"南港玉成都市更新案","mayor":"住都中心","households":"150","status":"已決標待開工","decidedate":"2021/9/17","startdate":"2024/2/29","finishdate":"2026/5/31"}
+    ,
+    {"city":"臺北市","casename":"樂康安居(A)","mayor":"住都中心","households":"160","status":"規劃中","decidedate":"2025/2/28","startdate":"2026/4/30","finishdate":"2029/10/31"}
+    ,
+    {"city":"臺北市","casename":"樂康安居(B)","mayor":"住都中心","households":"220","status":"規劃中","decidedate":"2025/2/28","startdate":"2026/4/30","finishdate":"2029/10/31"}
+    ,
+    {"city":"臺北市","casename":"東湖C出租國宅","mayor":"臺北市政府","households":"88","status":"既有","decidedate":"","startdate":"1991/11/30","finishdate":"1996/9/30"}
+    ,
+    {"city":"臺北市","casename":"東湖Ｅ基地出租國宅(原民會)","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"","finishdate":"1995/2/13"}
+    ,
+    {"city":"臺北市","casename":"貿三出租國宅","mayor":"臺北市政府","households":"114","status":"既有","decidedate":"","startdate":"","finishdate":"1984/3/14"}
+    ,
+    {"city":"臺北市","casename":"港墘聯開宅","mayor":"臺北市政府","households":"3","status":"既有","decidedate":"","startdate":"2009/4/14","finishdate":"2010/11/23"}
+    ,
+    {"city":"臺北市","casename":"瑞光社會住宅","mayor":"臺北市政府","households":"389","status":"新完工","decidedate":"2017/5/12","startdate":"2017/10/5","finishdate":"2020/11/21"}
+    ,
+    {"city":"臺北市","casename":"舊宗社會住宅","mayor":"臺北市政府","households":"97","status":"興建中","decidedate":"2019/9/5","startdate":"2020/2/24","finishdate":"2023/11/30"}
+    ,
+    {"city":"臺北市","casename":"行善社會住宅","mayor":"臺北市政府","households":"526","status":"新完工","decidedate":"2018/8/17","startdate":"2018/10/29","finishdate":"2022/8/23"}
+    ,
+    {"city":"臺北市","casename":"金龍都更分回戶","mayor":"臺北市政府","households":"8","status":"新完工","decidedate":"","startdate":"2014/6/9","finishdate":"2019/4/18"}
+    ,
+    {"city":"臺北市","casename":"臺北市內湖區石潭段三小段482地號等8筆土地都市更新案","mayor":"住都中心","households":"1","status":"新完工","decidedate":"","startdate":"2018/10/30","finishdate":"2021/10/5"}
+    ,
+    {"city":"臺北市","casename":"延平出租國宅","mayor":"臺北市政府","households":"42","status":"既有","decidedate":"","startdate":"","finishdate":"2000/12/11"}
+    ,
+    {"city":"臺北市","casename":"永平中繼住宅","mayor":"臺北市政府","households":"37","status":"既有","decidedate":"","startdate":"1989/8/10","finishdate":"2004/12/15"}
+    ,
+    {"city":"臺北市","casename":"永平社會住宅","mayor":"臺北市政府","households":"51","status":"既有","decidedate":"","startdate":"2000/8/10","finishdate":"2004/12/23"}
+    ,
+    {"city":"臺北市","casename":"臺北市陽明老人公寓","mayor":"臺北市政府","households":"97","status":"既有","decidedate":"1994/12/31","startdate":"1995/4/30","finishdate":"1997/12/31"}
+    ,
+    {"city":"臺北市","casename":"百齡水岸社會住宅","mayor":"臺北市政府","households":"266","status":"興建中","decidedate":"2020/3/18","startdate":"2020/8/10","finishdate":"2025/5/31"}
+    ,
+    {"city":"臺北市","casename":"華榮市場都更分回戶","mayor":"臺北市政府","households":"118","status":"興建中","decidedate":"2019/1/22","startdate":"2019/5/23","finishdate":"2023/12/31"}
+    ,
+    {"city":"臺北市","casename":"芝山安居","mayor":"住都中心","households":"825","status":"規劃中","decidedate":"2024/3/31","startdate":"2025/5/31","finishdate":"2029/12/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市士林區三玉段五小段445地號等20筆土地都市更新案","mayor":"住都中心","households":"2","status":"新完工","decidedate":"","startdate":"2019/6/3","finishdate":"2021/12/22"}
+    ,
+    {"city":"臺北市","casename":"臺北市士林區陽明段一小段19地號等12筆土地都市更新案","mayor":"住都中心","households":"1","status":"興建中","decidedate":"","startdate":"2018/10/4","finishdate":"2024/3/31"}
+    ,
+    {"city":"臺北市","casename":"奇岩出租國宅","mayor":"臺北市政府","households":"72","status":"既有","decidedate":"","startdate":"","finishdate":"1980/12/16"}
+    ,
+    {"city":"臺北市","casename":"大同之家","mayor":"臺北市政府","households":"60","status":"既有","decidedate":"","startdate":"","finishdate":"1971/1/1"}
+    ,
+    {"city":"臺北市","casename":"洲美社會住宅","mayor":"臺北市政府","households":"144","status":"新完工","decidedate":"","startdate":"2016/3/15","finishdate":"2017/7/11"}
+    ,
+    {"city":"臺北市","casename":"福國社會住宅","mayor":"臺北市政府","households":"365","status":"興建中","decidedate":"2019/8/26","startdate":"2020/6/12","finishdate":"2025/6/30"}
+    ,
+    {"city":"臺北市","casename":"新奇岩社會住宅","mayor":"臺北市政府","households":"288","status":"新完工","decidedate":"2017/2/21","startdate":"2017/5/26","finishdate":"2021/3/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市北投區奇岩段五小段444地號等7筆土地都市更新案","mayor":"住都中心","households":"3","status":"興建中","decidedate":"","startdate":"2019/12/26","finishdate":"2024/12/31"}
+    ,
+    {"city":"臺北市","casename":"臺北市北投區奇岩段三小段1-1地號等11筆土地都市更新案","mayor":"住都中心","households":"2","status":"興建中","decidedate":"","startdate":"2022/2/19","finishdate":"2024/12/31"}
+    ,
+    {"city":"臺北市","casename":"四四東村C出租國宅","mayor":"臺北市政府","households":"30","status":"既有","decidedate":"","startdate":"","finishdate":"1995/7/10"}
+    ,
+    {"city":"臺北市","casename":"廣慈社會住宅3區","mayor":"臺北市政府","households":"476","status":"興建中","decidedate":"2018/4/12","startdate":"2018/8/9","finishdate":"2023/11/30"}
+    ,
+    {"city":"臺北市","casename":"信義區廣慈社會住宅2區","mayor":"臺北市政府","households":"522","status":"新完工","decidedate":"2017/10/6","startdate":"2018/1/10","finishdate":"2022/1/21"}
+    ,
+    {"city":"臺北市","casename":"信義區廣慈社會住宅1區","mayor":"臺北市政府","households":"522","status":"新完工","decidedate":"2017/10/6","startdate":"2018/1/10","finishdate":"2021/12/30"}
+    ,
+    {"city":"臺北市","casename":"三興社會住宅","mayor":"臺北市政府","households":"560","status":"興建中","decidedate":"2019/7/8","startdate":"2019/9/4","finishdate":"2025/12/31"}
+    ,
+    {"city":"臺北市","casename":"六張犁A、B區社會住宅","mayor":"臺北市政府","households":"722","status":"興建中","decidedate":"2018/5/4","startdate":"2018/9/18","finishdate":"2024/3/31"}
+    ,
+    {"city":"臺北市","casename":"犁和段都更案基地","mayor":"臺北市政府","households":"81","status":"興建中","decidedate":"2012/8/16","startdate":"2020/1/2","finishdate":"2023/12/31"}
+    ,
+    {"city":"臺北市","casename":"松信社會住宅新建工程","mayor":"臺北市政府","households":"90","status":"興建中","decidedate":"2022/10/20","startdate":"2023/3/15","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"新莊新豐青年社會住宅","mayor":"新北市政府","households":"76","status":"新完工","decidedate":"","startdate":"2014/10/1","finishdate":"2017/9/25"}
+    ,
+    {"city":"新北市","casename":"新莊副都心段一小段224地號","mayor":"新北市政府","households":"23","status":"新完工","decidedate":"2019/5/22","startdate":"2019/5/22","finishdate":"2023/7/5"}
+    ,
+    {"city":"新北市","casename":"立言段10等1筆地號","mayor":"新北市政府","households":"16","status":"興建中","decidedate":"2020/5/9","startdate":"2020/5/9","finishdate":"2024/2/29"}
+    ,
+    {"city":"新北市","casename":"新知段71等1筆地號","mayor":"新北市政府","households":"18","status":"興建中","decidedate":"2020/8/19","startdate":"2022/5/9","finishdate":"2027/2/28"}
+    ,
+    {"city":"新北市","casename":"安和段115等1筆地號","mayor":"新北市政府","households":"28","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"雙鳳段186、188、187、185、184、191、190、220、183、189、221、182、180、161等14筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"立德段688等114筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新莊區復興段433及立德段6-5共5筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新泰塭仔圳重劃區","mayor":"新北市政府","households":"2100","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/7/31","finishdate":"2028/9/30"}
+    ,
+    {"city":"新北市","casename":"林口世大運選手村社會住宅","mayor":"住都中心","households":"2907","status":"新完工","decidedate":"2013/8/9","startdate":"2014/5/8","finishdate":"2018/8/31"}
+    ,
+    {"city":"新北市","casename":"文仁安居","mayor":"住都中心","households":"1066","status":"已決標待開工","decidedate":"2022/8/24","startdate":"2024/3/31","finishdate":"2027/9/30"}
+    ,
+    {"city":"新北市","casename":"麗林二段1等63筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"五股銀髮住宅","mayor":"新北市政府","households":"71","status":"既有","decidedate":"","startdate":"2016/1/1","finishdate":"2001/2/28"}
+    ,
+    {"city":"新北市","casename":"五股芳洲(203)青年社會住宅","mayor":"新北市政府","households":"23","status":"興建中","decidedate":"2019/1/31","startdate":"2019/10/15","finishdate":"2024/4/30"}
+    ,
+    {"city":"新北市","casename":"成州段77-7等1筆地號","mayor":"新北市政府","households":"10","status":"興建中","decidedate":"2019/12/13","startdate":"2019/12/13","finishdate":"2024/1/31"}
+    ,
+    {"city":"新北市","casename":"成州段4等1筆地號","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2020/10/14","startdate":"2020/10/14","finishdate":"2024/7/31"}
+    ,
+    {"city":"新北市","casename":"蘆洲南側農業區","mayor":"新北市政府","households":"1300","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"蘆洲北側農業區","mayor":"新北市政府","households":"1100","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"蘆洲光華青年社會住宅","mayor":"新北市政府","households":"660","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/6/30","finishdate":"2028/7/31"}
+    ,
+    {"city":"新北市","casename":"富貴好室","mayor":"住都中心","households":"142","status":"興建中","decidedate":"2020/9/21","startdate":"2021/11/18","finishdate":"2025/2/28"}
+    ,
+    {"city":"新北市","casename":"五谷好室","mayor":"住都中心","households":"161","status":"興建中","decidedate":"2020/9/21","startdate":"2021/11/18","finishdate":"2024/12/31"}
+    ,
+    {"city":"新北市","casename":"臺北橋聯開宅","mayor":"臺北市政府","households":"40","status":"既有","decidedate":"","startdate":"2010/9/2","finishdate":"2012/12/20"}
+    ,
+    {"city":"新北市","casename":"大安青年社會住宅(三重1館)","mayor":"新北市政府","households":"133","status":"新完工","decidedate":"","startdate":"2014/3/7","finishdate":"2016/5/15"}
+    ,
+    {"city":"新北市","casename":"大同南青年社會住宅(三重2館-西側)","mayor":"新北市政府","households":"119","status":"新完工","decidedate":"","startdate":"2014/3/7","finishdate":"2016/3/15"}
+    ,
+    {"city":"新北市","casename":"大同南青年社會住宅(三重3館-東側)","mayor":"新北市政府","households":"75","status":"新完工","decidedate":"","startdate":"2015/3/10","finishdate":"2017/1/10"}
+    ,
+    {"city":"新北市","casename":"三重集美段社宅","mayor":"新北市政府","households":"8","status":"既有","decidedate":"","startdate":"2016/1/1","finishdate":"2016/1/1"}
+    ,
+    {"city":"新北市","casename":"三重五谷王(27)青年社會住宅","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"","startdate":"2018/3/28","finishdate":"2020/4/29"}
+    ,
+    {"city":"新北市","casename":"三重段309等1筆地號","mayor":"新北市政府","households":"18","status":"興建中","decidedate":"2020/2/19","startdate":"2020/2/19","finishdate":"2024/6/30"}
+    ,
+    {"city":"新北市","casename":"五谷王段349、348、347、346、340、339等6筆地號","mayor":"新北市政府","households":"19","status":"興建中","decidedate":"2020/12/18","startdate":"2020/12/18","finishdate":"2024/6/30"}
+    ,
+    {"city":"新北市","casename":"永安段2158、2157、2134等3筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"三重區光興段1008等17筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"三重區中興段1464等40筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"銀新未來城","mayor":"新北市政府","households":"758","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/10/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"三重三重青年社會住宅","mayor":"新北市政府","households":"440","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"泰山中山段青年社會住宅","mayor":"新北市政府","households":"210","status":"興建中","decidedate":"2020/4/10","startdate":"2021/3/31","finishdate":"2024/9/30"}
+    ,
+    {"city":"新北市","casename":"貴和安居","mayor":"住都中心","households":"560","status":"興建中","decidedate":"2021/6/3","startdate":"2022/5/17","finishdate":"2025/11/30"}
+    ,
+    {"city":"新北市","casename":"貴和安居B","mayor":"住都中心","households":"680","status":"規劃中","decidedate":"2024/1/31","startdate":"2024/12/31","finishdate":"2029/1/31"}
+    ,
+    {"city":"新北市","casename":"信華段五小段6、8、5-1等3筆地號","mayor":"新北市政府","households":"14","status":"興建中","decidedate":"2019/10/1","startdate":"2019/10/1","finishdate":"2024/1/31"}
+    ,
+    {"city":"新北市","casename":"信華段一小段8、7、信華段二小段19、18、17、16、15、14、12等9筆地號","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2020/8/19","startdate":"2020/8/19","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"信華段五小段1、信華段三小段4-2、4-1、4等4筆地號","mayor":"新北市政府","households":"12","status":"興建中","decidedate":"2020/5/15","startdate":"2020/5/15","finishdate":"2026/12/31"}
+    ,
+    {"city":"新北市","casename":"小碧潭站社會住宅戶(新北市新店區新店機廠聯開宅)","mayor":"臺北市政府","households":"37","status":"既有","decidedate":"","startdate":"2015/1/1","finishdate":"2015/1/1"}
+    ,
+    {"city":"新北市","casename":"新店中正國宅","mayor":"新北市政府","households":"56","status":"既有","decidedate":"","startdate":"1991/4/30","finishdate":"1993/8/31"}
+    ,
+    {"city":"新北市","casename":"新店央北青年社會住宅","mayor":"新北市政府","households":"1070","status":"新完工","decidedate":"2016/4/28","startdate":"2017/3/21","finishdate":"2020/1/23"}
+    ,
+    {"city":"新北市","casename":"新店民安段青年社會住宅","mayor":"新北市政府","households":"194","status":"興建中","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2024/3/31"}
+    ,
+    {"city":"新北市","casename":"新店斯馨(2)青年社會住宅","mayor":"新北市政府","households":"14","status":"新完工","decidedate":"","startdate":"2018/4/10","finishdate":"2022/4/22"}
+    ,
+    {"city":"新北市","casename":"新店斯馨(13、15)青年社會住宅","mayor":"新北市政府","households":"20","status":"興建中","decidedate":"2018/8/21","startdate":"2018/11/7","finishdate":"2024/3/31"}
+    ,
+    {"city":"新北市","casename":"新店斯馨(100)青年社會住宅","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"","startdate":"2019/9/11","finishdate":"2022/1/26"}
+    ,
+    {"city":"新北市","casename":"溪園安居","mayor":"住都中心","households":"275","status":"規劃中","decidedate":"2025/3/31","startdate":"2026/4/30","finishdate":"2029/3/31"}
+    ,
+    {"city":"新北市","casename":"中華段1015等57筆地號","mayor":"新北市政府","households":"20","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"寶元段26等43筆地號","mayor":"新北市政府","households":"24","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"文山段563等63筆地號","mayor":"新北市政府","households":"130","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"廣明段853等128筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中華段865等40筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新店區文山段761及廣明段521等26筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新店區寶元段392等24筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"碧潭段130等48筆地號","mayor":"新北市政府","households":"16","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新店區安和段144等7筆地號","mayor":"新北市政府","households":"16","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新店區寶元段210等47筆地號","mayor":"新北市政府","households":"30","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新店十四張B單元","mayor":"新北市政府","households":"1200","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"懷石好室","mayor":"住都中心","households":"92","status":"興建中","decidedate":"2020/9/21","startdate":"2021/9/30","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"玫瑰好室","mayor":"住都中心","households":"120","status":"興建中","decidedate":"2020/10/13","startdate":"2021/10/25","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"稚匯好室","mayor":"住都中心","households":"111","status":"興建中","decidedate":"2020/9/21","startdate":"2021/9/30","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"浮洲合宜住宅出租單元","mayor":"新北市政府","households":"446","status":"新完工","decidedate":"","startdate":"2011/12/21","finishdate":"2018/1/4"}
+    ,
+    {"city":"新北市","casename":"板橋府中青年社會住宅","mayor":"新北市政府","households":"72","status":"新完工","decidedate":"2015/11/24","startdate":"2015/11/24","finishdate":"2018/3/15"}
+    ,
+    {"city":"新北市","casename":"板橋永翠(39)","mayor":"新北市政府","households":"21","status":"新完工","decidedate":"","startdate":"2018/4/30","finishdate":"2021/11/17"}
+    ,
+    {"city":"新北市","casename":"板橋江翠(31)","mayor":"新北市政府","households":"52","status":"興建中","decidedate":"2018/7/2","startdate":"2018/10/22","finishdate":"2024/1/31"}
+    ,
+    {"city":"新北市","casename":"板橋江翠(96)青年社會住宅","mayor":"新北市政府","households":"130","status":"興建中","decidedate":"2021/3/25","startdate":"2022/10/20","finishdate":"2025/5/31"}
+    ,
+    {"city":"新北市","casename":"光環安居","mayor":"住都中心","households":"330","status":"興建中","decidedate":"2021/11/24","startdate":"2021/10/25","finishdate":"2025/11/30"}
+    ,
+    {"city":"新北市","casename":"江翠好室","mayor":"住都中心","households":"100","status":"興建中","decidedate":"2020/10/13","startdate":"2021/10/25","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"板橋區中山段1928等45筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"板橋區中山段1716等77筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中山段237-24等17筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"江子翠段溪頭小段119-47等17筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2025/1/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"板橋區公館段1169及江子翠段新埔小段22-2等14筆地號","mayor":"新北市政府","households":"15","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"板橋區港子嘴段1-18等39筆地號","mayor":"新北市政府","households":"18","status":"規劃中","decidedate":"","startdate":"2024/7/31","finishdate":"2027/6/30"}
+    ,
+    {"city":"新北市","casename":"板橋民權青年社會住宅","mayor":"新北市政府","households":"199","status":"新完工","decidedate":"","startdate":"2019/3/20","finishdate":"2021/11/29"}
+    ,
+    {"city":"新北市","casename":"三峽隆恩埔(原民宅)","mayor":"新北市政府","households":"150","status":"既有","decidedate":"","startdate":"2005/6/30","finishdate":"2007/5/31"}
+    ,
+    {"city":"新北市","casename":"三峽國光一期青年社會住宅","mayor":"新北市政府","households":"241","status":"新完工","decidedate":"2017/8/11","startdate":"2018/3/19","finishdate":"2019/11/1"}
+    ,
+    {"city":"新北市","casename":"三峽國光二期青年社會住宅","mayor":"新北市政府","households":"921","status":"興建中","decidedate":"2020/4/22","startdate":"2021/1/12","finishdate":"2024/5/31"}
+    ,
+    {"city":"新北市","casename":"三峽北大青年社會住宅","mayor":"新北市政府","households":"28","status":"新完工","decidedate":"2012/12/12","startdate":"2013/12/5","finishdate":"2017/1/7"}
+    ,
+    {"city":"新北市","casename":"鶯陶安居","mayor":"住都中心","households":"380","status":"興建中","decidedate":"2021/6/22","startdate":"2022/10/12","finishdate":"2025/4/30"}
+    ,
+    {"city":"新北市","casename":"樹德安居A","mayor":"住都中心","households":"236","status":"已決標待開工","decidedate":"2022/12/16","startdate":"2024/2/29","finishdate":"2027/12/31"}
+    ,
+    {"city":"新北市","casename":"樹德安居B","mayor":"住都中心","households":"342","status":"已決標待開工","decidedate":"2022/12/16","startdate":"2024/2/29","finishdate":"2027/12/31"}
+    ,
+    {"city":"新北市","casename":"樹林區樹德段743等14筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和安邦段青年社會住宅","mayor":"新北市政府","households":"632","status":"興建中","decidedate":"2019/6/26","startdate":"2020/7/10","finishdate":"2024/4/30"}
+    ,
+    {"city":"新北市","casename":"中和保二基地警消專案社宅","mayor":"住都中心","households":"317","status":"興建中","decidedate":"2020/6/20","startdate":"2021/2/5","finishdate":"2025/3/31"}
+    ,
+    {"city":"新北市","casename":"中和秀峰青年社會住宅","mayor":"新北市政府","households":"816","status":"新完工","decidedate":"","startdate":"2014/1/28","finishdate":"2016/10/15"}
+    ,
+    {"city":"新北市","casename":"莒光安居","mayor":"住都中心","households":"296","status":"興建中","decidedate":"2021/10/21","startdate":"2022/9/16","finishdate":"2026/1/31"}
+    ,
+    {"city":"新北市","casename":"連城安居","mayor":"住都中心","households":"370","status":"興建中","decidedate":"2022/10/13","startdate":"2023/10/2","finishdate":"2027/8/31"}
+    ,
+    {"city":"新北市","casename":"德穗安居","mayor":"住都中心","households":"339","status":"已決標待開工","decidedate":"2023/12/14","startdate":"2025/2/28","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"保二總隊基地都市更新案","mayor":"住都中心","households":"399","status":"興建中","decidedate":"2021/3/25","startdate":"2022/11/7","finishdate":"2028/5/31"}
+    ,
+    {"city":"新北市","casename":"民樂段15、14、13、11、9、10、8、7、6、12等10筆地號","mayor":"新北市政府","households":"44","status":"興建中","decidedate":"2019/3/28","startdate":"2019/3/28","finishdate":"2024/6/30"}
+    ,
+    {"city":"新北市","casename":"南山段848等10筆地號","mayor":"新北市政府","households":"60","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新和段237等41筆地號","mayor":"新北市政府","households":"153","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"錦和段25等24筆地號","mayor":"新北市政府","households":"64","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和區國道段145等24筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和區中和段43等27筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和區捷運段376-1等65筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"南勢段955等48筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和區復興段613等19筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和區台貿段1274等25筆地號","mayor":"新北市政府","households":"6","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"中和灰?","mayor":"新北市政府","households":"1300","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"中和區景新段63等6筆地號","mayor":"新北市政府","households":"68","status":"已決標待開工","decidedate":"2020/7/7","startdate":"2024/7/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"新北市中和區景福段695地號等7筆土地都市更新計畫案","mayor":"住都中心","households":"2","status":"興建中","decidedate":"","startdate":"2021/1/28","finishdate":"2024/12/31"}
+    ,
+    {"city":"新北市","casename":"土城員和段青年社會住宅","mayor":"新北市政府","households":"534","status":"新完工","decidedate":"2018/3/28","startdate":"2019/3/20","finishdate":"2021/12/31"}
+    ,
+    {"city":"新北市","casename":"土城永和段青年社會住宅","mayor":"新北市政府","households":"66","status":"新完工","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2023/11/22"}
+    ,
+    {"city":"新北市","casename":"土城大安段青年社會住宅","mayor":"新北市政府","households":"88","status":"新完工","decidedate":"2019/11/28","startdate":"2020/12/18","finishdate":"2023/11/8"}
+    ,
+    {"city":"新北市","casename":"土城明德(211、218)","mayor":"新北市政府","households":"30","status":"新完工","decidedate":"","startdate":"2017/12/19","finishdate":"2020/3/29"}
+    ,
+    {"city":"新北市","casename":"土城明德(23)","mayor":"新北市政府","households":"24","status":"興建中","decidedate":"2018/8/10","startdate":"2018/9/19","finishdate":"2024/1/31"}
+    ,
+    {"city":"新北市","casename":"頂福安居B","mayor":"住都中心","households":"481","status":"興建中","decidedate":"2021/11/26","startdate":"2023/4/24","finishdate":"2026/11/30"}
+    ,
+    {"city":"新北市","casename":"青山安居","mayor":"住都中心","households":"600","status":"規劃中","decidedate":"2024/12/31","startdate":"2026/1/31","finishdate":"2030/1/31"}
+    ,
+    {"city":"新北市","casename":"土城明德3","mayor":"新北市政府","households":"11","status":"興建中","decidedate":"2019/10/16","startdate":"2019/12/25","finishdate":"2024/1/31"}
+    ,
+    {"city":"新北市","casename":"永福好室","mayor":"住都中心","households":"170","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/9/30","finishdate":"2028/9/30"}
+    ,
+    {"city":"新北市","casename":"頂埔安居","mayor":"住都中心","households":"253","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/9/30","finishdate":"2028/9/30"}
+    ,
+    {"city":"新北市","casename":"頂福安居A","mayor":"住都中心","households":"813","status":"興建中","decidedate":"2021/11/26","startdate":"2023/4/24","finishdate":"2026/11/30"}
+    ,
+    {"city":"新北市","casename":"明德段306地號等3筆土地","mayor":"新北市政府","households":"12","status":"新完工","decidedate":"2019/10/18","startdate":"2019/10/18","finishdate":"2023/7/24"}
+    ,
+    {"city":"新北市","casename":"員和段128、127、123-11、123-4等4筆地號","mayor":"新北市政府","households":"135","status":"興建中","decidedate":"2020/7/24","startdate":"2020/7/31","finishdate":"2025/6/30"}
+    ,
+    {"city":"新北市","casename":"土城彈藥庫","mayor":"新北市政府","households":"2200","status":"規劃中","decidedate":"2025/5/31","startdate":"2025/12/31","finishdate":"2029/2/28"}
+    ,
+    {"city":"新北市","casename":"新北市土城區運校段12地號等7筆土地都市更新計畫案","mayor":"住都中心","households":"7","status":"新完工","decidedate":"2022/10/20","startdate":"2019/5/7","finishdate":"2023/5/2"}
+    ,
+    {"city":"新北市","casename":"福城好室","mayor":"住都中心","households":"88","status":"已決標待開工","decidedate":"2023/12/21","startdate":"2025/3/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"新北市","casename":"淡金安居","mayor":"住都中心","households":"620","status":"已決標待開工","decidedate":"2023/7/13","startdate":"2024/7/31","finishdate":"2028/9/30"}
+    ,
+    {"city":"新北市","casename":"淡海安居","mayor":"住都中心","households":"1140","status":"興建中","decidedate":"2022/1/28","startdate":"2023/3/24","finishdate":"2027/6/30"}
+    ,
+    {"city":"新北市","casename":"淡水海天青年社會住宅","mayor":"新北市政府","households":"85","status":"規劃中","decidedate":"2025/1/31","startdate":"2026/1/31","finishdate":"2028/8/31"}
+    ,
+    {"city":"新北市","casename":"汐止花東新村","mayor":"新北市政府","households":"126","status":"既有","decidedate":"","startdate":"","finishdate":"1999/6/24"}
+    ,
+    {"city":"新北市","casename":"崇德好室","mayor":"住都中心","households":"186","status":"興建中","decidedate":"2022/12/29","startdate":"2023/11/8","finishdate":"2027/6/30"}
+    ,
+    {"city":"新北市","casename":"永和國光青年住宅","mayor":"新北市政府","households":"7","status":"既有","decidedate":"2012/1/16","startdate":"2012/5/15","finishdate":"2013/4/12"}
+    ,
+    {"city":"新北市","casename":"永和中正橋青年社會住宅","mayor":"新北市政府","households":"70","status":"新完工","decidedate":"2017/10/20","startdate":"2020/12/7","finishdate":"2021/12/31"}
+    ,
+    {"city":"新北市","casename":"永和秀朗青年社會住宅","mayor":"新北市政府","households":"36","status":"新完工","decidedate":"2013/12/13","startdate":"2015/2/10","finishdate":"2017/3/21"}
+    ,
+    {"city":"新北市","casename":"中信段912等28筆地號","mayor":"新北市政府","households":"4","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"保福段453等221筆地號","mayor":"新北市政府","households":"12","status":"已決標待開工","decidedate":"2021/12/29","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"永和區文化段446等136筆地號","mayor":"新北市政府","households":"1","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"永和區樂華段133等90筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"得和段961等36筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"永和區保福段1208等66筆地號","mayor":"新北市政府","households":"2","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"永和區福和段732等87筆地號","mayor":"新北市政府","households":"3","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"永和區信義段435等37筆地號","mayor":"新北市政府","households":"7","status":"規劃中","decidedate":"","startdate":"2024/12/31","finishdate":"2031/6/30"}
+    ,
+    {"city":"新北市","casename":"新北市永和區信義段435地號等39筆土地都市更新計畫案","mayor":"住都中心","households":"8","status":"已決標待開工","decidedate":"2023/5/3","startdate":"2024/5/31","finishdate":"2027/4/30"}
+    ,
+    {"city":"新北市","casename":"新北市永和區中興段689地號等140筆(原139筆)土地都市更新計畫案","mayor":"住都中心","households":"4","status":"已決標待開工","decidedate":"2023/4/28","startdate":"2024/10/31","finishdate":"2028/3/31"}
+    ,
+    {"city":"桃園市","casename":"東門段208-1地號都市更新事業(東門停車場)","mayor":"桃園市政府","households":"70","status":"興建中","decidedate":"2018/9/12","startdate":"2020/7/14","finishdate":"2024/1/31"}
+    ,
+    {"city":"桃園市","casename":"中路一號社會住宅","mayor":"桃園市政府","households":"169","status":"新完工","decidedate":"2018/8/24","startdate":"2018/10/31","finishdate":"2021/5/17"}
+    ,
+    {"city":"桃園市","casename":"中路二號社會住宅","mayor":"桃園市政府","households":"212","status":"新完工","decidedate":"2016/8/3","startdate":"2017/1/25","finishdate":"2019/6/21"}
+    ,
+    {"city":"桃園市","casename":"中正段1209地號等16筆土地及法政段1222等3筆土地都市更新事業(正光路警察宿舍)","mayor":"桃園市政府","households":"255","status":"興建中","decidedate":"2022/12/29","startdate":"2023/5/19","finishdate":"2026/10/31"}
+    ,
+    {"city":"桃園市","casename":"中路三號社會住宅","mayor":"桃園市政府","households":"417","status":"新完工","decidedate":"2018/8/30","startdate":"2018/11/19","finishdate":"2022/6/27"}
+    ,
+    {"city":"桃園市","casename":"慈文安居","mayor":"住都中心","households":"288","status":"興建中","decidedate":"2021/3/9","startdate":"2022/3/7","finishdate":"2025/1/31"}
+    ,
+    {"city":"桃園市","casename":"桃園區三民段","mayor":"桃園市政府","households":"120","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/10/31"}
+    ,
+    {"city":"桃園市","casename":"桃園區桃合段","mayor":"桃園市政府","households":"260","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"桃園市","casename":"中路地區整體開發案","mayor":"桃園市政府","households":"600","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
+    ,
+    {"city":"桃園市","casename":"中路四號社會住宅","mayor":"桃園市政府","households":"350","status":"新完工","decidedate":"2018/12/10","startdate":"2019/2/27","finishdate":"2022/9/16"}
+    ,
+    {"city":"桃園市","casename":"桃園段武陵小段31地號都市更新事業(復興路)","mayor":"桃園市政府","households":"75","status":"已決標待開工","decidedate":"2020/9/1","startdate":"2024/1/31","finishdate":"2026/8/31"}
+    ,
+    {"city":"桃園市","casename":"大溪區仁武段(石門管理處)","mayor":"桃園市政府","households":"45","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2029/8/31"}
+    ,
+    {"city":"桃園市","casename":"大溪區田心子段","mayor":"桃園市政府","households":"40","status":"規劃中","decidedate":"2024/5/31","startdate":"2025/5/31","finishdate":"2027/5/31"}
+    ,
+    {"city":"桃園市","casename":"太武安居","mayor":"住都中心","households":"486","status":"已決標待開工","decidedate":"2023/3/15","startdate":"2024/6/30","finishdate":"2027/11/30"}
+    ,
+    {"city":"桃園市","casename":"埔頂營區","mayor":"桃園市政府","households":"640","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
+    ,
+    {"city":"桃園市","casename":"中壢區內壢段","mayor":"桃園市政府","households":"230","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
+    ,
+    {"city":"桃園市","casename":"北富台新村","mayor":"桃園市政府","households":"210","status":"規劃中","decidedate":"2024/4/30","startdate":"2024/11/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"桃園市","casename":"富台安居","mayor":"住都中心","households":"310","status":"已決標待開工","decidedate":"2023/11/27","startdate":"2024/11/30","finishdate":"2028/8/31"}
+    ,
+    {"city":"桃園市","casename":"中壢一號社會住宅","mayor":"桃園市政府","households":"957","status":"新完工","decidedate":"2018/7/16","startdate":"2019/8/7","finishdate":"2022/8/12"}
+    ,
+    {"city":"桃園市","casename":"中壢老小段100地號都市更新事業(中興巷警察宿舍)","mayor":"桃園市政府","households":"94","status":"興建中","decidedate":"2018/1/5","startdate":"2020/4/1","finishdate":"2024/1/31"}
+    ,
+    {"city":"桃園市","casename":"中壢區雙嶺段(石門管理處)","mayor":"桃園市政府","households":"77","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
+    ,
+    {"city":"桃園市","casename":"中壢區遠東段(居廣、居敬、篤行五村)","mayor":"桃園市政府","households":"350","status":"規劃中","decidedate":"2024/2/29","startdate":"2024/11/30","finishdate":"2028/1/31"}
+    ,
+    {"city":"桃園市","casename":"龍岡好室","mayor":"住都中心","households":"150","status":"興建中","decidedate":"2021/5/19","startdate":"2022/6/2","finishdate":"2024/2/29"}
+    ,
+    {"city":"桃園市","casename":"龍安安居","mayor":"住都中心","households":"465","status":"已決標待開工","decidedate":"2022/12/29","startdate":"2024/12/31","finishdate":"2028/9/30"}
+    ,
+    {"city":"桃園市","casename":"振興安居","mayor":"住都中心","households":"370","status":"已決標待開工","decidedate":"2023/8/16","startdate":"2024/10/31","finishdate":"2028/5/31"}
+    ,
+    {"city":"桃園市","casename":"捷運A20站","mayor":"桃園市政府","households":"400","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/4/30","finishdate":"2028/1/31"}
+    ,
+    {"city":"桃園市","casename":"捷運A21站","mayor":"桃園市政府","households":"280","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2030/8/31"}
+    ,
+    {"city":"桃園市","casename":"龍岡體育園區","mayor":"桃園市政府","households":"640","status":"規劃中","decidedate":"2026/12/31","startdate":"2027/8/31","finishdate":"2031/2/28"}
+    ,
+    {"city":"桃園市","casename":"中壢區青溪段(桃園管理處)","mayor":"桃園市政府","households":"80","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/9/30","finishdate":"2027/12/31"}
+    ,
+    {"city":"桃園市","casename":"楊梅一號社會住宅-第一期","mayor":"桃園市政府","households":"216","status":"新完工","decidedate":"2019/10/24","startdate":"2020/7/18","finishdate":"2023/9/3"}
+    ,
+    {"city":"桃園市","casename":"楊梅一號社會住宅-第二期","mayor":"桃園市政府","households":"284","status":"規劃中","decidedate":"2025/3/31","startdate":"2025/9/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"桃園市","casename":"埔心安居","mayor":"住都中心","households":"486","status":"已決標待開工","decidedate":"2023/6/28","startdate":"2024/9/30","finishdate":"2027/7/31"}
+    ,
+    {"city":"桃園市","casename":"蘆竹區大興段","mayor":"桃園市政府","households":"73","status":"已決標待開工","decidedate":"2023/7/14","startdate":"2024/8/31","finishdate":"2027/7/31"}
+    ,
+    {"city":"桃園市","casename":"蘆竹二號社會住宅","mayor":"桃園市政府","households":"416","status":"新完工","decidedate":"2017/6/26","startdate":"2018/4/10","finishdate":"2022/1/25"}
+    ,
+    {"city":"桃園市","casename":"蘆竹一號社會住宅","mayor":"桃園市政府","households":"114","status":"新完工","decidedate":"2019/11/8","startdate":"2020/1/22","finishdate":"2022/10/3"}
+    ,
+    {"city":"桃園市","casename":"大華安居","mayor":"住都中心","households":"225","status":"已決標待開工","decidedate":"2023/12/29","startdate":"2025/3/31","finishdate":"2027/1/31"}
+    ,
+    {"city":"桃園市","casename":"捷運A10站","mayor":"桃園市政府","households":"352","status":"已決標待開工","decidedate":"2023/7/14","startdate":"2024/8/31","finishdate":"2027/7/31"}
+    ,
+    {"city":"桃園市","casename":"大園區北園段","mayor":"桃園市政府","households":"160","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
+    ,
+    {"city":"桃園市","casename":"龜山區興安段","mayor":"桃園市政府","households":"125","status":"已決標待開工","decidedate":"2023/7/31","startdate":"2024/8/31","finishdate":"2027/10/31"}
+    ,
+    {"city":"桃園市","casename":"龜山區善捷段","mayor":"桃園市政府","households":"295","status":"已決標待開工","decidedate":"2023/7/31","startdate":"2024/8/31","finishdate":"2027/10/31"}
+    ,
+    {"city":"桃園市","casename":"樂善安居","mayor":"住都中心","households":"790","status":"已決標待開工","decidedate":"2023/6/28","startdate":"2024/9/30","finishdate":"2028/12/31"}
+    ,
+    {"city":"桃園市","casename":"八德一號社會住宅","mayor":"桃園市政府","households":"418","status":"新完工","decidedate":"2017/5/3","startdate":"2017/10/31","finishdate":"2020/7/21"}
+    ,
+    {"city":"桃園市","casename":"八德二號社會住宅","mayor":"桃園市政府","households":"354","status":"新完工","decidedate":"2017/5/23","startdate":"2017/5/24","finishdate":"2020/12/30"}
+    ,
+    {"city":"桃園市","casename":"八德三號社會住宅","mayor":"桃園市政府","households":"524","status":"新完工","decidedate":"2017/12/14","startdate":"2018/9/7","finishdate":"2023/2/21"}
+    ,
+    {"city":"桃園市","casename":"八德區茄苳段","mayor":"桃園市政府","households":"100","status":"規劃中","decidedate":"2024/12/31","startdate":"2025/10/31","finishdate":"2028/10/31"}
+    ,
+    {"city":"桃園市","casename":"八德區興豐段","mayor":"桃園市政府","households":"140","status":"規劃中","decidedate":"2028/7/31","startdate":"2029/1/31","finishdate":"2031/8/31"}
+    ,
+    {"city":"桃園市","casename":"上林好室","mayor":"住都中心","households":"140","status":"已決標待開工","decidedate":"2023/4/18","startdate":"2025/2/28","finishdate":"2030/7/31"}
+    ,
+    {"city":"桃園市","casename":"平鎮一號社會住宅","mayor":"桃園市政府","households":"64","status":"新完工","decidedate":"2019/10/24","startdate":"2020/7/18","finishdate":"2023/3/25"}
+    ,
+    {"city":"桃園市","casename":"湧光安居","mayor":"住都中心","households":"239","status":"已決標待開工","decidedate":"2023/7/18","startdate":"2024/9/30","finishdate":"2028/5/31"}
+    ,
+    {"city":"臺中市","casename":"東勢子段","mayor":"臺中市政府","households":"100","status":"興建中","decidedate":"2020/7/6","startdate":"2021/3/16","finishdate":"2024/3/31"}
+    ,
+    {"city":"臺中市","casename":"尚武段","mayor":"臺中市政府","households":"802","status":"新完工","decidedate":"2019/1/11","startdate":"2019/4/2","finishdate":"2023/5/6"}
+    ,
+    {"city":"臺中市","casename":"東區練武段1060地號","mayor":"臺中市政府","households":"486","status":"已決標待開工","decidedate":"2023/7/13","startdate":"2024/3/31","finishdate":"2026/6/30"}
+    ,
+    {"city":"臺中市","casename":"東區尚武段二期","mayor":"臺中市政府","households":"20","status":"規劃中","decidedate":"2024/7/31","startdate":"2024/12/31","finishdate":"2026/12/31"}
+    ,
+    {"city":"臺中市","casename":"明新安居","mayor":"住都中心","households":"292","status":"規劃中","decidedate":"2024/3/31","startdate":"2025/3/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"臺中市","casename":"北區圓滿好宅","mayor":"臺中市政府","households":"1085","status":"規劃中","decidedate":"2024/3/31","startdate":"2024/10/31","finishdate":"2029/6/30"}
+    ,
+    {"city":"臺中市","casename":"國安段一期","mayor":"臺中市政府","households":"500","status":"興建中","decidedate":"2020/7/31","startdate":"2021/5/11","finishdate":"2024/6/30"}
+    ,
+    {"city":"臺中市","casename":"惠來厝段","mayor":"臺中市政府","households":"400","status":"興建中","decidedate":"2021/8/27","startdate":"2021/12/22","finishdate":"2025/7/31"}
+    ,
+    {"city":"臺中市","casename":"惠民安居","mayor":"住都中心","households":"210","status":"興建中","decidedate":"2022/3/22","startdate":"2023/6/2","finishdate":"2027/2/28"}
+    ,
+    {"city":"臺中市","casename":"鑫港尾段","mayor":"臺中市政府","households":"125","status":"已決標待開工","decidedate":"2023/7/7","startdate":"2025/3/31","finishdate":"2027/12/31"}
+    ,
+    {"city":"臺中市","casename":"國安段二期暨三期","mayor":"臺中市政府","households":"780","status":"已決標待開工","decidedate":"2023/9/15","startdate":"2024/7/31","finishdate":"2029/4/30"}
+    ,
+    {"city":"臺中市","casename":"建功段4-1地號","mayor":"臺中市政府","households":"98","status":"興建中","decidedate":"","startdate":"2019/10/28","finishdate":"2024/5/31"}
+    ,
+    {"city":"臺中市","casename":"建功段26地號","mayor":"臺中市政府","households":"78","status":"新完工","decidedate":"","startdate":"2019/9/12","finishdate":"2022/10/28"}
+    ,
+    {"city":"臺中市","casename":"精密機械科技創新園區「勞工住宅」社區","mayor":"臺中市政府","households":"190","status":"新完工","decidedate":"","startdate":"2017/4/28","finishdate":"2019/8/27"}
+    ,
+    {"city":"臺中市","casename":"春社安居B","mayor":"住都中心","households":"351","status":"規劃中","decidedate":"2024/9/30","startdate":"2026/1/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"臺中市","casename":"春社安居A","mayor":"住都中心","households":"402","status":"已決標待開工","decidedate":"2022/6/30","startdate":"2024/3/31","finishdate":"2027/5/31"}
+    ,
+    {"city":"臺中市","casename":"南屯區建功段31-1地號","mayor":"臺中市政府","households":"91","status":"興建中","decidedate":"","startdate":"2020/9/30","finishdate":"2024/4/30"}
+    ,
+    {"city":"臺中市","casename":"南屯區建功段7地號","mayor":"臺中市政府","households":"101","status":"興建中","decidedate":"","startdate":"2021/8/31","finishdate":"2025/12/31"}
+    ,
+    {"city":"臺中市","casename":"春安安居","mayor":"住都中心","households":"306","status":"已決標待開工","decidedate":"2023/12/22","startdate":"2024/12/31","finishdate":"2028/8/31"}
+    ,
+    {"city":"臺中市","casename":"同榮段","mayor":"臺中市政府","households":"560","status":"興建中","decidedate":"2018/7/31","startdate":"2018/11/7","finishdate":"2024/12/31"}
+    ,
+    {"city":"臺中市","casename":"北屯段","mayor":"臺中市政府","households":"220","status":"新完工","decidedate":"2018/5/25","startdate":"2018/11/15","finishdate":"2022/4/29"}
+    ,
+    {"city":"臺中市","casename":"廍子安居","mayor":"住都中心","households":"1390","status":"已決標待開工","decidedate":"2023/5/24","startdate":"2024/10/31","finishdate":"2028/10/31"}
+    ,
+    {"city":"臺中市","casename":"國豐安居","mayor":"住都中心","households":"210","status":"規劃中","decidedate":"2024/11/30","startdate":"2025/11/30","finishdate":"2029/11/30"}
+    ,
+    {"city":"臺中市","casename":"東光好室","mayor":"住都中心","households":"123","status":"已決標待開工","decidedate":"2023/6/30","startdate":"2024/7/31","finishdate":"2027/10/31"}
+    ,
+    {"city":"臺中市","casename":"松竹好室","mayor":"住都中心","households":"110","status":"已決標待開工","decidedate":"2023/6/30","startdate":"2024/7/31","finishdate":"2027/10/31"}
+    ,
+    {"city":"臺中市","casename":"北屯洲際好宅","mayor":"臺中市政府","households":"890","status":"規劃中","decidedate":"2024/6/30","startdate":"2025/2/28","finishdate":"2029/12/31"}
+    ,
+    {"city":"臺中市","casename":"北屯區同榮段二期","mayor":"臺中市政府","households":"310","status":"規劃中","decidedate":"2024/4/30","startdate":"2024/12/31","finishdate":"2027/7/31"}
+    ,
+    {"city":"臺中市","casename":"安康段一期","mayor":"臺中市政府","households":"200","status":"新完工","decidedate":"2015/10/2","startdate":"2015/11/9","finishdate":"2018/3/20"}
+    ,
+    {"city":"臺中市","casename":"安康段二期","mayor":"臺中市政府","households":"500","status":"興建中","decidedate":"2019/11/5","startdate":"2020/2/11","finishdate":"2025/2/28"}
+    ,
+    {"city":"臺中市","casename":"沙鹿區平等段","mayor":"臺中市政府","households":"287","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/2/28","finishdate":"2028/2/29"}
+    ,
+    {"city":"臺中市","casename":"三民段一期","mayor":"臺中市政府","households":"300","status":"新完工","decidedate":"2018/8/14","startdate":"2018/10/15","finishdate":"2021/6/30"}
+    ,
+    {"city":"臺中市","casename":"頭家安居","mayor":"住都中心","households":"490","status":"興建中","decidedate":"2021/8/27","startdate":"2023/8/7","finishdate":"2026/1/31"}
+    ,
+    {"city":"臺中市","casename":"烏日區新榮和段","mayor":"臺中市政府","households":"270","status":"興建中","decidedate":"2021/10/5","startdate":"2022/5/16","finishdate":"2025/3/31"}
+    ,
+    {"city":"臺中市","casename":"榮泉安居","mayor":"住都中心","households":"205","status":"已決標待開工","decidedate":"2022/9/23","startdate":"2024/7/31","finishdate":"2028/3/31"}
+    ,
+    {"city":"臺中市","casename":"台糖公營學苑","mayor":"住都中心","households":"203","status":"新完工","decidedate":"2022/8/29","startdate":"2023/4/12","finishdate":"2023/7/10"}
+    ,
+    {"city":"臺中市","casename":"吉峰安居","mayor":"住都中心","households":"533","status":"已決標待開工","decidedate":"2023/6/6","startdate":"2024/2/29","finishdate":"2027/8/31"}
+    ,
+    {"city":"臺中市","casename":"育賢段一期","mayor":"臺中市政府","households":"300","status":"新完工","decidedate":"2017/6/29","startdate":"2017/8/12","finishdate":"2020/6/29"}
+    ,
+    {"city":"臺中市","casename":"育賢段三期","mayor":"臺中市政府","households":"250","status":"興建中","decidedate":"2021/4/9","startdate":"2021/6/23","finishdate":"2024/9/30"}
+    ,
+    {"city":"臺中市","casename":"育賢段二期","mayor":"臺中市政府","households":"428","status":"新完工","decidedate":"2018/11/28","startdate":"2019/2/17","finishdate":"2023/6/5"}
+    ,
+    {"city":"臺中市","casename":"永億段","mayor":"臺中市政府","households":"160","status":"興建中","decidedate":"2020/11/4","startdate":"2021/3/1","finishdate":"2024/4/30"}
+    ,
+    {"city":"臺中市","casename":"光正段一期","mayor":"臺中市政府","households":"201","status":"新完工","decidedate":"2016/7/20","startdate":"2016/9/1","finishdate":"2018/10/27"}
+    ,
+    {"city":"臺中市","casename":"光正段二期","mayor":"臺中市政府","households":"230","status":"興建中","decidedate":"2020/11/10","startdate":"2021/3/28","finishdate":"2024/3/31"}
+    ,
+    {"city":"臺中市","casename":"大里區光正段三期","mayor":"臺中市政府","households":"550","status":"規劃中","decidedate":"2024/4/30","startdate":"2025/6/30","finishdate":"2028/12/31"}
+    ,
+    {"city":"臺南市","casename":"平實營區更新案第一期","mayor":"臺南市政府","households":"220","status":"已決標待開工","decidedate":"2021/2/28","startdate":"2024/5/31","finishdate":"2027/6/30"}
+    ,
+    {"city":"臺南市","casename":"平實營區更新案第二期","mayor":"臺南市政府","households":"175","status":"已決標待開工","decidedate":"2021/12/3","startdate":"2024/12/31","finishdate":"2027/12/31"}
+    ,
+    {"city":"臺南市","casename":"新都安居","mayor":"住都中心","households":"621","status":"興建中","decidedate":"2021/3/18","startdate":"2021/10/1","finishdate":"2025/1/31"}
+    ,
+    {"city":"臺南市","casename":"開南安居A","mayor":"住都中心","households":"150","status":"興建中","decidedate":"2021/10/21","startdate":"2021/7/13","finishdate":"2025/9/30"}
+    ,
+    {"city":"臺南市","casename":"開南安居B","mayor":"住都中心","households":"150","status":"興建中","decidedate":"2021/10/21","startdate":"2021/7/13","finishdate":"2025/9/30"}
+    ,
+    {"city":"臺南市","casename":"鯤鯓安居","mayor":"住都中心","households":"665","status":"已決標待開工","decidedate":"2023/12/22","startdate":"2024/12/31","finishdate":"2028/8/31"}
+    ,
+    {"city":"臺南市","casename":"小東路北側基地公營住宅","mayor":"臺南市政府","households":"379","status":"興建中","decidedate":"2021/5/20","startdate":"2021/7/1","finishdate":"2025/1/31"}
+    ,
+    {"city":"臺南市","casename":"自強新村","mayor":"臺南市政府","households":"160","status":"已決標待開工","decidedate":"2022/8/9","startdate":"2024/12/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"臺南市","casename":"中興新城","mayor":"臺南市政府","households":"104","status":"已決標待開工","decidedate":"2022/2/25","startdate":"2024/7/31","finishdate":"2028/7/31"}
+    ,
+    {"city":"臺南市","casename":"九六新村","mayor":"臺南市政府","households":"250","status":"規劃中","decidedate":"2024/9/30","startdate":"2025/6/30","finishdate":"2028/6/30"}
+    ,
+    {"city":"臺南市","casename":"和順安居","mayor":"住都中心","households":"1703","status":"已決標待開工","decidedate":"2022/12/23","startdate":"2024/4/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"臺南市","casename":"億載安居","mayor":"住都中心","households":"537","status":"興建中","decidedate":"2022/12/8","startdate":"2023/9/23","finishdate":"2027/6/30"}
+    ,
+    {"city":"臺南市","casename":"長勝好室","mayor":"住都中心","households":"140","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/5/31","finishdate":"2027/10/31"}
+    ,
+    {"city":"臺南市","casename":"新市安居","mayor":"住都中心","households":"670","status":"興建中","decidedate":"2021/9/16","startdate":"2022/9/15","finishdate":"2025/9/30"}
+    ,
+    {"city":"臺南市","casename":"二空新村更新案(B區)第二期","mayor":"臺南市政府","households":"170","status":"已決標待開工","decidedate":"2021/2/28","startdate":"2024/6/30","finishdate":"2026/12/31"}
+    ,
+    {"city":"臺南市","casename":"二空新村更新案(A區)第一期","mayor":"臺南市政府","households":"75","status":"興建中","decidedate":"2020/2/29","startdate":"2021/10/14","finishdate":"2025/3/31"}
+    ,
+    {"city":"臺南市","casename":"裕忠安居","mayor":"住都中心","households":"610","status":"已決標待開工","decidedate":"2023/12/28","startdate":"2024/12/31","finishdate":"2028/7/31"}
+    ,
+    {"city":"臺南市","casename":"台糖歸仁學苑","mayor":"住都中心","households":"202","status":"既有","decidedate":"2022/8/29","startdate":"2023/4/12","finishdate":"2023/7/10"}
+    ,
+    {"city":"臺南市","casename":"精忠二村更新案","mayor":"臺南市政府","households":"110","status":"興建中","decidedate":"2020/2/29","startdate":"2021/10/5","finishdate":"2024/7/31"}
+    ,
+    {"city":"臺南市","casename":"橋北安居","mayor":"住都中心","households":"241","status":"興建中","decidedate":"2022/6/28","startdate":"2023/5/12","finishdate":"2026/11/30"}
+    ,
+    {"city":"臺南市","casename":"正強安居","mayor":"住都中心","households":"464","status":"已決標待開工","decidedate":"2023/6/27","startdate":"2024/8/31","finishdate":"2028/2/29"}
+    ,
+    {"city":"臺南市","casename":"東橋安居","mayor":"住都中心","households":"220","status":"興建中","decidedate":"2022/3/10","startdate":"2023/5/18","finishdate":"2026/2/28"}
+    ,
+    {"city":"臺南市","casename":"永康區康橋段","mayor":"臺南市政府","households":"445","status":"已決標待開工","decidedate":"2022/11/7","startdate":"2024/10/31","finishdate":"2030/12/31"}
+    ,
+    {"city":"高雄市","casename":"前鋒東區國宅","mayor":"高雄市政府","households":"84","status":"既有","decidedate":"","startdate":"1980/3/9","finishdate":"1981/12/30"}
+    ,
+    {"city":"高雄市","casename":"翠華國宅(二期社區)","mayor":"高雄市政府","households":"10","status":"既有","decidedate":"1996/3/1","startdate":"1996/3/2","finishdate":"1999/5/14"}
+    ,
+    {"city":"高雄市","casename":"翠華路銀髮家園","mayor":"高雄市政府","households":"6","status":"既有","decidedate":"1996/3/1","startdate":"1996/3/2","finishdate":"1999/5/14"}
+    ,
+    {"city":"高雄市","casename":"翠華國宅(一期社區)","mayor":"高雄市政府","households":"15","status":"既有","decidedate":"2016/12/31","startdate":"2016/1/1","finishdate":"2016/10/1"}
+    ,
+    {"city":"高雄市","casename":"崇實安居","mayor":"住都中心","households":"859","status":"興建中","decidedate":"2021/3/18","startdate":"2021/11/15","finishdate":"2025/5/31"}
+    ,
+    {"city":"高雄市","casename":"福山安居","mayor":"住都中心","households":"220","status":"興建中","decidedate":"2021/12/16","startdate":"2022/9/1","finishdate":"2025/11/30"}
+    ,
+    {"city":"高雄市","casename":"永清安居A","mayor":"住都中心","households":"800","status":"已決標待開工","decidedate":"2023/6/20","startdate":"2024/6/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"高雄市","casename":"永清安居B","mayor":"住都中心","households":"400","status":"已決標待開工","decidedate":"2023/6/20","startdate":"2024/6/30","finishdate":"2028/3/31"}
+    ,
+    {"city":"高雄市","casename":"永清安居C","mayor":"住都中心","households":"396","status":"已決標待開工","decidedate":"2023/12/15","startdate":"2025/3/31","finishdate":"2028/6/30"}
+    ,
+    {"city":"高雄市","casename":"海景安居A","mayor":"住都中心","households":"312","status":"已決標待開工","decidedate":"2023/10/13","startdate":"2024/10/31","finishdate":"2028/6/30"}
+    ,
+    {"city":"高雄市","casename":"海景安居B","mayor":"住都中心","households":"282","status":"已決標待開工","decidedate":"2023/10/24","startdate":"2024/12/31","finishdate":"2028/12/31"}
+    ,
+    {"city":"高雄市","casename":"海富安居","mayor":"住都中心","households":"724","status":"已決標待開工","decidedate":"2023/9/21","startdate":"2024/10/31","finishdate":"2028/5/31"}
+    ,
+    {"city":"高雄市","casename":"清豐安居","mayor":"住都中心","households":"1594","status":"興建中","decidedate":"2021/12/21","startdate":"2022/12/27","finishdate":"2026/10/31"}
+    ,
+    {"city":"高雄市","casename":"台糖楠梓學苑","mayor":"住都中心","households":"544","status":"新完工","decidedate":"2022/8/29","startdate":"2023/4/12","finishdate":"2023/7/10"}
+    ,
+    {"city":"高雄市","casename":"凱旋青樹(苓雅區機關用地11第一期社會暨安置住宅)","mayor":"高雄市政府","households":"245","status":"新完工","decidedate":"2019/2/20","startdate":"2019/5/30","finishdate":"2022/11/29"}
+    ,
+    {"city":"高雄市","casename":"新都段公營出租住宅","mayor":"高雄市政府","households":"114","status":"興建中","decidedate":"2021/9/15","startdate":"2022/3/21","finishdate":"2024/5/31"}
+    ,
+    {"city":"高雄市","casename":"美都安居","mayor":"住都中心","households":"325","status":"興建中","decidedate":"2021/5/27","startdate":"2022/1/24","finishdate":"2025/4/30"}
+    ,
+    {"city":"高雄市","casename":"明仁好室","mayor":"住都中心","households":"139","status":"興建中","decidedate":"2021/6/24","startdate":"2021/12/23","finishdate":"2025/2/28"}
+    ,
+    {"city":"高雄市","casename":"本和安居","mayor":"住都中心","households":"245","status":"興建中","decidedate":"2022/12/22","startdate":"2023/8/3","finishdate":"2027/5/31"}
+    ,
+    {"city":"高雄市","casename":"前金警察宿舍","mayor":"高雄市政府","households":"48","status":"新完工","decidedate":"2019/3/13","startdate":"2019/4/30","finishdate":"2020/5/29"}
+    ,
+    {"city":"高雄市","casename":"七賢安居","mayor":"住都中心","households":"606","status":"興建中","decidedate":"2022/12/1","startdate":"2022/12/30","finishdate":"2028/6/30"}
+    ,
+    {"city":"高雄市","casename":"復興西區國宅","mayor":"高雄市政府","households":"90","status":"既有","decidedate":"2016/12/31","startdate":"2016/1/1","finishdate":"2016/1/1"}
+    ,
+    {"city":"高雄市","casename":"前鎮區獅甲段二小段586地號","mayor":"高雄市政府","households":"850","status":"規劃中","decidedate":"","startdate":"2024/10/31","finishdate":"2029/10/31"}
+    ,
+    {"city":"高雄市","casename":"興邦安居(二期)","mayor":"住都中心","households":"960","status":"已決標待開工","decidedate":"2023/6/29","startdate":"2024/7/31","finishdate":"2028/3/31"}
+    ,
+    {"city":"高雄市","casename":"梧州好室","mayor":"住都中心","households":"99","status":"興建中","decidedate":"2023/3/17","startdate":"2023/3/18","finishdate":"2024/4/30"}
+    ,
+    {"city":"高雄市","casename":"前鎮亞灣智慧公宅(第一期)新建統包工程","mayor":"高雄市政府","households":"634","status":"興建中","decidedate":"2022/10/11","startdate":"2023/8/3","finishdate":"2027/6/30"}
+    ,
+    {"city":"高雄市","casename":"草衙安居","mayor":"住都中心","households":"238","status":"興建中","decidedate":"2022/11/30","startdate":"2023/10/12","finishdate":"2027/4/30"}
+    ,
+    {"city":"高雄市","casename":"興邦安居(一期)","mayor":"住都中心","households":"663","status":"興建中","decidedate":"2022/11/30","startdate":"2023/11/8","finishdate":"2027/7/31"}
+    ,
+    {"city":"高雄市","casename":"山明國宅(娜麓灣社區)","mayor":"高雄市政府","households":"13","status":"既有","decidedate":"2016/12/31","startdate":"2016/1/1","finishdate":"2016/1/1"}
+    ,
+    {"city":"高雄市","casename":"山明家園(山明社區)","mayor":"高雄市政府","households":"23","status":"既有","decidedate":"","startdate":"1993/1/5","finishdate":"1995/10/4"}
+    ,
+    {"city":"高雄市","casename":"水秀安居","mayor":"住都中心","households":"297","status":"已決標待開工","decidedate":"2022/12/30","startdate":"2024/2/29","finishdate":"2027/7/31"}
+    ,
+    {"city":"高雄市","casename":"山明安居","mayor":"住都中心","households":"258","status":"已決標待開工","decidedate":"2022/12/30","startdate":"2024/1/31","finishdate":"2027/9/30"}
+    ,
+    {"city":"高雄市","casename":"五甲國宅公共出租住宅","mayor":"高雄市政府","households":"55","status":"新完工","decidedate":"2016/4/30","startdate":"2016/4/6","finishdate":"2017/1/9"}
+    ,
+    {"city":"高雄市","casename":"鳳山共合宅","mayor":"高雄市政府","households":"19","status":"新完工","decidedate":"2017/12/1","startdate":"2017/12/1","finishdate":"2018/3/23"}
+    ,
+    {"city":"高雄市","casename":"鳳誠安居","mayor":"住都中心","households":"320","status":"興建中","decidedate":"2021/3/17","startdate":"2021/11/19","finishdate":"2025/3/31"}
+    ,
+    {"city":"高雄市","casename":"鳳翔安居","mayor":"住都中心","households":"440","status":"興建中","decidedate":"2021/7/30","startdate":"2022/7/15","finishdate":"2026/6/30"}
+    ,
+    {"city":"高雄市","casename":"鳳松安居","mayor":"住都中心","households":"411","status":"興建中","decidedate":"2021/3/17","startdate":"2021/11/19","finishdate":"2025/3/31"}
+    ,
+    {"city":"高雄市","casename":"勝利安居A","mayor":"住都中心","households":"1865","status":"已決標待開工","decidedate":"2023/9/28","startdate":"2025/1/31","finishdate":"2028/10/31"}
+    ,
+    {"city":"高雄市","casename":"中民安居","mayor":"住都中心","households":"620","status":"已決標待開工","decidedate":"2023/10/26","startdate":"2024/9/30","finishdate":"2028/1/31"}
+    ,
+    {"city":"高雄市","casename":"大寮社會住宅","mayor":"高雄市政府","households":"384","status":"興建中","decidedate":"2022/8/9","startdate":"2023/5/23","finishdate":"2026/12/31"}
+    ,
+    {"city":"高雄市","casename":"仁武安居","mayor":"住都中心","households":"340","status":"興建中","decidedate":"2021/10/19","startdate":"2022/7/26","finishdate":"2025/8/31"}
+    ,
+    {"city":"高雄市","casename":"岡山大鵬九村社會住宅","mayor":"高雄市政府","households":"625","status":"興建中","decidedate":"2022/7/7","startdate":"2023/4/28","finishdate":"2026/12/31"}
+    
+    ]
+    
