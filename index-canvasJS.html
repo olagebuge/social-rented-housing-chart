@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.canvasjs.com/ga/canvasjs.min.js"></script>
-    <script src="/mayor.js"></script>
+    <script src="https://olagebuge.github.io/custom-chart/mayor.js"></script>
     <style>
       * {
         margin: 0;
@@ -117,7 +117,7 @@
                 );
                 director =
                   mayorIndex !== null ? taichungMayor[mayorIndex] : null;
-              }              
+              }
 
               // 尋找對應 mayor 在列表中的索引
               function findMayorIndexInList(date, mayorList) {
@@ -139,11 +139,10 @@
                 decidedate: new Date(item.decidedate),
                 finishdate: new Date(item.finishdate),
                 x: new Date(item.startdate),
-                y: parseFloat(item.households), 
-                director: director !== null ? director.name : "",               
+                y: parseFloat(item.households),
+                director: director !== null ? director.name : "",
               };
             });
-            console.log(dataPoints)
             dataPoints.sort((a, b) => a.x - b.x);
 
             let chartData = [];
@@ -168,6 +167,7 @@
                   accumCityData.push({
                     x: point.x,
                     y: cityTotal,
+                    director: point.director,
                     decide: point.decidedate,
                     finish: point.finishdate,
                     households: point.y,
@@ -181,6 +181,7 @@
                     return {
                       x: point.x,
                       y: point.y,
+                      director: point.director,
                       decide: point.decide,
                       finish: point.finish,
                       name: point.name,
@@ -192,6 +193,7 @@
                     return {
                       x: point.x,
                       y: point.y,
+                      director: point.director,
                       decide: point.decide,
                       finish: point.finish,
                       name: point.name,
@@ -228,6 +230,7 @@
                 accumCityData.push({
                   x: point.x,
                   y: cityTotal,
+                  director: point.director,
                   decide: point.decidedate,
                   finish: point.finishdate,
                   households: point.y,
@@ -242,6 +245,7 @@
                 accumCenterData.push({
                   x: point.x,
                   y: centerTotal,
+                  director: point.director,
                   decide: point.decidedate,
                   finish: point.finishdate,
                   households: point.y,
@@ -256,6 +260,7 @@
                   return {
                     x: point.x,
                     y: point.y,
+                    director: point.director,
                     decide: point.decide,
                     finish: point.finish,
                     name: point.name,
@@ -266,6 +271,7 @@
                   return {
                     x: point.x,
                     y: point.y,
+                    director: point.director,
                     decide: point.decide,
                     finish: point.finish,
                     name: point.name,
@@ -277,6 +283,7 @@
                   return {
                     x: point.x,
                     y: point.y,
+                    director: point.director,
                     decide: point.decide,
                     finish: point.finish,
                     name: point.name,
@@ -287,6 +294,7 @@
                   return {
                     x: point.x,
                     y: point.y,
+                    director: point.director,
                     decide: point.decide,
                     finish: point.finish,
                     name: point.name,
@@ -318,7 +326,7 @@
                 },
               ];
             }
-
+            
             var chart = new CanvasJS.Chart("chartContainer", {
               theme: "light1",
               animationEnabled: true,
@@ -328,8 +336,17 @@
               axisX: {
                 title: "開工日期",
                 minimum: new Date(2010, 0),
-                maximum: new Date(2025, 0),
+                maximum: new Date(2026, 5),
                 valueFormatString: "YYYY",
+                stripLines: [
+                  {
+                    value: new Date(), // 指定標示線的位置
+                    label: "今天", // 標示線的標籤
+                    color:"green",
+                    labelFontColor: "green", // 標籤文字顏色
+                    labelAlign: "far", // 標籤文字位置
+                  },
+                ],
               },
               axisY: {
                 title: "戶數",
@@ -356,10 +373,11 @@
                     var label = e.entries[i].dataSeries.name;
                     var households = e.entries[i].dataPoint.households;
                     var total = e.entries[i].dataPoint.y;
+                    var director = e.entries[i].dataPoint.director;
                     if (isAccumulateChecked) {
-                      content += `${decideDate} 決標<br>${date} 開工<br> ${finishDate} 完工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶`;
+                      content += `${decideDate} 決標<br>${date} 開工(${director})<br> ${finishDate} 完工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶`;
                     } else {
-                      content += `${decideDate} 決標<br>${date} 開工<br> ${finishDate} 完工<br>${name}${total}戶 <br>${label}`;
+                      content += `${decideDate} 決標<br>${date} 開工<br> ${finishDate}(${director}) 完工<br>${name}${total}戶 <br>${label}`;
                     }
                   }
                   return content;
