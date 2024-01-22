@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.canvasjs.com/ga/canvasjs.min.js"></script>
+    <script src="/mayor.js"></script>
     <style>
       * {
         margin: 0;
@@ -28,19 +29,25 @@
   <body>
     <section class="flexBox">
       <div class="count-type">
-        <input type="checkbox" name="accumulate" checked />
+        <input
+          type="checkbox"
+          id="accumulate"
+          name="accumulate"
+          onchange="selectCity()"
+          checked
+        />
         <label for="accumulate">累加</label>
       </div>
       <div class="flexBox">
         <h4>選擇區域</h4>
         <select id="select-city" onchange="selectCity()">
+          <option value="全國">全國</option>
           <option value="臺北市">臺北市</option>
           <option value="新北市">新北市</option>
           <option value="桃園市">桃園市</option>
           <option value="臺中市">臺中市</option>
           <option value="臺南市">臺南市</option>
           <option value="高雄市">高雄市</option>
-          <option value="全國">全國</option>
         </select>
       </div>
     </section>
@@ -55,67 +62,153 @@
       function fetchCity() {
         let selectCity = document.querySelector("#select-city");
         let selectedCity = selectCity.value;
+        let accumulateCheckbox = document.querySelector("#accumulate");
+        let isAccumulateChecked = accumulateCheckbox.checked; // 檢查是否勾選
         let filteredData;
 
         fetch("https://olagebuge.github.io/custom-chart/cityhouse.json")
           .then((res) => res.json())
-          .then((data) => {            
+          .then((data) => {
             if (selectedCity === "全國") {
               //若選全國
-              filteredData = data.filter(                 
-                (item) => item.startdate !== ""
-              );              
+              filteredData = data.filter((item) => item.startdate !== "");
             } else {
               //若選城市
               filteredData = data.filter(
                 (item) => item.startdate !== "" && item.city === selectedCity
               );
             }
-            var dataPoints = filteredData.map((item) => ({
-              label: item.mayor,
-              name: item.casename,
-              x: new Date(item.startdate),
-              y: parseFloat(item.households),
-            }));
+            var dataPoints = filteredData.map((item) => {
+              let mayorName = item.mayor;
+              let mayorIndex;
+              let director;
+
+              // 判斷 mayorName 是哪一個列表的名稱
+              if (mayorName === "住都中心") {
+                mayorIndex = findMayorIndexInList(
+                  new Date(item.startdate),
+                  president
+                );
+                director = mayorIndex !== null ? president[mayorIndex] : null;
+              } else if (mayorName === "臺北市政府") {
+                mayorIndex = findMayorIndexInList(
+                  new Date(item.startdate),
+                  tapeiMayor
+                );
+                director = mayorIndex !== null ? tapeiMayor[mayorIndex] : null;
+              } else if (mayorName === "新北市政府") {
+                mayorIndex = findMayorIndexInList(
+                  new Date(item.startdate),
+                  newTaipeiMayor
+                );
+                director =
+                  mayorIndex !== null ? newTaipeiMayor[mayorIndex] : null;
+              } else if (mayorName === "桃園市政府") {
+                mayorIndex = findMayorIndexInList(
+                  new Date(item.startdate),
+                  taoyuanMayor
+                );
+                director =
+                  mayorIndex !== null ? taoyuanMayor[mayorIndex] : null;
+              } else if (mayorName === "臺中市政府") {
+                mayorIndex = findMayorIndexInList(
+                  new Date(item.startdate),
+                  taichungMayor
+                );
+                director =
+                  mayorIndex !== null ? taichungMayor[mayorIndex] : null;
+              }              
+
+              // 尋找對應 mayor 在列表中的索引
+              function findMayorIndexInList(date, mayorList) {
+                for (let i = 0; i < mayorList.length; i++) {
+                  let mayor = mayorList[i];
+                  if (
+                    date >= mayor.start &&
+                    (mayor.end === null || date < mayor.end)
+                  ) {
+                    return i;
+                  }
+                }
+                return null; // 沒找到對應的 mayor
+              }
+
+              return {
+                label: mayorName,
+                name: item.casename,
+                decidedate: new Date(item.decidedate),
+                finishdate: new Date(item.finishdate),
+                x: new Date(item.startdate),
+                y: parseFloat(item.households), 
+                director: director !== null ? director.name : "",               
+              };
+            });
+            console.log(dataPoints)
             dataPoints.sort((a, b) => a.x - b.x);
 
-
             let chartData = [];
-            
+
             // 判斷是否為全國
             if (selectedCity === "全國") {
               // 使用 Set 來收集不同的 label
-              let uniqueLabels = new Set(dataPoints.map((point) => point.label));
-              
+              let uniqueLabels = new Set(
+                dataPoints.map((point) => point.label)
+              );
+
               // 根據不同的 label 生成對應的 series
               uniqueLabels.forEach((label) => {
-                let cityData = dataPoints.filter((point) => point.label === label);
+                let cityData = dataPoints.filter(
+                  (point) => point.label === label
+                );
                 let accumCityData = [];
                 let cityTotal = 0;
-                
+
                 for (let point of cityData) {
                   cityTotal += point.y;
                   accumCityData.push({
                     x: point.x,
                     y: cityTotal,
+                    decide: point.decidedate,
+                    finish: point.finishdate,
                     households: point.y,
                     name: point.name,
+                  });
+                }
+
+                let finalData;
+                if (isAccumulateChecked) {
+                  finalData = accumCityData.map(function (point) {
+                    return {
+                      x: point.x,
+                      y: point.y,
+                      decide: point.decide,
+                      finish: point.finish,
+                      name: point.name,
+                      households: point.households,
+                    };
+                  });
+                } else {
+                  finalData = cityData.map(function (point) {
+                    return {
+                      x: point.x,
+                      y: point.y,
+                      decide: point.decide,
+                      finish: point.finish,
+                      name: point.name,
+                      households: point.households,
+                    };
                   });
                 }
 
                 chartData.push({
                   name: label,
                   showInLegend: true,
-                  legendMarkerType: "square",
+                  legendMarkerType: "circle",
+                  markerType: "circle",
                   type: "line",
-                  dataPoints: accumCityData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  }),
+                  lineThickness: 1,
+                  markerSize: 6,
+                  dataPoints: finalData,
                 });
               });
             } else {
@@ -135,6 +228,8 @@
                 accumCityData.push({
                   x: point.x,
                   y: cityTotal,
+                  decide: point.decidedate,
+                  finish: point.finishdate,
                   households: point.y,
                   name: point.name,
                 });
@@ -147,8 +242,56 @@
                 accumCenterData.push({
                   x: point.x,
                   y: centerTotal,
+                  decide: point.decidedate,
+                  finish: point.finishdate,
                   households: point.y,
                   name: point.name,
+                });
+              }
+
+              let finalCityData;
+              let finalCenterData;
+              if (isAccumulateChecked) {
+                finalCityData = accumCityData.map(function (point) {
+                  return {
+                    x: point.x,
+                    y: point.y,
+                    decide: point.decide,
+                    finish: point.finish,
+                    name: point.name,
+                    households: point.households,
+                  };
+                });
+                finalCenterData = accumCenterData.map(function (point) {
+                  return {
+                    x: point.x,
+                    y: point.y,
+                    decide: point.decide,
+                    finish: point.finish,
+                    name: point.name,
+                    households: point.households,
+                  };
+                });
+              } else {
+                finalCityData = cityData.map(function (point) {
+                  return {
+                    x: point.x,
+                    y: point.y,
+                    decide: point.decide,
+                    finish: point.finish,
+                    name: point.name,
+                    households: point.households,
+                  };
+                });
+                finalCenterData = centerData.map(function (point) {
+                  return {
+                    x: point.x,
+                    y: point.y,
+                    decide: point.decide,
+                    finish: point.finish,
+                    name: point.name,
+                    households: point.households,
+                  };
                 });
               }
 
@@ -156,30 +299,22 @@
                 {
                   name: `${selectedCity}政府`,
                   showInLegend: true,
-                  legendMarkerType: "square",
+                  legendMarkerType: "circle",
+                  markerType: "circle",
                   type: "line",
-                  dataPoints: accumCityData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  }),
+                  lineThickness: 1,
+                  markerSize: 6,
+                  dataPoints: finalCityData,
                 },
                 {
                   name: "住都中心",
                   showInLegend: true,
-                  legendMarkerType: "square",
+                  legendMarkerType: "circle",
+                  markerType: "circle",
                   type: "line",
-                  dataPoints: accumCenterData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  }),
+                  lineThickness: 1,
+                  markerSize: 6,
+                  dataPoints: finalCenterData,
                 },
               ];
             }
@@ -193,7 +328,7 @@
               axisX: {
                 title: "開工日期",
                 minimum: new Date(2010, 0),
-                maximum: new Date (2025, 0),
+                maximum: new Date(2025, 0),
                 valueFormatString: "YYYY",
               },
               axisY: {
@@ -209,18 +344,30 @@
                       e.entries[i].dataPoint.x,
                       "YYYY/MM/DD"
                     );
+                    var decideDate = CanvasJS.formatDate(
+                      e.entries[i].dataPoint.decide,
+                      "YYYY/MM/DD"
+                    );
+                    var finishDate = CanvasJS.formatDate(
+                      e.entries[i].dataPoint.finish,
+                      "YYYY/MM/DD"
+                    );
                     var name = e.entries[i].dataPoint.name;
                     var label = e.entries[i].dataSeries.name;
                     var households = e.entries[i].dataPoint.households;
                     var total = e.entries[i].dataPoint.y;
-                    content += `${date} 開工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶<br>`;
+                    if (isAccumulateChecked) {
+                      content += `${decideDate} 決標<br>${date} 開工<br> ${finishDate} 完工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶`;
+                    } else {
+                      content += `${decideDate} 決標<br>${date} 開工<br> ${finishDate} 完工<br>${name}${total}戶 <br>${label}`;
+                    }
                   }
                   return content;
                 },
               },
             });
 
-            // 渲染图表
+            // 渲染圖表
             chart.render();
           })
           .catch((error) => console.error("Error loading JSON:", error));
