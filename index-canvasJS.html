@@ -136,8 +136,8 @@
               return {
                 label: mayorName,
                 name: item.casename,
-                decidedate: new Date(item.decidedate),
-                finishdate: new Date(item.finishdate),
+                decide: new Date(item.decidedate),
+                finish: new Date(item.finishdate),
                 x: new Date(item.startdate),
                 y: parseFloat(item.households),
                 director: director !== null ? director.name : "",
@@ -168,8 +168,8 @@
                     x: point.x,
                     y: cityTotal,
                     director: point.director,
-                    decide: point.decidedate,
-                    finish: point.finishdate,
+                    decide: point.decide,
+                    finish: point.finish,
                     households: point.y,
                     name: point.name,
                   });
@@ -231,8 +231,8 @@
                   x: point.x,
                   y: cityTotal,
                   director: point.director,
-                  decide: point.decidedate,
-                  finish: point.finishdate,
+                  decide: point.decide,
+                  finish: point.finish,
                   households: point.y,
                   name: point.name,
                 });
@@ -246,8 +246,8 @@
                   x: point.x,
                   y: centerTotal,
                   director: point.director,
-                  decide: point.decidedate,
-                  finish: point.finishdate,
+                  decide: point.decide,
+                  finish: point.finish,
                   households: point.y,
                   name: point.name,
                 });
