@@ -3,409 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>全國社會住宅圖表</title>
-    <meta property="og:image" content="https://olagebuge.github.io/custom-chart/images/og-image.jpg">
-    <script src="https://cdn.canvasjs.com/ga/canvasjs.min.js"></script>
-    <script src="https://olagebuge.github.io/custom-chart/mayor.js"></script>
+    <title>社會住宅興建圖表</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/1.3.1/chartjs-plugin-annotation.min.js"></script>
     <style>
       * {
         margin: 0;
         padding: 0;
       }
-      .flexBox {
+      .container {
+        display: flex;
+        gap: 30px;
+        padding-top: 20px;
+      }
+      .chart-container {
+        position: relative;
+        width: 1100px;
+      }
+      .flexbox {
+        display: flex;
+        align-items: center;
+      }
+      .selectbox {
         display: flex;
         justify-content: center;
+        margin: 15px 0px;
+        gap: 20px;
       }
-      section.flexBox {
+      .list {
+        width: 400px;
+        overflow-x: scroll;
+      }
+      .list-align {
+        align-items: center;
+      }
+      .list-date {
+        width: 70px;
+        padding: 10px;
+      }
+      .list .mayor {
+        width: 100px;
+        padding: 10px;
+      }
+      .list h4.case-title {
+        width: 150px;
+        padding: 10px;
+      }
+      .list .households {
+        width: 50px;
+        padding: 10px;
+      }
+      .list-title {
+        width: 800px;
+      }
+      .list-body {
+        width: 800px;
+        height: calc(100dvh - 80px);
+        overflow-y: scroll;
+        font-size: 14px;
+      }
+      .list-body .list-align:nth-child(odd) {
+        background-color: rgb(237, 237, 237);
+      }
+      .tips {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .title-box {
+        gap: 20px;
         padding: 20px;
       }
-      .flexBox h4 {
-        margin-right: 10px;
-      }
-      .count-type {
-        margin-right: 20px;
+      #chart-title {
+        color: rgb(60, 60, 60);
       }
     </style>
   </head>
   <body>
-    <section class="flexBox">
-      <div class="count-type">
-        <input
-          type="checkbox"
-          id="accumulate"
-          name="accumulate"
-          onchange="selectCity()"
-          checked
-        />
-        <label for="accumulate">累加</label>
+    <section class="container">
+      <div>
+        <div class="selectbox">
+          <select id="select-city" onchange="refetch()"></select>
+          <label>累進<input type="checkbox" checked id="accm-check" /></label>
+        </div>
+        <div class="flexbox align-items title-box">
+          <h2 id="chart-title">全國社會住宅</h2>
+          <p class="tips">
+            ※決標、開工日可能無資料。若按照決標或開工日篩選，以有資料的項目為準。
+          </p>
+        </div>
+
+        <div class="chart-container">
+          <canvas id="myChart"></canvas>
+        </div>
       </div>
-      <div class="flexBox">
-        <h4>選擇區域</h4>
-        <select id="select-city" onchange="selectCity()">
-          <option value="全國">全國</option>
-          <option value="臺北市">臺北市</option>
-          <option value="新北市">新北市</option>
-          <option value="桃園市">桃園市</option>
-          <option value="臺中市">臺中市</option>
-          <option value="臺南市">臺南市</option>
-          <option value="高雄市">高雄市</option>
-        </select>
-      </div>
+      <div class="list"></div>
+
+      <script src="./chart.js"></script>
     </section>
+    <script>
+      let selectBox = document.querySelector("#select-city");
+      let projectList = document.querySelector(".list");
+      let accmCheck = document.querySelector("#accm-check");
+      let chartTitle = document.querySelector("#chart-title");
+      let selectCity = "";
 
-    <div id="chartContainer" style="height: 370px; width: 100%"></div>
-
-    <script type="text/javascript">
-      function selectCity() {
-        fetchCity();
-      }
-
-      function fetchCity() {
-        let selectCity = document.querySelector("#select-city");
-        let selectedCity = selectCity.value;
-        let accumulateCheckbox = document.querySelector("#accumulate");
-        let isAccumulateChecked = accumulateCheckbox.checked; // 檢查是否勾選
-        let filteredData;
-
-        fetch("https://olagebuge.github.io/custom-chart/cityhouse.json")
+      //初始設定
+      function initial() {
+        let cityArray = [];
+        fetch("https://olagebuge.github.io/custom-chart/full-cityhouses.json")
           .then((res) => res.json())
           .then((data) => {
-            if (selectedCity === "全國") {
-              //若選全國
-              filteredData = data.filter((item) => item.startdate !== "");
-            } else {
-              //若選城市
-              filteredData = data.filter(
-                (item) => item.startdate !== "" && item.city === selectedCity
-              );
+            //根據縣市新增選項
+            cityArray = allCityName(data);
+            function addOptions() {
+              selectBox.innerHTML = `<option value="全國">全國</option><option value="中央於全國">中央於全國</option>`;
+              for (let i = 0; i < cityArray.length; i++) {
+                let option = document.createElement("option");
+                option.setAttribute("value", cityArray[i]);
+                option.innerText = cityArray[i];
+                selectBox.appendChild(option);
+              }
             }
-            var dataPoints = filteredData.map((item) => {
-              let mayorName = item.mayor;
-              let mayorIndex;
-              let director;
-
-              // 判斷 mayorName 是哪一個列表的名稱
-              if (mayorName === "住都中心") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  president
-                );
-                director = mayorIndex !== null ? president[mayorIndex] : null;
-              } else if (mayorName === "臺北市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  tapeiMayor
-                );
-                director = mayorIndex !== null ? tapeiMayor[mayorIndex] : null;
-              } else if (mayorName === "新北市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  newTaipeiMayor
-                );
-                director =
-                  mayorIndex !== null ? newTaipeiMayor[mayorIndex] : null;
-              } else if (mayorName === "桃園市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  taoyuanMayor
-                );
-                director =
-                  mayorIndex !== null ? taoyuanMayor[mayorIndex] : null;
-              } else if (mayorName === "臺中市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  taichungMayor
-                );
-                director =
-                  mayorIndex !== null ? taichungMayor[mayorIndex] : null;
-              }else if (mayorName === "臺南市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  tainanMayor
-                );
-                director =
-                  mayorIndex !== null ? tainanMayor[mayorIndex] : null;
-              }else if (mayorName === "高雄市政府") {
-                mayorIndex = findMayorIndexInList(
-                  new Date(item.startdate),
-                  kaohsiungMayor
-                );
-                director =
-                  mayorIndex !== null ? kaohsiungMayor[mayorIndex] : null;
-              }
-
-              // 尋找對應 mayor 在列表中的索引
-              function findMayorIndexInList(date, mayorList) {
-                for (let i = 0; i < mayorList.length; i++) {
-                  let mayor = mayorList[i];
-                  if (
-                    date >= mayor.start &&
-                    (mayor.end === null || date < mayor.end)
-                  ) {
-                    return i;
-                  }
-                }
-                return null; // 沒找到對應的 mayor
-              }
-
-              return {
-                label: mayorName,
-                name: item.casename,
-                decide: new Date(item.decidedate),
-                finish: new Date(item.finishdate),
-                x: new Date(item.startdate),
-                y: parseFloat(item.households),
-                director: director !== null ? director.name : "",
-              };
-            });
-            dataPoints.sort((a, b) => a.x - b.x);
-
-            let chartData = [];
-
-            // 判斷是否為全國
-            if (selectedCity === "全國") {
-              // 使用 Set 來收集不同的 label
-              let uniqueLabels = new Set(
-                dataPoints.map((point) => point.label)
-              );
-
-              // 根據不同的 label 生成對應的 series
-              uniqueLabels.forEach((label) => {
-                let cityData = dataPoints.filter(
-                  (point) => point.label === label
-                );
-                let accumCityData = [];
-                let cityTotal = 0;
-
-                for (let point of cityData) {
-                  cityTotal += point.y;
-                  accumCityData.push({
-                    x: point.x,
-                    y: cityTotal,
-                    director: point.director,
-                    decide: point.decide,
-                    finish: point.finish,
-                    households: point.y,
-                    name: point.name,
-                  });
-                }
-
-                let finalData;
-                if (isAccumulateChecked) {
-                  finalData = accumCityData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      director: point.director,
-                      decide: point.decide,
-                      finish: point.finish,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  });
-                } else {
-                  finalData = cityData.map(function (point) {
-                    return {
-                      x: point.x,
-                      y: point.y,
-                      director: point.director,
-                      decide: point.decide,
-                      finish: point.finish,
-                      name: point.name,
-                      households: point.households,
-                    };
-                  });
-                }
-
-                chartData.push({
-                  name: label,
-                  showInLegend: true,
-                  legendMarkerType: "circle",
-                  markerType: "circle",
-                  type: "line",
-                  lineThickness: 1,
-                  markerSize: 6,
-                  dataPoints: finalData,
-                });
-              });
-            } else {
-              // 若選城市，僅有城市政府及住都中心兩條 series
-              var cityData = dataPoints.filter(function (point) {
-                return point.label === `${selectedCity}政府`;
-              });
-
-              var centerData = dataPoints.filter(function (point) {
-                return point.label === "住都中心";
-              });
-
-              let accumCityData = [];
-              let cityTotal = 0;
-              for (let point of cityData) {
-                cityTotal += point.y;
-                accumCityData.push({
-                  x: point.x,
-                  y: cityTotal,
-                  director: point.director,
-                  decide: point.decide,
-                  finish: point.finish,
-                  households: point.y,
-                  name: point.name,
-                });
-              }
-
-              let accumCenterData = [];
-              let centerTotal = 0;
-              for (let point of centerData) {
-                centerTotal += point.y;
-                accumCenterData.push({
-                  x: point.x,
-                  y: centerTotal,
-                  director: point.director,
-                  decide: point.decide,
-                  finish: point.finish,
-                  households: point.y,
-                  name: point.name,
-                });
-              }
-
-              let finalCityData;
-              let finalCenterData;
-              if (isAccumulateChecked) {
-                finalCityData = accumCityData.map(function (point) {
-                  return {
-                    x: point.x,
-                    y: point.y,
-                    director: point.director,
-                    decide: point.decide,
-                    finish: point.finish,
-                    name: point.name,
-                    households: point.households,
-                  };
-                });
-                finalCenterData = accumCenterData.map(function (point) {
-                  return {
-                    x: point.x,
-                    y: point.y,
-                    director: point.director,
-                    decide: point.decide,
-                    finish: point.finish,
-                    name: point.name,
-                    households: point.households,
-                  };
-                });
-              } else {
-                finalCityData = cityData.map(function (point) {
-                  return {
-                    x: point.x,
-                    y: point.y,
-                    director: point.director,
-                    decide: point.decide,
-                    finish: point.finish,
-                    name: point.name,
-                    households: point.households,
-                  };
-                });
-                finalCenterData = centerData.map(function (point) {
-                  return {
-                    x: point.x,
-                    y: point.y,
-                    director: point.director,
-                    decide: point.decide,
-                    finish: point.finish,
-                    name: point.name,
-                    households: point.households,
-                  };
-                });
-              }
-
-              chartData = [
-                {
-                  name: `${selectedCity}政府`,
-                  showInLegend: true,
-                  legendMarkerType: "circle",
-                  markerType: "circle",
-                  type: "line",
-                  lineThickness: 1,
-                  markerSize: 6,
-                  dataPoints: finalCityData,
-                },
-                {
-                  name: "住都中心",
-                  showInLegend: true,
-                  legendMarkerType: "circle",
-                  markerType: "circle",
-                  type: "line",
-                  lineThickness: 1,
-                  markerSize: 6,
-                  dataPoints: finalCenterData,
-                },
-              ];
-            }
-            
-            var chart = new CanvasJS.Chart("chartContainer", {
-              theme: "light1",
-              animationEnabled: true,
-              title: {
-                text: `${selectedCity}社會住宅`,
-              },
-              axisX: {
-                title: "開工日期",
-                minimum: new Date(2010, 0),
-                maximum: new Date(2026, 5),
-                valueFormatString: "YYYY",
-                stripLines: [
-                  {
-                    value: new Date(), // 指定標示線的位置
-                    label: "今天", // 標示線的標籤
-                    color:"green",
-                    labelFontColor: "green", // 標籤文字顏色
-                    labelAlign: "far", // 標籤文字位置
-                  },
-                ],
-              },
-              axisY: {
-                title: "戶數",
-              },
-
-              data: chartData,
-              toolTip: {
-                contentFormatter: function (e) {
-                  var content = "";
-                  for (var i = 0; i < e.entries.length; i++) {
-                    var date = CanvasJS.formatDate(
-                      e.entries[i].dataPoint.x,
-                      "YYYY/MM/DD"
-                    );
-                    var decideDate = CanvasJS.formatDate(
-                      e.entries[i].dataPoint.decide,
-                      "YYYY/MM/DD"
-                    );
-                    var finishDate = CanvasJS.formatDate(
-                      e.entries[i].dataPoint.finish,
-                      "YYYY/MM/DD"
-                    );
-                    var name = e.entries[i].dataPoint.name;
-                    var label = e.entries[i].dataSeries.name;
-                    var households = e.entries[i].dataPoint.households;
-                    var total = e.entries[i].dataPoint.y;
-                    var director = e.entries[i].dataPoint.director;
-                    if (isAccumulateChecked) {
-                      content += `${decideDate} 決標<br>${date} 開工(${director})<br> ${finishDate} 完工<br>${name} + ${households}戶<br>${label}累計 ${total} 戶`;
-                    } else {
-                      content += `${decideDate} 決標<br>${date} 開工(${director})<br> ${finishDate} 完工<br>${name}${total}戶 <br>${label}`;
-                    }
-                  }
-                  return content;
-                },
-              },
-            });
-
-            // 渲染圖表
-            chart.render();
-          })
-          .catch((error) => console.error("Error loading JSON:", error));
+            addOptions();
+            selectfetch(data, "全國");
+          });
       }
-      fetchCity();
+
+      function refetch() {
+        selectCity = selectBox.value;
+        function fetchCity() {
+          fetch("https://olagebuge.github.io/custom-chart/full-cityhouses.json")
+            .then((res) => res.json())
+            .then((data) => {
+              //若有變更選擇．重新fetch資料
+              selectfetch(data, selectCity);
+            });
+        }
+        fetchCity();
+        chartTitle.innerText = selectCity + "社會住宅";
+      }
+
+      initial();
     </script>
   </body>
 </html>
