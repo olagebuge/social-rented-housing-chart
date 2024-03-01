@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap:50px;
+  }
+  .chart-container {
+    position: relative;
+    width: 1280px;
+  }
+  .flexbox {
+    display: flex;
+    align-items: center;
+  }
+  .selectbox {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    gap: 20px;
+  }
+  .list {
+    position: relative;
+    width: 400px;
+    overflow-x: scroll;
+  }
+  .list-align {
+    align-items: center;
+  }
+  .list-date {
+    width: 80px;
+    padding: 10px;
+  }
+  .list .mayor {
+    width: 100px;
+    padding: 10px;
+  }
+  .list h4.case-title {
+    width: 150px;
+    padding: 10px;
+  }
+  .list .households {
+    width: 60px;
+    padding: 10px;
+  }
+  .list-title {
+    width: 800px;
+    background-color: teal;
+    color:#fff;
+  }
+  .list-body {
+    width: 800px;
+    height: calc(100dvh - 200px);
+    overflow-y: scroll;
+    font-size: 14px;
+  }
+  .list-body .list-align:nth-child(odd) {
+    background-color: rgb(237, 237, 237);
+  }
+  .list-body :where(h4,div){
+    border-right: 1px solid rgb(207, 207, 207);
+  }
+
+  .tips {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .title-box {
+    gap: 20px;
+    padding: 20px;
+  }
+  #chart-title {
+    color: rgb(60, 60, 60);
+  }
+  @media screen and (max-width:1080px) {
+    .container {
+      max-width:100%;
+      flex-direction:column
+    }
+    .list{
+      width: 100%;
+    }
+  }

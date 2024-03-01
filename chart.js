@@ -50,7 +50,9 @@ function selectfetch(data, selectCity) {
 
   let formateData = generateDataObject(filteredData, isCenter);
   generateChart(formateData);
-  projectList.innerHTML = `<div class="flexbox list-title">
+  projectList.innerHTML = `
+  <div class="flexbox list-title">
+  <h4 class="list-date">所在地</h4>
   <h4 class="case-title">案名</h4>
   <h4 class="mayor">興辦</h4>
   <h4 class="households">戶數</h4>
@@ -107,7 +109,11 @@ function generateDataObject(filteredData, isCenter) {
         y: totalHolds,
       });
     }
-    chartData.push({ label: label, data: accumData, borderWidth: 1 });
+    chartData.push({
+      label: label,
+      data: isAccumulateChecked ? accumData : data,
+      borderWidth: 1,
+    });
   });
   let formateData = {
     labels: labelArr,
@@ -120,9 +126,9 @@ function list(filteredData) {
   let box = document.createElement("div");
   box.classList.add("list-body");
   filteredData.map((d) => {
-    let htmlObj = `<div class="flexbox list-align"><h4 class="case-title">${
-      d.title
-    }</h4>
+    let htmlObj = `<div class="flexbox list-align">
+    <div class="list-date">${d.location}</div>
+    <h4 class="case-title">${d.title}</h4>
     <div class="mayor">${d.mayor}</div>
     <div class="households">${d.households}</div>
     <div class="list-date">${
@@ -218,6 +224,8 @@ function generateChart(formateData) {
             time: {
               unit: "year",
             },
+            min: new Date().setFullYear(2014),
+            max: new Date(),
             title: {
               display: true,
               text: "完工日期",
@@ -237,7 +245,15 @@ function generateChart(formateData) {
     myChart = new Chart(ctx, config);
   } else {
     myChart.data = formateData;
-    myChart.options.plugins.tooltip.callbacks = tooltipCallbacks(formateData); //tooltip需要在更新資料時重新載入
+    myChart.options.plugins.tooltip.callbacks = tooltipCallbacks(formateData); //tooltip需要在更新資料時重新載入    
+    myChart.options.scales.x.min = startDate.value;
+    myChart.options.scales.x.max = endingDate.value;
     myChart.update(); //如果已經有圖表則更新圖表
   }
+}
+
+function filterByDate() {
+  myChart.options.scales.x.min = startDate.value;
+  myChart.options.scales.x.max = endingDate.value;
+  myChart.update(); //如果已經有圖表則更新圖表
 }

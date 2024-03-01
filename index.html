@@ -7,89 +7,35 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/1.3.1/chartjs-plugin-annotation.min.js"></script>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        display: flex;
-        gap: 30px;
-        padding-top: 20px;
-      }
-      .chart-container {
-        position: relative;
-        width: 1100px;
-      }
-      .flexbox {
-        display: flex;
-        align-items: center;
-      }
-      .selectbox {
-        display: flex;
-        justify-content: center;
-        margin: 15px 0px;
-        gap: 20px;
-      }
-      .list {
-        width: 400px;
-        overflow-x: scroll;
-      }
-      .list-align {
-        align-items: center;
-      }
-      .list-date {
-        width: 70px;
-        padding: 10px;
-      }
-      .list .mayor {
-        width: 100px;
-        padding: 10px;
-      }
-      .list h4.case-title {
-        width: 150px;
-        padding: 10px;
-      }
-      .list .households {
-        width: 50px;
-        padding: 10px;
-      }
-      .list-title {
-        width: 800px;
-      }
-      .list-body {
-        width: 800px;
-        height: calc(100dvh - 80px);
-        overflow-y: scroll;
-        font-size: 14px;
-      }
-      .list-body .list-align:nth-child(odd) {
-        background-color: rgb(237, 237, 237);
-      }
-      .tips {
-        font-size: 14px;
-        font-weight: 500;
-      }
-      .title-box {
-        gap: 20px;
-        padding: 20px;
-      }
-      #chart-title {
-        color: rgb(60, 60, 60);
-      }
-    </style>
+    <script src="https://olagebuge.github.io/custom-chart/mayor.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section class="container">
       <div>
         <div class="selectbox">
           <select id="select-city" onchange="refetch()"></select>
-          <label>累進<input type="checkbox" checked id="accm-check" /></label>
+          <label
+            >累進<input
+              type="checkbox"
+              id="accm-check"
+              name="accm-check"
+              onchange="refetch()"
+              checked
+          /></label>
+          <label>
+            起始
+            <input onchange="filterByDate()" type="date" id="startdate" />
+          </label>
+          <label>
+            結束
+            <input onchange="filterByDate()" type="date" id="endingdate" />
+          </label>
         </div>
         <div class="flexbox align-items title-box">
           <h2 id="chart-title">全國社會住宅</h2>
           <p class="tips">
-            ※決標、開工日可能無資料。若按照決標或開工日篩選，以有資料的項目為準。
+            ※決標、開工日可能年代過久資料不齊，故以完工日為排序標準。
           </p>
         </div>
 
@@ -105,8 +51,13 @@
       let selectBox = document.querySelector("#select-city");
       let projectList = document.querySelector(".list");
       let accmCheck = document.querySelector("#accm-check");
+      let isAccumulateChecked = accmCheck.checked; // 檢查是否勾選
       let chartTitle = document.querySelector("#chart-title");
       let selectCity = "";
+      let endingDate = document.querySelector("#endingdate");
+      let startDate = document.querySelector("#startdate");
+      let today = new Date();
+      let formattedDate = today.toISOString().substr(0, 10);
 
       //初始設定
       function initial() {
@@ -125,6 +76,8 @@
                 selectBox.appendChild(option);
               }
             }
+            endingDate.value = formattedDate;
+            startDate.value = "2015-01-01";
             addOptions();
             selectfetch(data, "全國");
           });
@@ -140,6 +93,7 @@
               selectfetch(data, selectCity);
             });
         }
+        isAccumulateChecked = accmCheck.checked;
         fetchCity();
         chartTitle.innerText = selectCity + "社會住宅";
       }
