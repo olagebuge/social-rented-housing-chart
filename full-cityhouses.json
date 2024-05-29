@@ -4,32 +4,72 @@
         "projects": [
             {
                 "location": "臺北市",
+                "title": "景文社會住宅",
+                "mayor": "臺北市政府",
+                "households": "42",
+                "decide": "-",
+                "start": "99/3/15",
+                "end": "101/11/12",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "懷生出租國宅",
+                "mayor": "臺北市政府",
+                "households": "205",
+                "decide": "-",
+                "start": "-",
+                "end": "86/12/31",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "安康平宅",
+                "mayor": "臺北市政府",
+                "households": "304",
+                "decide": "-",
+                "start": "-",
+                "end": "60/1/10",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "萬芳Ｃ出租國宅",
+                "mayor": "臺北市政府",
+                "households": "228",
+                "decide": "-",
+                "start": "-",
+                "end": "85/5/6",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "萬美出租國宅",
+                "mayor": "臺北市政府",
+                "households": "192",
+                "decide": "-",
+                "start": "70/12/23",
+                "end": "73/8/3",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "港墘聯開宅",
+                "mayor": "臺北市政府",
+                "households": "3",
+                "decide": "-",
+                "start": "98/4/14",
+                "end": "99/11/23",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
                 "title": "延平出租國宅",
                 "mayor": "臺北市政府",
                 "households": "42",
                 "decide": "-",
                 "start": "-",
                 "end": "89/12/11",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "萬芳社區出租國宅",
-                "mayor": "臺北市政府",
-                "households": "310",
-                "decide": "-",
-                "start": "-",
-                "end": "86/1/19",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "興隆社會住宅D1區",
-                "mayor": "臺北市政府",
-                "households": "272",
-                "decide": "102/1/31",
-                "start": "102/7/17",
-                "end": "104/5/15",
                 "status": "既有"
             },
             {
@@ -44,22 +84,82 @@
             },
             {
                 "location": "臺北市",
-                "title": "東湖C出租國宅",
-                "mayor": "臺北市政府",
-                "households": "88",
-                "decide": "-",
-                "start": "80/11/30",
-                "end": "85/9/30",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
                 "title": "貿三出租國宅",
                 "mayor": "臺北市政府",
                 "households": "114",
                 "decide": "-",
                 "start": "-",
                 "end": "73/3/14",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "永平中繼住宅",
+                "mayor": "臺北市政府",
+                "households": "37",
+                "decide": "-",
+                "start": "78/8/10",
+                "end": "93/12/15",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "東湖Ｅ基地出租國宅(原民會)",
+                "mayor": "臺北市政府",
+                "households": "40",
+                "decide": "-",
+                "start": "-",
+                "end": "84/2/13",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市陽明老人公寓",
+                "mayor": "臺北市政府",
+                "households": "97",
+                "decide": "83/12/31",
+                "start": "84/4/30",
+                "end": "86/12/31",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "軍功出租國宅",
+                "mayor": "臺北市政府",
+                "households": "33",
+                "decide": "-",
+                "start": "-",
+                "end": "72/7/15",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "興隆社會住宅D1區",
+                "mayor": "臺北市政府",
+                "households": "272",
+                "decide": "102/1/31",
+                "start": "102/7/17",
+                "end": "104/5/15",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "萬芳社區出租國宅",
+                "mayor": "臺北市政府",
+                "households": "310",
+                "decide": "-",
+                "start": "-",
+                "end": "86/1/19",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "萬樂出租國宅",
+                "mayor": "臺北市政府",
+                "households": "224",
+                "decide": "-",
+                "start": "-",
+                "end": "73/8/3",
                 "status": "既有"
             },
             {
@@ -84,16 +184,6 @@
             },
             {
                 "location": "臺北市",
-                "title": "萬美出租國宅",
-                "mayor": "臺北市政府",
-                "households": "192",
-                "decide": "-",
-                "start": "70/12/23",
-                "end": "73/8/3",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
                 "title": "永平社會住宅",
                 "mayor": "臺北市政府",
                 "households": "51",
@@ -104,122 +194,32 @@
             },
             {
                 "location": "臺北市",
-                "title": "臺北市陽明老人公寓",
+                "title": "東湖C出租國宅",
                 "mayor": "臺北市政府",
-                "households": "97",
-                "decide": "83/12/31",
-                "start": "84/4/30",
-                "end": "86/12/31",
+                "households": "88",
+                "decide": "-",
+                "start": "80/11/30",
+                "end": "85/9/30",
                 "status": "既有"
             },
             {
                 "location": "臺北市",
-                "title": "萬樂出租國宅",
+                "title": "臺北市中山老人住宅暨服務中心",
                 "mayor": "臺北市政府",
-                "households": "224",
+                "households": "112",
+                "decide": "97/8/31",
+                "start": "97/10/31",
+                "end": "99/5/31",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "大同之家",
+                "mayor": "臺北市政府",
+                "households": "60",
                 "decide": "-",
                 "start": "-",
-                "end": "73/8/3",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "永平中繼住宅",
-                "mayor": "臺北市政府",
-                "households": "37",
-                "decide": "-",
-                "start": "78/8/10",
-                "end": "93/12/15",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "軍功出租國宅",
-                "mayor": "臺北市政府",
-                "households": "33",
-                "decide": "-",
-                "start": "-",
-                "end": "72/7/15",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "懷生出租國宅",
-                "mayor": "臺北市政府",
-                "households": "205",
-                "decide": "-",
-                "start": "-",
-                "end": "86/12/31",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "萬芳Ｃ出租國宅",
-                "mayor": "臺北市政府",
-                "households": "228",
-                "decide": "-",
-                "start": "-",
-                "end": "85/5/6",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "安康平宅",
-                "mayor": "臺北市政府",
-                "households": "304",
-                "decide": "-",
-                "start": "-",
-                "end": "60/1/10",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "景文社會住宅",
-                "mayor": "臺北市政府",
-                "households": "42",
-                "decide": "-",
-                "start": "99/3/15",
-                "end": "101/11/12",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "港墘聯開宅",
-                "mayor": "臺北市政府",
-                "households": "3",
-                "decide": "-",
-                "start": "98/4/14",
-                "end": "99/11/23",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "東湖Ｅ基地出租國宅(原民會)",
-                "mayor": "臺北市政府",
-                "households": "40",
-                "decide": "-",
-                "start": "-",
-                "end": "84/2/13",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市朱崙老人公寓",
-                "mayor": "臺北市政府",
-                "households": "45",
-                "decide": "89/12/31",
-                "start": "90/2/16",
-                "end": "93/3/23",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "行天宮站社會住宅",
-                "mayor": "臺北市政府",
-                "households": "30",
-                "decide": "-",
-                "start": "95/10/19",
-                "end": "99/1/5",
+                "end": "60/1/1",
                 "status": "既有"
             },
             {
@@ -244,102 +244,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "大同之家",
+                "title": "臺北市朱崙老人公寓",
                 "mayor": "臺北市政府",
-                "households": "60",
-                "decide": "-",
-                "start": "-",
-                "end": "60/1/1",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "龍山綜合大樓出租國宅",
-                "mayor": "臺北市政府",
-                "households": "40",
-                "decide": "-",
-                "start": "80/4/24",
-                "end": "83/10/21",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市中山老人住宅暨服務中心",
-                "mayor": "臺北市政府",
-                "households": "112",
-                "decide": "97/8/31",
-                "start": "97/10/31",
-                "end": "99/5/31",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "延壽Ｐ出租國宅",
-                "mayor": "臺北市政府",
-                "households": "99",
-                "decide": "-",
-                "start": "-",
-                "end": "87/7/31",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市大龍老人住宅",
-                "mayor": "臺北市政府",
-                "households": "70",
-                "decide": "97/5/31",
-                "start": "97/9/30",
-                "end": "99/8/31",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "中正出租國宅",
-                "mayor": "臺北市政府",
-                "households": "523",
-                "decide": "-",
-                "start": "-",
-                "end": "71/2/1",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "福民平宅",
-                "mayor": "臺北市政府",
-                "households": "180",
-                "decide": "-",
-                "start": "65/5/5",
-                "end": "66/11/23",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "華昌出租國宅",
-                "mayor": "臺北市政府",
-                "households": "490",
-                "decide": "-",
-                "start": "66/11/24",
-                "end": "71/4/28",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "大理街出租國宅",
-                "mayor": "臺北市政府",
-                "households": "35",
-                "decide": "-",
-                "start": "-",
-                "end": "87/9/1",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "敦煌社會住宅",
-                "mayor": "臺北市政府",
-                "households": "3",
-                "decide": "-",
-                "start": "96/4/19",
-                "end": "98/11/2",
+                "households": "45",
+                "decide": "89/12/31",
+                "start": "90/2/16",
+                "end": "93/3/23",
                 "status": "既有"
             },
             {
@@ -354,12 +264,22 @@
             },
             {
                 "location": "臺北市",
-                "title": "南港一號出租國宅",
+                "title": "行天宮站社會住宅",
                 "mayor": "臺北市政府",
-                "households": "287",
+                "households": "30",
                 "decide": "-",
-                "start": "-",
-                "end": "88/8/21",
+                "start": "95/10/19",
+                "end": "99/1/5",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "敦煌社會住宅",
+                "mayor": "臺北市政府",
+                "households": "3",
+                "decide": "-",
+                "start": "96/4/19",
+                "end": "98/11/2",
                 "status": "既有"
             },
             {
@@ -374,6 +294,46 @@
             },
             {
                 "location": "臺北市",
+                "title": "華昌出租國宅",
+                "mayor": "臺北市政府",
+                "households": "490",
+                "decide": "-",
+                "start": "66/11/24",
+                "end": "71/4/28",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市大龍老人住宅",
+                "mayor": "臺北市政府",
+                "households": "70",
+                "decide": "97/5/31",
+                "start": "97/9/30",
+                "end": "99/8/31",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "龍山綜合大樓出租國宅",
+                "mayor": "臺北市政府",
+                "households": "40",
+                "decide": "-",
+                "start": "80/4/24",
+                "end": "83/10/21",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "中正出租國宅",
+                "mayor": "臺北市政府",
+                "households": "523",
+                "decide": "-",
+                "start": "-",
+                "end": "71/2/1",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
                 "title": "龍山寺聯開宅",
                 "mayor": "臺北市政府",
                 "households": "7",
@@ -384,32 +344,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "台肥出租國宅",
+                "title": "延壽Ｐ出租國宅",
                 "mayor": "臺北市政府",
-                "households": "28",
+                "households": "99",
                 "decide": "-",
                 "start": "-",
-                "end": "74/4/6",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "大龍峒社會住宅",
-                "mayor": "臺北市政府",
-                "households": "110",
-                "decide": "-",
-                "start": "98/3/3",
-                "end": "100/8/23",
-                "status": "既有"
-            },
-            {
-                "location": "臺北市",
-                "title": "基河三期中繼住宅AB區",
-                "mayor": "臺北市政府",
-                "households": "22",
-                "decide": "-",
-                "start": "90/1/1",
-                "end": "90/1/1",
+                "end": "87/7/31",
                 "status": "既有"
             },
             {
@@ -424,32 +364,72 @@
             },
             {
                 "location": "臺北市",
-                "title": "臺北市內湖區石潭段三小段482地號等8筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "1",
-                "decide": "-",
-                "start": "107/10/30",
-                "end": "110/10/5",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市士林區三玉段五小段445地號等20筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "2",
-                "decide": "-",
-                "start": "108/6/3",
-                "end": "110/12/22",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "瑞光社會住宅",
+                "title": "大理街出租國宅",
                 "mayor": "臺北市政府",
-                "households": "389",
-                "decide": "106/5/12",
-                "start": "106/10/5",
-                "end": "109/11/21",
+                "households": "35",
+                "decide": "-",
+                "start": "-",
+                "end": "87/9/1",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "福民平宅",
+                "mayor": "臺北市政府",
+                "households": "180",
+                "decide": "-",
+                "start": "65/5/5",
+                "end": "66/11/23",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "台肥出租國宅",
+                "mayor": "臺北市政府",
+                "households": "28",
+                "decide": "-",
+                "start": "-",
+                "end": "74/4/6",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "南港一號出租國宅",
+                "mayor": "臺北市政府",
+                "households": "287",
+                "decide": "-",
+                "start": "-",
+                "end": "88/8/21",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "基河三期中繼住宅AB區",
+                "mayor": "臺北市政府",
+                "households": "22",
+                "decide": "-",
+                "start": "90/1/1",
+                "end": "90/1/1",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "大龍峒社會住宅",
+                "mayor": "臺北市政府",
+                "households": "110",
+                "decide": "-",
+                "start": "98/3/3",
+                "end": "100/8/23",
+                "status": "既有"
+            },
+            {
+                "location": "臺北市",
+                "title": "興隆社會住宅D2區",
+                "mayor": "臺北市政府",
+                "households": "510",
+                "decide": "103/4/16",
+                "start": "103/11/13",
+                "end": "107/5/9",
                 "status": "新完工"
             },
             {
@@ -464,42 +444,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "舊宗社會住宅",
-                "mayor": "臺北市政府",
-                "households": "97",
-                "decide": "108/9/5",
-                "start": "109/2/24",
-                "end": "112/8/23",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市大安區懷生段二小段16地號等6筆土地都市更新案",
+                "title": "臺北市士林區三玉段五小段445地號等20筆土地都市更新案",
                 "mayor": "中央(住都中心)",
                 "households": "2",
                 "decide": "-",
-                "start": "106/7/11",
-                "end": "111/3/24",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "興隆社會住宅D2區",
-                "mayor": "臺北市政府",
-                "households": "510",
-                "decide": "103/4/16",
-                "start": "103/11/13",
-                "end": "107/5/9",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "木柵社會住宅",
-                "mayor": "臺北市政府",
-                "households": "119",
-                "decide": "106/5/17",
-                "start": "106/8/17",
-                "end": "109/4/27",
+                "start": "108/6/3",
+                "end": "110/12/22",
                 "status": "新完工"
             },
             {
@@ -514,52 +464,52 @@
             },
             {
                 "location": "臺北市",
-                "title": "小彎社會住宅",
-                "mayor": "臺北市政府",
-                "households": "341",
-                "decide": "106/11/15",
-                "start": "107/3/8",
-                "end": "110/10/23",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市文山區萬隆段二小段519地號等23筆土地都市更新案",
+                "title": "臺北市大安區懷生段二小段16地號等6筆土地都市更新案",
                 "mayor": "中央(住都中心)",
-                "households": "40",
+                "households": "2",
                 "decide": "-",
-                "start": "107/7/16",
-                "end": "112/4/20",
+                "start": "106/7/11",
+                "end": "111/3/24",
                 "status": "新完工"
             },
             {
                 "location": "臺北市",
-                "title": "犁和段都更案基地",
-                "mayor": "臺北市政府",
-                "households": "80",
-                "decide": "101/8/16",
-                "start": "109/1/2",
-                "end": "112/12/21",
+                "title": "臺北市內湖區石潭段三小段482地號等8筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "1",
+                "decide": "-",
+                "start": "107/10/30",
+                "end": "110/10/5",
                 "status": "新完工"
             },
             {
                 "location": "臺北市",
-                "title": "信義區廣慈社會住宅2區",
+                "title": "舊宗社會住宅",
                 "mayor": "臺北市政府",
-                "households": "522",
-                "decide": "106/10/6",
-                "start": "107/1/10",
-                "end": "111/1/21",
+                "households": "97",
+                "decide": "108/9/5",
+                "start": "109/2/24",
+                "end": "112/8/23",
                 "status": "新完工"
             },
             {
                 "location": "臺北市",
-                "title": "信義區廣慈社會住宅1區",
+                "title": "瑞光社會住宅",
                 "mayor": "臺北市政府",
-                "households": "522",
-                "decide": "106/10/6",
-                "start": "107/1/10",
-                "end": "110/12/30",
+                "households": "389",
+                "decide": "106/5/12",
+                "start": "106/10/5",
+                "end": "109/11/21",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "木柵社會住宅",
+                "mayor": "臺北市政府",
+                "households": "119",
+                "decide": "106/5/17",
+                "start": "106/8/17",
+                "end": "109/4/27",
                 "status": "新完工"
             },
             {
@@ -574,52 +524,22 @@
             },
             {
                 "location": "臺北市",
+                "title": "臺北市文山區萬隆段二小段519地號等23筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "40",
+                "decide": "-",
+                "start": "107/7/16",
+                "end": "112/4/20",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
                 "title": "廣慈社會住宅3區",
                 "mayor": "臺北市政府",
                 "households": "476",
                 "decide": "107/4/12",
                 "start": "107/8/9",
                 "end": "112/9/28",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市文山區萬芳段二小段183-1地號等30筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "1",
-                "decide": "-",
-                "start": "109/8/11",
-                "end": "112/6/1",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "新奇岩社會住宅",
-                "mayor": "臺北市政府",
-                "households": "288",
-                "decide": "106/2/21",
-                "start": "106/5/26",
-                "end": "110/3/31",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市文山區興安段四小段122地號等27筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "12",
-                "decide": "-",
-                "start": "108/12/2",
-                "end": "112/3/27",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "健康社會住宅",
-                "mayor": "臺北市政府",
-                "households": "507",
-                "decide": "103/10/14",
-                "start": "103/12/17",
-                "end": "106/12/26",
                 "status": "新完工"
             },
             {
@@ -634,22 +554,32 @@
             },
             {
                 "location": "臺北市",
-                "title": "莒光社會住宅",
+                "title": "新奇岩社會住宅",
                 "mayor": "臺北市政府",
-                "households": "201",
-                "decide": "106/10/3",
-                "start": "106/12/28",
-                "end": "111/6/14",
+                "households": "288",
+                "decide": "106/2/21",
+                "start": "106/5/26",
+                "end": "110/3/31",
                 "status": "新完工"
             },
             {
                 "location": "臺北市",
-                "title": "萬華青年社會住宅1區",
+                "title": "信義區廣慈社會住宅1區",
                 "mayor": "臺北市政府",
-                "households": "273",
-                "decide": "104/11/11",
-                "start": "105/2/18",
-                "end": "107/12/22",
+                "households": "522",
+                "decide": "106/10/6",
+                "start": "107/1/10",
+                "end": "110/12/30",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "信義區廣慈社會住宅2區",
+                "mayor": "臺北市政府",
+                "households": "522",
+                "decide": "106/10/6",
+                "start": "107/1/10",
+                "end": "111/1/21",
                 "status": "新完工"
             },
             {
@@ -664,12 +594,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "萬華青年社會住宅2區",
+                "title": "福星社會住宅",
                 "mayor": "臺北市政府",
-                "households": "518",
-                "decide": "106/4/21",
-                "start": "106/7/17",
-                "end": "112/11/30",
+                "households": "255",
+                "decide": "108/3/25",
+                "start": "108/10/23",
+                "end": "112/6/27",
                 "status": "新完工"
             },
             {
@@ -684,22 +614,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "福星社會住宅",
+                "title": "萬華青年社會住宅1區",
                 "mayor": "臺北市政府",
-                "households": "255",
-                "decide": "108/3/25",
-                "start": "108/10/23",
-                "end": "112/6/27",
-                "status": "新完工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市萬華區萬大段一小段519-2地號等35筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "1",
-                "decide": "-",
-                "start": "109/2/1",
-                "end": "112/12/18",
+                "households": "273",
+                "decide": "104/11/11",
+                "start": "105/2/18",
+                "end": "107/12/22",
                 "status": "新完工"
             },
             {
@@ -714,22 +634,72 @@
             },
             {
                 "location": "臺北市",
-                "title": "明倫社會住宅",
-                "mayor": "臺北市政府",
-                "households": "380",
-                "decide": "106/1/12",
-                "start": "106/3/10",
-                "end": "109/8/14",
+                "title": "臺北市文山區興安段四小段122地號等27筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "12",
+                "decide": "-",
+                "start": "108/12/2",
+                "end": "112/3/27",
                 "status": "新完工"
             },
             {
                 "location": "臺北市",
-                "title": "大橋頭社會住宅",
-                "mayor": "臺北市政府",
-                "households": "47",
+                "title": "臺北市文山區萬芳段二小段183-1地號等30筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "1",
                 "decide": "-",
-                "start": "105/4/7",
-                "end": "108/6/25",
+                "start": "109/8/11",
+                "end": "112/6/1",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "健康社會住宅",
+                "mayor": "臺北市政府",
+                "households": "507",
+                "decide": "103/10/14",
+                "start": "103/12/17",
+                "end": "106/12/26",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "犁和段都更案基地",
+                "mayor": "臺北市政府",
+                "households": "80",
+                "decide": "101/8/16",
+                "start": "109/1/2",
+                "end": "112/12/21",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市萬華區萬大段一小段519-2地號等35筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "1",
+                "decide": "-",
+                "start": "109/2/1",
+                "end": "112/12/18",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "莒光社會住宅",
+                "mayor": "臺北市政府",
+                "households": "201",
+                "decide": "106/10/3",
+                "start": "106/12/28",
+                "end": "111/6/14",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "萬華青年社會住宅2區",
+                "mayor": "臺北市政府",
+                "households": "518",
+                "decide": "106/4/21",
+                "start": "106/7/17",
+                "end": "112/11/30",
                 "status": "新完工"
             },
             {
@@ -744,12 +714,22 @@
             },
             {
                 "location": "臺北市",
-                "title": "東明社會住宅",
+                "title": "大橋頭社會住宅",
                 "mayor": "臺北市政府",
-                "households": "700",
-                "decide": "104/12/28",
-                "start": "105/2/24",
-                "end": "108/7/31",
+                "households": "47",
+                "decide": "-",
+                "start": "105/4/7",
+                "end": "108/6/25",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "明倫社會住宅",
+                "mayor": "臺北市政府",
+                "households": "380",
+                "decide": "106/1/12",
+                "start": "106/3/10",
+                "end": "109/8/14",
                 "status": "新完工"
             },
             {
@@ -764,22 +744,42 @@
             },
             {
                 "location": "臺北市",
-                "title": "百齡水岸社會住宅",
+                "title": "東明社會住宅",
                 "mayor": "臺北市政府",
-                "households": "266",
-                "decide": "109/3/18",
-                "start": "109/8/10",
-                "end": "(預定)114/5/31",
+                "households": "700",
+                "decide": "104/12/28",
+                "start": "105/2/24",
+                "end": "108/7/31",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "小彎社會住宅",
+                "mayor": "臺北市政府",
+                "households": "341",
+                "decide": "106/11/15",
+                "start": "107/3/8",
+                "end": "110/10/23",
+                "status": "新完工"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市大安區龍泉段一小段123地號等6筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "7",
+                "decide": "109/2/20",
+                "start": "110/9/14",
+                "end": "(預定)114/12/31",
                 "status": "興建中"
             },
             {
                 "location": "臺北市",
-                "title": "臺北市士林區陽明段一小段19地號等12筆土地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "1",
-                "decide": "-",
-                "start": "107/10/4",
-                "end": "(預定)113/9/30",
+                "title": "華榮市場都更分回戶",
+                "mayor": "臺北市政府",
+                "households": "118",
+                "decide": "108/1/22",
+                "start": "108/5/23",
+                "end": "(預定)113/6/30",
                 "status": "興建中"
             },
             {
@@ -794,12 +794,22 @@
             },
             {
                 "location": "臺北市",
-                "title": "華榮市場都更分回戶",
+                "title": "臺北市大安區辛亥段四小段496-13地號等14筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "2",
+                "decide": "109/2/7",
+                "start": "110/4/1",
+                "end": "(預定)114/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "百齡水岸社會住宅",
                 "mayor": "臺北市政府",
-                "households": "118",
-                "decide": "108/1/22",
-                "start": "108/5/23",
-                "end": "(預定)113/6/30",
+                "households": "266",
+                "decide": "109/3/18",
+                "start": "109/8/10",
+                "end": "(預定)114/5/31",
                 "status": "興建中"
             },
             {
@@ -824,22 +834,32 @@
             },
             {
                 "location": "臺北市",
-                "title": "福星段都更案基地",
-                "mayor": "臺北市政府",
-                "households": "173",
-                "decide": "104/9/15",
-                "start": "111/9/7",
-                "end": "(預定)114/9/30",
+                "title": "臺北市士林區陽明段一小段19地號等12筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "1",
+                "decide": "-",
+                "start": "107/10/4",
+                "end": "(預定)113/9/30",
                 "status": "興建中"
             },
             {
                 "location": "臺北市",
-                "title": "福國社會住宅",
+                "title": "福民社會住宅1區",
                 "mayor": "臺北市政府",
-                "households": "365",
-                "decide": "108/8/26",
-                "start": "109/6/12",
-                "end": "(預定)114/6/30",
+                "households": "131",
+                "decide": "111/1/17",
+                "start": "111/4/13",
+                "end": "(預定)115/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "錦州社會住宅",
+                "mayor": "臺北市政府",
+                "households": "387",
+                "decide": "108/8/27",
+                "start": "109/2/17",
+                "end": "(預定)114/3/31",
                 "status": "興建中"
             },
             {
@@ -854,12 +874,22 @@
             },
             {
                 "location": "臺北市",
-                "title": "南海段都更案基地",
+                "title": "興隆I區社會住宅",
                 "mayor": "臺北市政府",
-                "households": "214",
-                "decide": "101/6/25",
-                "start": "112/10/30",
-                "end": "(預定)115/10/31",
+                "households": "500",
+                "decide": "109/3/20",
+                "start": "109/6/18",
+                "end": "(預定)114/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "力行社會住宅",
+                "mayor": "臺北市政府",
+                "households": "35",
+                "decide": "112/2/23",
+                "start": "112/6/28",
+                "end": "(預定)114/1/31",
                 "status": "興建中"
             },
             {
@@ -874,12 +904,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "培英社會住宅",
-                "mayor": "臺北市政府",
-                "households": "96",
-                "decide": "108/10/1",
-                "start": "109/2/27",
-                "end": "(預定)114/8/31",
+                "title": "萬華安居B",
+                "mayor": "中央(住都中心)",
+                "households": "142",
+                "decide": "110/1/21",
+                "start": "110/12/23",
+                "end": "(預定)113/11/30",
                 "status": "興建中"
             },
             {
@@ -914,12 +944,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "臺北市松山區延吉段一小段119地號等8筆土地都市更新計畫案",
-                "mayor": "中央(住都中心)",
-                "households": "3",
-                "decide": "-",
-                "start": "108/7/25",
-                "end": "(預定)113/12/31",
+                "title": "培英社會住宅",
+                "mayor": "臺北市政府",
+                "households": "96",
+                "decide": "108/10/1",
+                "start": "109/2/27",
+                "end": "(預定)114/8/31",
                 "status": "興建中"
             },
             {
@@ -929,27 +959,17 @@
                 "households": "160",
                 "decide": "109/11/11",
                 "start": "110/12/30",
-                "end": "(預定)113/7/31",
+                "end": "(預定)113/9/30",
                 "status": "興建中"
             },
             {
                 "location": "臺北市",
-                "title": "興隆I區社會住宅",
-                "mayor": "臺北市政府",
-                "households": "500",
-                "decide": "109/3/20",
-                "start": "109/6/18",
-                "end": "(預定)114/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "臺北市",
-                "title": "力行社會住宅",
-                "mayor": "臺北市政府",
-                "households": "35",
-                "decide": "112/2/23",
-                "start": "112/6/28",
-                "end": "(預定)114/1/31",
+                "title": "臺北市松山區延吉段一小段119地號等8筆土地都市更新計畫案",
+                "mayor": "中央(住都中心)",
+                "households": "3",
+                "decide": "-",
+                "start": "108/7/25",
+                "end": "(預定)113/12/31",
                 "status": "興建中"
             },
             {
@@ -964,12 +984,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "錦州社會住宅",
+                "title": "福星段都更案基地",
                 "mayor": "臺北市政府",
-                "households": "387",
-                "decide": "108/8/27",
-                "start": "109/2/17",
-                "end": "(預定)114/3/31",
+                "households": "173",
+                "decide": "104/9/15",
+                "start": "111/9/7",
+                "end": "(預定)114/9/30",
                 "status": "興建中"
             },
             {
@@ -994,22 +1014,52 @@
             },
             {
                 "location": "臺北市",
-                "title": "萬華安居B",
-                "mayor": "中央(住都中心)",
-                "households": "142",
-                "decide": "110/1/21",
-                "start": "110/12/23",
-                "end": "(預定)113/11/30",
+                "title": "福國社會住宅",
+                "mayor": "臺北市政府",
+                "households": "365",
+                "decide": "108/8/26",
+                "start": "109/6/12",
+                "end": "(預定)114/6/30",
                 "status": "興建中"
             },
             {
                 "location": "臺北市",
-                "title": "福民社會住宅1區",
+                "title": "臺北市北投區振興段四小段166-2地號等34筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "1",
+                "decide": "109/1/2",
+                "start": "110/2/20",
+                "end": "(預定)114/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "南海段都更案基地",
                 "mayor": "臺北市政府",
-                "households": "131",
-                "decide": "111/1/17",
-                "start": "111/4/13",
-                "end": "(預定)115/6/30",
+                "households": "214",
+                "decide": "101/6/25",
+                "start": "112/10/30",
+                "end": "(預定)115/10/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市中正區永昌段五小段142-1地號等38筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "2",
+                "decide": "109/3/5",
+                "start": "110/10/15",
+                "end": "(預定)114/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市中正區臨沂段一小段495-4地號等9筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "24",
+                "decide": "109/8/21",
+                "start": "110/6/21",
+                "end": "(預定)114/12/31",
                 "status": "興建中"
             },
             {
@@ -1019,7 +1069,7 @@
                 "households": "118",
                 "decide": "109/6/19",
                 "start": "109/11/12",
-                "end": "(預定)113/4/30",
+                "end": "(預定)113/7/31",
                 "status": "興建中"
             },
             {
@@ -1064,22 +1114,12 @@
             },
             {
                 "location": "臺北市",
-                "title": "南港玉成都市更新案",
+                "title": "臺北市大安區通化段五小段242地號等10筆土地",
                 "mayor": "中央(住都中心)",
-                "households": "150",
-                "decide": "110/9/17",
-                "start": "(預定)113/5/31",
-                "end": "(預定)116/5/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺北市",
-                "title": "臺北市中山區長春段二小段626地號等24筆(原20筆)土地都市更新計畫案",
-                "mayor": "中央(住都中心)",
-                "households": "8",
-                "decide": "112/5/24",
-                "start": "(預定)113/8/31",
-                "end": "(預定)115/10/31",
+                "households": "1",
+                "decide": "110/9/9",
+                "start": "(預定)114/12/31",
+                "end": "(預定)118/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -1090,6 +1130,16 @@
                 "decide": "113/1/17",
                 "start": "(預定)114/3/31",
                 "end": "(預定)118/5/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市中山區長春段二小段626地號等24筆(原20筆)土地都市更新計畫案",
+                "mayor": "中央(住都中心)",
+                "households": "8",
+                "decide": "112/5/24",
+                "start": "(預定)113/8/31",
+                "end": "(預定)115/10/31",
                 "status": "已決標待開工"
             },
             {
@@ -1110,6 +1160,26 @@
                 "decide": "112/8/18",
                 "start": "(預定)113/9/30",
                 "end": "(預定)117/3/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺北市",
+                "title": "臺北市中正區南海段二小段41-4地號等55筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "2",
+                "decide": "112/4/17",
+                "start": "(預定)114/12/31",
+                "end": "(預定)118/12/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺北市",
+                "title": "南港玉成都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "150",
+                "decide": "110/9/17",
+                "start": "(預定)113/5/31",
+                "end": "(預定)116/5/31",
                 "status": "已決標待開工"
             }
         ]
@@ -1139,16 +1209,6 @@
             },
             {
                 "location": "新北市",
-                "title": "三重集美段社宅",
-                "mayor": "新北市政府",
-                "households": "8",
-                "decide": "-",
-                "start": "105/1/1",
-                "end": "105/1/1",
-                "status": "既有"
-            },
-            {
-                "location": "新北市",
                 "title": "新店中正國宅",
                 "mayor": "新北市政府",
                 "households": "56",
@@ -1159,22 +1219,12 @@
             },
             {
                 "location": "新北市",
-                "title": "永和國光青年住宅",
+                "title": "三重集美段社宅",
                 "mayor": "新北市政府",
-                "households": "7",
-                "decide": "101/1/16",
-                "start": "101/5/15",
-                "end": "102/4/12",
-                "status": "既有"
-            },
-            {
-                "location": "新北市",
-                "title": "汐止花東新村",
-                "mayor": "新北市政府",
-                "households": "126",
+                "households": "8",
                 "decide": "-",
-                "start": "-",
-                "end": "88/6/24",
+                "start": "105/1/1",
+                "end": "105/1/1",
                 "status": "既有"
             },
             {
@@ -1199,12 +1249,32 @@
             },
             {
                 "location": "新北市",
-                "title": "板橋府中青年社會住宅",
+                "title": "永和國光青年住宅",
                 "mayor": "新北市政府",
-                "households": "72",
-                "decide": "104/11/24",
-                "start": "104/11/24",
-                "end": "107/3/15",
+                "households": "7",
+                "decide": "101/1/16",
+                "start": "101/5/15",
+                "end": "102/4/12",
+                "status": "既有"
+            },
+            {
+                "location": "新北市",
+                "title": "汐止花東新村",
+                "mayor": "新北市政府",
+                "households": "126",
+                "decide": "-",
+                "start": "-",
+                "end": "88/6/24",
+                "status": "既有"
+            },
+            {
+                "location": "新北市",
+                "title": "浮洲合宜住宅出租單元",
+                "mayor": "新北市政府",
+                "households": "446",
+                "decide": "-",
+                "start": "100/12/21",
+                "end": "107/1/4",
                 "status": "新完工"
             },
             {
@@ -1219,32 +1289,22 @@
             },
             {
                 "location": "新北市",
-                "title": "浮洲合宜住宅出租單元",
+                "title": "板橋江翠(31)",
                 "mayor": "新北市政府",
-                "households": "446",
-                "decide": "-",
-                "start": "100/12/21",
-                "end": "107/1/4",
+                "households": "52",
+                "decide": "107/7/2",
+                "start": "107/10/22",
+                "end": "113/3/4",
                 "status": "新完工"
             },
             {
                 "location": "新北市",
-                "title": "板橋民權青年社會住宅",
+                "title": "民樂段15、14、13、11、9、10、8、7、6、12等10筆地號",
                 "mayor": "新北市政府",
-                "households": "199",
-                "decide": "-",
-                "start": "108/3/20",
-                "end": "110/11/29",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
-                "title": "新莊副都心段一小段224地號",
-                "mayor": "新北市政府",
-                "households": "23",
-                "decide": "108/5/22",
-                "start": "108/5/22",
-                "end": "112/7/5",
+                "households": "44",
+                "decide": "108/3/28",
+                "start": "108/3/28",
+                "end": "113/3/13",
                 "status": "新完工"
             },
             {
@@ -1259,12 +1319,22 @@
             },
             {
                 "location": "新北市",
-                "title": "中和秀峰青年社會住宅",
+                "title": "新莊副都心段一小段224地號",
                 "mayor": "新北市政府",
-                "households": "816",
-                "decide": "-",
-                "start": "103/1/28",
-                "end": "105/10/15",
+                "households": "23",
+                "decide": "108/5/22",
+                "start": "108/5/22",
+                "end": "112/7/5",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
+                "title": "板橋府中青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "72",
+                "decide": "104/11/24",
+                "start": "104/11/24",
+                "end": "107/3/15",
                 "status": "新完工"
             },
             {
@@ -1279,12 +1349,42 @@
             },
             {
                 "location": "新北市",
-                "title": "新店央北青年社會住宅",
+                "title": "新店民安段青年社會住宅",
                 "mayor": "新北市政府",
-                "households": "1070",
-                "decide": "105/4/28",
-                "start": "106/3/21",
-                "end": "109/1/23",
+                "households": "194",
+                "decide": "108/11/28",
+                "start": "109/12/18",
+                "end": "113/4/3",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
+                "title": "板橋民權青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "199",
+                "decide": "-",
+                "start": "108/3/20",
+                "end": "110/11/29",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
+                "title": "中和秀峰青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "816",
+                "decide": "-",
+                "start": "103/1/28",
+                "end": "105/10/15",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
+                "title": "大安青年社會住宅(三重1館)",
+                "mayor": "新北市政府",
+                "households": "133",
+                "decide": "-",
+                "start": "103/3/7",
+                "end": "105/5/15",
                 "status": "新完工"
             },
             {
@@ -1309,42 +1409,22 @@
             },
             {
                 "location": "新北市",
-                "title": "大安青年社會住宅(三重1館)",
-                "mayor": "新北市政府",
-                "households": "133",
-                "decide": "-",
-                "start": "103/3/7",
-                "end": "105/5/15",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
-                "title": "民樂段15、14、13、11、9、10、8、7、6、12等10筆地號",
-                "mayor": "新北市政府",
-                "households": "44",
-                "decide": "108/3/28",
-                "start": "108/3/28",
-                "end": "113/3/13",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
-                "title": "新店斯馨(100)青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "12",
-                "decide": "-",
-                "start": "108/9/11",
-                "end": "111/1/26",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
                 "title": "新店斯馨(2)青年社會住宅",
                 "mayor": "新北市政府",
                 "households": "14",
                 "decide": "-",
                 "start": "107/4/10",
                 "end": "111/4/22",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
+                "title": "新店央北青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "1070",
+                "decide": "105/4/28",
+                "start": "106/3/21",
+                "end": "109/1/23",
                 "status": "新完工"
             },
             {
@@ -1359,6 +1439,16 @@
             },
             {
                 "location": "新北市",
+                "title": "新店斯馨(100)青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "12",
+                "decide": "-",
+                "start": "108/9/11",
+                "end": "111/1/26",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
                 "title": "土城員和段青年社會住宅",
                 "mayor": "新北市政府",
                 "households": "534",
@@ -1369,12 +1459,12 @@
             },
             {
                 "location": "新北市",
-                "title": "土城明德(211、218)",
+                "title": "土城大安段青年社會住宅",
                 "mayor": "新北市政府",
-                "households": "30",
-                "decide": "-",
-                "start": "106/12/19",
-                "end": "109/3/29",
+                "households": "88",
+                "decide": "108/11/28",
+                "start": "109/12/18",
+                "end": "112/11/8",
                 "status": "新完工"
             },
             {
@@ -1399,22 +1489,22 @@
             },
             {
                 "location": "新北市",
+                "title": "永和中正橋青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "70",
+                "decide": "106/10/20",
+                "start": "109/12/7",
+                "end": "110/12/31",
+                "status": "新完工"
+            },
+            {
+                "location": "新北市",
                 "title": "永和秀朗青年社會住宅",
                 "mayor": "新北市政府",
                 "households": "36",
                 "decide": "102/12/13",
                 "start": "104/2/10",
                 "end": "106/3/21",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
-                "title": "三峽國光一期青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "241",
-                "decide": "106/8/11",
-                "start": "107/3/19",
-                "end": "108/11/1",
                 "status": "新完工"
             },
             {
@@ -1439,16 +1529,6 @@
             },
             {
                 "location": "新北市",
-                "title": "土城大安段青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "88",
-                "decide": "108/11/28",
-                "start": "109/12/18",
-                "end": "112/11/8",
-                "status": "新完工"
-            },
-            {
-                "location": "新北市",
                 "title": "成州段77-7等1筆地號",
                 "mayor": "新北市政府",
                 "households": "10",
@@ -1459,93 +1539,33 @@
             },
             {
                 "location": "新北市",
-                "title": "永和中正橋青年社會住宅",
+                "title": "土城明德(211、218)",
                 "mayor": "新北市政府",
-                "households": "70",
-                "decide": "106/10/20",
-                "start": "109/12/7",
-                "end": "110/12/31",
+                "households": "30",
+                "decide": "-",
+                "start": "106/12/19",
+                "end": "109/3/29",
                 "status": "新完工"
             },
             {
                 "location": "新北市",
-                "title": "江翠好室",
-                "mayor": "中央(住都中心)",
-                "households": "100",
-                "decide": "109/10/13",
-                "start": "110/10/25",
-                "end": "(預定)113/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "中和安邦段青年社會住宅",
+                "title": "土城明德(23)",
                 "mayor": "新北市政府",
-                "households": "632",
-                "decide": "108/6/26",
-                "start": "109/7/10",
-                "end": "(預定)113/4/30",
-                "status": "興建中"
+                "households": "24",
+                "decide": "107/8/10",
+                "start": "107/9/19",
+                "end": "113/2/26",
+                "status": "新完工"
             },
             {
                 "location": "新北市",
-                "title": "光環安居",
-                "mayor": "中央(住都中心)",
-                "households": "330",
-                "decide": "110/11/24",
-                "start": "111/10/20",
-                "end": "(預定)114/11/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "玫瑰好室",
-                "mayor": "中央(住都中心)",
-                "households": "120",
-                "decide": "109/10/13",
-                "start": "110/10/25",
-                "end": "(預定)113/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "板橋江翠(96)青年社會住宅",
+                "title": "三峽國光一期青年社會住宅",
                 "mayor": "新北市政府",
-                "households": "130",
-                "decide": "110/3/25",
-                "start": "111/1/21",
-                "end": "(預定)114/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "板橋江翠(31)",
-                "mayor": "新北市政府",
-                "households": "52",
-                "decide": "107/7/2",
-                "start": "107/10/22",
-                "end": "(預定)113/4/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "保二總隊基地都市更新案",
-                "mayor": "中央(住都中心)",
-                "households": "399",
-                "decide": "110/3/25",
-                "start": "111/11/7",
-                "end": "(預定)117/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "新知段71等1筆地號",
-                "mayor": "新北市政府",
-                "households": "18",
-                "decide": "109/8/19",
-                "start": "111/5/9",
-                "end": "(預定)116/2/28",
-                "status": "興建中"
+                "households": "241",
+                "decide": "106/8/11",
+                "start": "107/3/19",
+                "end": "108/11/1",
+                "status": "新完工"
             },
             {
                 "location": "新北市",
@@ -1555,126 +1575,6 @@
                 "decide": "109/9/21",
                 "start": "110/9/30",
                 "end": "(預定)113/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "新店民安段青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "194",
-                "decide": "108/11/28",
-                "start": "109/12/18",
-                "end": "(預定)113/4/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "信華段五小段6、8、5-1等3筆地號",
-                "mayor": "新北市政府",
-                "households": "14",
-                "decide": "108/10/1",
-                "start": "108/10/1",
-                "end": "(預定)113/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "懷石好室",
-                "mayor": "中央(住都中心)",
-                "households": "92",
-                "decide": "109/9/21",
-                "start": "110/9/30",
-                "end": "(預定)113/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "五谷王段349、348、347、346、340、339等6筆地號",
-                "mayor": "新北市政府",
-                "households": "19",
-                "decide": "109/12/18",
-                "start": "109/12/18",
-                "end": "(預定)113/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "立言段10等1筆地號",
-                "mayor": "新北市政府",
-                "households": "16",
-                "decide": "109/5/9",
-                "start": "109/5/9",
-                "end": "(預定)114/1/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "信華段一小段8、7、信華段二小段19、18、17、16、15、14、12等9筆地號",
-                "mayor": "新北市政府",
-                "households": "11",
-                "decide": "109/8/19",
-                "start": "109/8/19",
-                "end": "(預定)113/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "保二安居",
-                "mayor": "中央(住都中心)",
-                "households": "317",
-                "decide": "109/6/20",
-                "start": "110/2/5",
-                "end": "(預定)114/3/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "三重段309等1筆地號",
-                "mayor": "新北市政府",
-                "households": "18",
-                "decide": "109/2/19",
-                "start": "109/2/19",
-                "end": "(預定)113/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "新北市中和區景福段695地號等7筆土地都市更新計畫案",
-                "mayor": "中央(住都中心)",
-                "households": "2",
-                "decide": "-",
-                "start": "110/1/28",
-                "end": "(預定)113/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "連城安居",
-                "mayor": "中央(住都中心)",
-                "households": "370",
-                "decide": "111/10/13",
-                "start": "112/10/2",
-                "end": "(預定)116/8/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "五谷好室",
-                "mayor": "中央(住都中心)",
-                "households": "161",
-                "decide": "109/9/21",
-                "start": "110/11/18",
-                "end": "(預定)113/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "富貴好室",
-                "mayor": "中央(住都中心)",
-                "households": "142",
-                "decide": "109/9/21",
-                "start": "110/11/18",
-                "end": "(預定)114/2/28",
                 "status": "興建中"
             },
             {
@@ -1689,6 +1589,96 @@
             },
             {
                 "location": "新北市",
+                "title": "保二總隊基地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "399",
+                "decide": "110/3/25",
+                "start": "111/11/7",
+                "end": "(預定)117/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "光環安居",
+                "mayor": "中央(住都中心)",
+                "households": "330",
+                "decide": "110/11/24",
+                "start": "111/10/20",
+                "end": "(預定)115/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "新北市板橋區中興段181地號及成功段27-1地號等17筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "5",
+                "decide": "109/11/27",
+                "start": "111/6/14",
+                "end": "(預定)114/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "江翠好室",
+                "mayor": "中央(住都中心)",
+                "households": "100",
+                "decide": "109/10/13",
+                "start": "110/10/25",
+                "end": "(預定)114/1/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "板橋江翠(96)青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "130",
+                "decide": "110/3/25",
+                "start": "111/1/21",
+                "end": "(預定)114/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "信華段一小段8、7、信華段二小段19、18、17、16、15、14、12等9筆地號",
+                "mayor": "新北市政府",
+                "households": "11",
+                "decide": "109/8/19",
+                "start": "109/8/19",
+                "end": "(預定)113/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "連城安居",
+                "mayor": "中央(住都中心)",
+                "households": "370",
+                "decide": "111/10/13",
+                "start": "112/10/2",
+                "end": "(預定)116/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "保二安居",
+                "mayor": "中央(住都中心)",
+                "households": "317",
+                "decide": "109/6/20",
+                "start": "110/2/5",
+                "end": "(預定)114/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "立言段10等1筆地號",
+                "mayor": "新北市政府",
+                "households": "16",
+                "decide": "109/5/9",
+                "start": "109/5/9",
+                "end": "(預定)114/1/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
                 "title": "信華段五小段1、信華段三小段4-2、4-1、4等4筆地號",
                 "mayor": "新北市政府",
                 "households": "12",
@@ -1699,11 +1689,111 @@
             },
             {
                 "location": "新北市",
+                "title": "新知段71等1筆地號",
+                "mayor": "新北市政府",
+                "households": "18",
+                "decide": "109/8/19",
+                "start": "111/5/9",
+                "end": "(預定)116/2/28",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "懷石好室",
+                "mayor": "中央(住都中心)",
+                "households": "92",
+                "decide": "109/9/21",
+                "start": "110/9/30",
+                "end": "(預定)113/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "玫瑰好室",
+                "mayor": "中央(住都中心)",
+                "households": "120",
+                "decide": "109/10/13",
+                "start": "110/10/25",
+                "end": "(預定)114/1/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "五谷王段349、348、347、346、340、339等6筆地號",
+                "mayor": "新北市政府",
+                "households": "19",
+                "decide": "109/12/18",
+                "start": "109/12/18",
+                "end": "(預定)113/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
                 "title": "新店斯馨(13、15)青年社會住宅",
                 "mayor": "新北市政府",
                 "households": "20",
                 "decide": "107/8/21",
                 "start": "107/11/7",
+                "end": "(預定)113/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "富貴好室",
+                "mayor": "中央(住都中心)",
+                "households": "142",
+                "decide": "109/9/21",
+                "start": "110/11/18",
+                "end": "(預定)114/2/28",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "新北市中和區景福段695地號等7筆土地都市更新計畫案",
+                "mayor": "中央(住都中心)",
+                "households": "2",
+                "decide": "-",
+                "start": "110/1/28",
+                "end": "(預定)113/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "三重段309等1筆地號",
+                "mayor": "新北市政府",
+                "households": "18",
+                "decide": "109/2/19",
+                "start": "109/2/19",
+                "end": "(預定)113/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "五谷好室",
+                "mayor": "中央(住都中心)",
+                "households": "161",
+                "decide": "109/9/21",
+                "start": "110/11/18",
+                "end": "(預定)113/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "新北市中和區圓通段337地號等24筆土地都市更新案",
+                "mayor": "中央(住都中心)",
+                "households": "5",
+                "decide": "109/12/21",
+                "start": "110/12/10",
+                "end": "(預定)114/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "中和安邦段青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "632",
+                "decide": "108/6/26",
+                "start": "109/7/10",
                 "end": "(預定)113/5/31",
                 "status": "興建中"
             },
@@ -1719,6 +1809,16 @@
             },
             {
                 "location": "新北市",
+                "title": "頂福安居B",
+                "mayor": "中央(住都中心)",
+                "households": "481",
+                "decide": "110/11/26",
+                "start": "112/4/24",
+                "end": "(預定)116/4/30",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
                 "title": "土城明德3",
                 "mayor": "新北市政府",
                 "households": "11",
@@ -1729,22 +1829,12 @@
             },
             {
                 "location": "新北市",
-                "title": "頂福安居B",
-                "mayor": "中央(住都中心)",
-                "households": "481",
-                "decide": "110/11/26",
-                "start": "112/4/24",
-                "end": "(預定)115/11/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
                 "title": "頂福安居A",
                 "mayor": "中央(住都中心)",
                 "households": "813",
                 "decide": "110/11/26",
                 "start": "112/4/24",
-                "end": "(預定)115/11/30",
+                "end": "(預定)116/4/30",
                 "status": "興建中"
             },
             {
@@ -1755,6 +1845,16 @@
                 "decide": "109/7/24",
                 "start": "109/7/31",
                 "end": "(預定)114/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "新北市永和區信義段435地號等39筆土地都市更新計畫案",
+                "mayor": "中央(住都中心)",
+                "households": "8",
+                "decide": "112/5/3",
+                "start": "113/2/19",
+                "end": "(預定)116/4/30",
                 "status": "興建中"
             },
             {
@@ -1779,52 +1879,12 @@
             },
             {
                 "location": "新北市",
-                "title": "三峽國光二期青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "921",
-                "decide": "109/4/22",
-                "start": "110/1/12",
-                "end": "(預定)113/7/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
                 "title": "鶯陶安居",
                 "mayor": "中央(住都中心)",
                 "households": "380",
                 "decide": "110/6/22",
                 "start": "111/10/12",
                 "end": "(預定)114/4/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "五股芳洲(203)青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "23",
-                "decide": "108/1/31",
-                "start": "108/10/15",
-                "end": "(預定)113/4/30",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "成州段4等1筆地號",
-                "mayor": "新北市政府",
-                "households": "11",
-                "decide": "109/10/14",
-                "start": "109/10/14",
-                "end": "(預定)113/7/31",
-                "status": "興建中"
-            },
-            {
-                "location": "新北市",
-                "title": "土城明德(23)",
-                "mayor": "新北市政府",
-                "households": "24",
-                "decide": "107/8/10",
-                "start": "107/9/19",
-                "end": "(預定)113/4/30",
                 "status": "興建中"
             },
             {
@@ -1839,12 +1899,52 @@
             },
             {
                 "location": "新北市",
-                "title": "三重三重青年社會住宅",
+                "title": "信華段五小段6、8、5-1等3筆地號",
                 "mayor": "新北市政府",
-                "households": "440",
-                "decide": "113/3/8",
-                "start": "(預定)113/12/31",
-                "end": "(預定)118/2/28",
+                "households": "14",
+                "decide": "108/10/1",
+                "start": "108/10/1",
+                "end": "(預定)113/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "成州段4等1筆地號",
+                "mayor": "新北市政府",
+                "households": "11",
+                "decide": "109/10/14",
+                "start": "109/10/14",
+                "end": "(預定)113/7/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "三峽國光二期青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "921",
+                "decide": "109/4/22",
+                "start": "110/1/12",
+                "end": "(預定)113/7/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "五股芳洲(203)青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "23",
+                "decide": "108/1/31",
+                "start": "108/10/15",
+                "end": "(預定)113/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "新北市",
+                "title": "德穗安居",
+                "mayor": "中央(住都中心)",
+                "households": "339",
+                "decide": "112/12/14",
+                "start": "(預定)114/2/28",
+                "end": "(預定)117/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -1859,12 +1959,22 @@
             },
             {
                 "location": "新北市",
-                "title": "德穗安居",
-                "mayor": "中央(住都中心)",
-                "households": "339",
-                "decide": "112/12/14",
-                "start": "(預定)114/2/28",
-                "end": "(預定)117/12/31",
+                "title": "三重三重青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "440",
+                "decide": "113/3/8",
+                "start": "(預定)113/12/31",
+                "end": "(預定)118/2/28",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "新北市",
+                "title": "蘆洲光華青年社會住宅",
+                "mayor": "新北市政府",
+                "households": "660",
+                "decide": "113/3/20",
+                "start": "(預定)113/12/31",
+                "end": "(預定)117/7/31",
                 "status": "已決標待開工"
             },
             {
@@ -1909,12 +2019,12 @@
             },
             {
                 "location": "新北市",
-                "title": "新北市永和區信義段435地號等39筆土地都市更新計畫案",
+                "title": "新北市永和區中興段689地號等140筆(原139筆)土地都市更新計畫案",
                 "mayor": "中央(住都中心)",
-                "households": "8",
-                "decide": "112/5/3",
-                "start": "(預定)113/3/31",
-                "end": "(預定)116/4/30",
+                "households": "4",
+                "decide": "112/4/28",
+                "start": "(預定)114/12/31",
+                "end": "(預定)118/6/30",
                 "status": "已決標待開工"
             },
             {
@@ -1923,7 +2033,7 @@
                 "mayor": "中央(住都中心)",
                 "households": "236",
                 "decide": "111/12/16",
-                "start": "(預定)113/5/31",
+                "start": "(預定)113/7/31",
                 "end": "(預定)116/12/31",
                 "status": "已決標待開工"
             },
@@ -1949,31 +2059,11 @@
             },
             {
                 "location": "新北市",
-                "title": "蘆洲光華青年社會住宅",
-                "mayor": "新北市政府",
-                "households": "660",
-                "decide": "113/3/20",
-                "start": "(預定)113/12/31",
-                "end": "(預定)117/7/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "新北市",
-                "title": "新北市永和區中興段689地號等140筆(原139筆)土地都市更新計畫案",
-                "mayor": "中央(住都中心)",
-                "households": "4",
-                "decide": "112/4/28",
-                "start": "(預定)113/10/31",
-                "end": "(預定)117/3/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "新北市",
                 "title": "樹德安居B",
                 "mayor": "中央(住都中心)",
                 "households": "342",
                 "decide": "111/12/16",
-                "start": "(預定)113/5/31",
+                "start": "(預定)113/7/31",
                 "end": "(預定)116/12/31",
                 "status": "已決標待開工"
             }
@@ -1984,12 +2074,22 @@
         "projects": [
             {
                 "location": "桃園市",
-                "title": "東門段208-1地號都市更新事業(東門停車場)",
+                "title": "中路三號社會住宅",
                 "mayor": "桃園市政府",
-                "households": "70",
-                "decide": "107/9/12",
-                "start": "109/7/14",
-                "end": "112/12/7",
+                "households": "417",
+                "decide": "107/8/30",
+                "start": "107/11/19",
+                "end": "111/6/27",
+                "status": "新完工"
+            },
+            {
+                "location": "桃園市",
+                "title": "中壢一號社會住宅",
+                "mayor": "桃園市政府",
+                "households": "957",
+                "decide": "107/7/16",
+                "start": "108/8/7",
+                "end": "111/8/12",
                 "status": "新完工"
             },
             {
@@ -2014,12 +2114,12 @@
             },
             {
                 "location": "桃園市",
-                "title": "中路三號社會住宅",
+                "title": "東門段208-1地號都市更新事業(東門停車場)",
                 "mayor": "桃園市政府",
-                "households": "417",
-                "decide": "107/8/30",
-                "start": "107/11/19",
-                "end": "111/6/27",
+                "households": "70",
+                "decide": "107/9/12",
+                "start": "109/7/14",
+                "end": "112/12/7",
                 "status": "新完工"
             },
             {
@@ -2034,26 +2134,6 @@
             },
             {
                 "location": "桃園市",
-                "title": "中壢一號社會住宅",
-                "mayor": "桃園市政府",
-                "households": "957",
-                "decide": "107/7/16",
-                "start": "108/8/7",
-                "end": "111/8/12",
-                "status": "新完工"
-            },
-            {
-                "location": "桃園市",
-                "title": "八德二號社會住宅",
-                "mayor": "桃園市政府",
-                "households": "354",
-                "decide": "106/5/23",
-                "start": "106/5/24",
-                "end": "109/12/30",
-                "status": "新完工"
-            },
-            {
-                "location": "桃園市",
                 "title": "平鎮一號社會住宅",
                 "mayor": "桃園市政府",
                 "households": "64",
@@ -2064,12 +2144,12 @@
             },
             {
                 "location": "桃園市",
-                "title": "八德一號社會住宅",
+                "title": "楊梅一號社會住宅-第一期",
                 "mayor": "桃園市政府",
-                "households": "418",
-                "decide": "106/5/3",
-                "start": "106/10/31",
-                "end": "109/7/21",
+                "households": "216",
+                "decide": "108/10/24",
+                "start": "109/7/18",
+                "end": "112/9/3",
                 "status": "新完工"
             },
             {
@@ -2084,12 +2164,22 @@
             },
             {
                 "location": "桃園市",
-                "title": "楊梅一號社會住宅-第一期",
+                "title": "八德一號社會住宅",
                 "mayor": "桃園市政府",
-                "households": "216",
-                "decide": "108/10/24",
-                "start": "109/7/18",
-                "end": "112/9/3",
+                "households": "418",
+                "decide": "106/5/3",
+                "start": "106/10/31",
+                "end": "109/7/21",
+                "status": "新完工"
+            },
+            {
+                "location": "桃園市",
+                "title": "八德二號社會住宅",
+                "mayor": "桃園市政府",
+                "households": "354",
+                "decide": "106/5/23",
+                "start": "106/5/24",
+                "end": "109/12/30",
                 "status": "新完工"
             },
             {
@@ -2114,12 +2204,12 @@
             },
             {
                 "location": "桃園市",
-                "title": "中正段1209地號等16筆土地及法政段1222等3筆土地都市更新事業(正光路警察宿舍)",
+                "title": "桃園段武陵小段31地號都市更新事業(復興路)",
                 "mayor": "桃園市政府",
-                "households": "255",
-                "decide": "111/12/29",
-                "start": "112/5/19",
-                "end": "(預定)115/10/31",
+                "households": "75",
+                "decide": "109/9/1",
+                "start": "113/1/18",
+                "end": "(預定)116/12/31",
                 "status": "興建中"
             },
             {
@@ -2134,12 +2224,12 @@
             },
             {
                 "location": "桃園市",
-                "title": "桃園段武陵小段31地號都市更新事業(復興路)",
+                "title": "中正段1209地號等16筆土地及法政段1222等3筆土地都市更新事業(正光路警察宿舍)",
                 "mayor": "桃園市政府",
-                "households": "75",
-                "decide": "109/9/1",
-                "start": "113/1/18",
-                "end": "(預定)116/12/31",
+                "households": "255",
+                "decide": "111/12/29",
+                "start": "112/5/19",
+                "end": "(預定)115/10/31",
                 "status": "興建中"
             },
             {
@@ -2159,27 +2249,27 @@
                 "households": "150",
                 "decide": "110/5/19",
                 "start": "111/6/2",
-                "end": "(預定)113/5/31",
+                "end": "(預定)112/11/30",
                 "status": "興建中"
             },
             {
                 "location": "桃園市",
-                "title": "太武安居",
-                "mayor": "中央(住都中心)",
-                "households": "486",
-                "decide": "112/3/15",
-                "start": "(預定)113/6/30",
-                "end": "(預定)116/11/30",
+                "title": "捷運A20站",
+                "mayor": "桃園市政府",
+                "households": "347",
+                "decide": "113/1/30",
+                "start": "(預定)114/4/30",
+                "end": "(預定)117/1/31",
                 "status": "已決標待開工"
             },
             {
                 "location": "桃園市",
-                "title": "過嶺安居",
-                "mayor": "中央(住都中心)",
+                "title": "北富台新村",
+                "mayor": "桃園市政府",
                 "households": "220",
-                "decide": "113/3/7",
-                "start": "(預定)114/7/31",
-                "end": "(預定)117/6/30",
+                "decide": "113/4/16",
+                "start": "(預定)113/11/30",
+                "end": "(預定)117/3/31",
                 "status": "已決標待開工"
             },
             {
@@ -2189,16 +2279,6 @@
                 "households": "239",
                 "decide": "112/7/18",
                 "start": "(預定)113/9/30",
-                "end": "(預定)117/5/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "桃園市",
-                "title": "振興安居",
-                "mayor": "中央(住都中心)",
-                "households": "370",
-                "decide": "112/8/16",
-                "start": "(預定)113/10/31",
                 "end": "(預定)117/5/31",
                 "status": "已決標待開工"
             },
@@ -2224,32 +2304,32 @@
             },
             {
                 "location": "桃園市",
-                "title": "捷運A20站",
-                "mayor": "桃園市政府",
-                "households": "347",
-                "decide": "113/1/30",
-                "start": "(預定)114/4/30",
-                "end": "(預定)117/1/31",
+                "title": "過嶺安居",
+                "mayor": "中央(住都中心)",
+                "households": "220",
+                "decide": "113/3/7",
+                "start": "(預定)114/7/31",
+                "end": "(預定)117/6/30",
                 "status": "已決標待開工"
             },
             {
                 "location": "桃園市",
-                "title": "埔心安居",
+                "title": "振興安居",
                 "mayor": "中央(住都中心)",
-                "households": "486",
+                "households": "370",
+                "decide": "112/8/16",
+                "start": "(預定)113/10/31",
+                "end": "(預定)117/5/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "桃園市",
+                "title": "樂善安居",
+                "mayor": "中央(住都中心)",
+                "households": "790",
                 "decide": "112/6/28",
                 "start": "(預定)113/9/30",
-                "end": "(預定)116/7/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "桃園市",
-                "title": "龜山區善捷段",
-                "mayor": "桃園市政府",
-                "households": "295",
-                "decide": "112/7/31",
-                "start": "(預定)113/8/31",
-                "end": "(預定)116/10/31",
+                "end": "(預定)117/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -2264,12 +2344,32 @@
             },
             {
                 "location": "桃園市",
-                "title": "上林好室",
+                "title": "太武安居",
                 "mayor": "中央(住都中心)",
-                "households": "140",
-                "decide": "112/4/18",
-                "start": "(預定)114/2/28",
-                "end": "(預定)119/7/31",
+                "households": "486",
+                "decide": "112/5/31",
+                "start": "(預定)113/10/31",
+                "end": "(預定)116/11/30",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "桃園市",
+                "title": "龜山區善捷段",
+                "mayor": "桃園市政府",
+                "households": "295",
+                "decide": "112/7/31",
+                "start": "(預定)113/8/31",
+                "end": "(預定)116/10/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "桃園市",
+                "title": "埔心安居",
+                "mayor": "中央(住都中心)",
+                "households": "486",
+                "decide": "112/6/28",
+                "start": "(預定)113/9/30",
+                "end": "(預定)116/7/31",
                 "status": "已決標待開工"
             },
             {
@@ -2284,16 +2384,6 @@
             },
             {
                 "location": "桃園市",
-                "title": "龜山區興安段",
-                "mayor": "桃園市政府",
-                "households": "125",
-                "decide": "112/7/31",
-                "start": "(預定)113/8/31",
-                "end": "(預定)116/10/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "桃園市",
                 "title": "蘆竹區大興段",
                 "mayor": "桃園市政府",
                 "households": "73",
@@ -2304,12 +2394,22 @@
             },
             {
                 "location": "桃園市",
-                "title": "樂善安居",
+                "title": "上林好室",
                 "mayor": "中央(住都中心)",
-                "households": "790",
-                "decide": "112/6/28",
-                "start": "(預定)113/9/30",
-                "end": "(預定)117/12/31",
+                "households": "140",
+                "decide": "112/4/18",
+                "start": "(預定)114/2/28",
+                "end": "(預定)119/7/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "桃園市",
+                "title": "龜山區興安段",
+                "mayor": "桃園市政府",
+                "households": "125",
+                "decide": "112/7/31",
+                "start": "(預定)113/8/31",
+                "end": "(預定)116/10/31",
                 "status": "已決標待開工"
             }
         ]
@@ -2344,16 +2444,6 @@
         "projects": [
             {
                 "location": "新竹市",
-                "title": "公學新村乙區",
-                "mayor": "新竹市政府",
-                "households": "4",
-                "decide": "83/10/31",
-                "start": "83/11/30",
-                "end": "89/9/30",
-                "status": "既有"
-            },
-            {
-                "location": "新竹市",
                 "title": "公學新村甲區",
                 "mayor": "新竹市政府",
                 "households": "2",
@@ -2364,23 +2454,23 @@
             },
             {
                 "location": "新竹市",
+                "title": "公學新村乙區",
+                "mayor": "新竹市政府",
+                "households": "4",
+                "decide": "83/10/31",
+                "start": "83/11/30",
+                "end": "89/9/30",
+                "status": "既有"
+            },
+            {
+                "location": "新竹市",
                 "title": "中雅安居",
                 "mayor": "中央(住都中心)",
                 "households": "638",
                 "decide": "111/1/20",
                 "start": "111/10/17",
-                "end": "(預定)116/8/31",
+                "end": "(預定)115/7/31",
                 "status": "興建中"
-            },
-            {
-                "location": "新竹市",
-                "title": "建功安居",
-                "mayor": "中央(住都中心)",
-                "households": "743",
-                "decide": "112/7/31",
-                "start": "(預定)113/7/31",
-                "end": "(預定)117/3/31",
-                "status": "已決標待開工"
             },
             {
                 "location": "新竹市",
@@ -2390,6 +2480,16 @@
                 "decide": "113/3/28",
                 "start": "(預定)114/12/31",
                 "end": "(預定)118/8/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "新竹市",
+                "title": "建功安居",
+                "mayor": "中央(住都中心)",
+                "households": "743",
+                "decide": "112/7/31",
+                "start": "(預定)113/7/31",
+                "end": "(預定)117/3/31",
                 "status": "已決標待開工"
             },
             {
@@ -2449,6 +2549,16 @@
             },
             {
                 "location": "臺中市",
+                "title": "光正段一期",
+                "mayor": "臺中市政府",
+                "households": "201",
+                "decide": "105/7/20",
+                "start": "105/9/1",
+                "end": "107/10/27",
+                "status": "新完工"
+            },
+            {
+                "location": "臺中市",
                 "title": "育賢段一期",
                 "mayor": "臺中市政府",
                 "households": "300",
@@ -2465,26 +2575,6 @@
                 "decide": "-",
                 "start": "106/4/28",
                 "end": "108/8/27",
-                "status": "新完工"
-            },
-            {
-                "location": "臺中市",
-                "title": "光正段一期",
-                "mayor": "臺中市政府",
-                "households": "201",
-                "decide": "105/7/20",
-                "start": "105/9/1",
-                "end": "107/10/27",
-                "status": "新完工"
-            },
-            {
-                "location": "臺中市",
-                "title": "台糖公營學苑",
-                "mayor": "中央(住都中心)",
-                "households": "203",
-                "decide": "111/8/29",
-                "start": "112/4/12",
-                "end": "112/7/10",
                 "status": "新完工"
             },
             {
@@ -2539,6 +2629,16 @@
             },
             {
                 "location": "臺中市",
+                "title": "台糖公營學苑",
+                "mayor": "中央(住都中心)",
+                "households": "203",
+                "decide": "111/8/29",
+                "start": "112/4/12",
+                "end": "112/7/10",
+                "status": "新完工"
+            },
+            {
+                "location": "臺中市",
                 "title": "同榮段",
                 "mayor": "臺中市政府",
                 "households": "560",
@@ -2549,22 +2649,22 @@
             },
             {
                 "location": "臺中市",
+                "title": "松竹好室",
+                "mayor": "中央(住都中心)",
+                "households": "110",
+                "decide": "112/6/30",
+                "start": "113/4/11",
+                "end": "(預定)116/10/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
                 "title": "國安段一期",
                 "mayor": "臺中市政府",
                 "households": "500",
                 "decide": "109/7/31",
                 "start": "110/5/11",
-                "end": "(預定)113/8/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺中市",
-                "title": "建功段4-1地號",
-                "mayor": "臺中市政府",
-                "households": "98",
-                "decide": "-",
-                "start": "108/10/28",
-                "end": "(預定)113/5/31",
+                "end": "(預定)113/9/30",
                 "status": "興建中"
             },
             {
@@ -2579,6 +2679,16 @@
             },
             {
                 "location": "臺中市",
+                "title": "鑫港尾段",
+                "mayor": "臺中市政府",
+                "households": "125",
+                "decide": "112/7/7",
+                "start": "113/3/15",
+                "end": "(預定)116/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
                 "title": "惠民安居",
                 "mayor": "中央(住都中心)",
                 "households": "210",
@@ -2589,22 +2699,12 @@
             },
             {
                 "location": "臺中市",
-                "title": "光正段二期",
+                "title": "建功段4-1地號",
                 "mayor": "臺中市政府",
-                "households": "230",
-                "decide": "109/11/10",
-                "start": "110/3/28",
-                "end": "(預定)114/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺中市",
-                "title": "永億段",
-                "mayor": "臺中市政府",
-                "households": "160",
-                "decide": "109/11/4",
-                "start": "110/3/1",
-                "end": "(預定)113/6/30",
+                "households": "98",
+                "decide": "-",
+                "start": "108/10/28",
+                "end": "(預定)113/5/31",
                 "status": "興建中"
             },
             {
@@ -2615,6 +2715,16 @@
                 "decide": "110/4/9",
                 "start": "110/6/23",
                 "end": "(預定)114/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
+                "title": "永億段",
+                "mayor": "臺中市政府",
+                "households": "160",
+                "decide": "109/11/4",
+                "start": "110/3/1",
+                "end": "(預定)113/7/31",
                 "status": "興建中"
             },
             {
@@ -2639,16 +2749,6 @@
             },
             {
                 "location": "臺中市",
-                "title": "安康段二期",
-                "mayor": "臺中市政府",
-                "households": "500",
-                "decide": "108/11/5",
-                "start": "109/2/11",
-                "end": "(預定)114/2/28",
-                "status": "興建中"
-            },
-            {
-                "location": "臺中市",
                 "title": "春社安居A",
                 "mayor": "中央(住都中心)",
                 "households": "402",
@@ -2659,12 +2759,22 @@
             },
             {
                 "location": "臺中市",
-                "title": "東勢子段",
+                "title": "光正段二期",
                 "mayor": "臺中市政府",
-                "households": "100",
-                "decide": "109/7/6",
-                "start": "110/3/16",
-                "end": "(預定)113/8/31",
+                "households": "230",
+                "decide": "109/11/10",
+                "start": "110/3/28",
+                "end": "(預定)114/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
+                "title": "安康段二期",
+                "mayor": "臺中市政府",
+                "households": "500",
+                "decide": "108/11/5",
+                "start": "109/2/11",
+                "end": "(預定)114/12/31",
                 "status": "興建中"
             },
             {
@@ -2689,6 +2799,26 @@
             },
             {
                 "location": "臺中市",
+                "title": "榮泉安居",
+                "mayor": "中央(住都中心)",
+                "households": "206",
+                "decide": "111/9/23",
+                "start": "113/4/2",
+                "end": "(預定)117/1/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
+                "title": "東勢子段",
+                "mayor": "臺中市政府",
+                "households": "100",
+                "decide": "109/7/6",
+                "start": "110/3/16",
+                "end": "(預定)113/8/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺中市",
                 "title": "東光好室",
                 "mayor": "中央(住都中心)",
                 "households": "123",
@@ -2709,16 +2839,6 @@
             },
             {
                 "location": "臺中市",
-                "title": "松竹好室",
-                "mayor": "中央(住都中心)",
-                "households": "110",
-                "decide": "112/6/30",
-                "start": "(預定)113/7/31",
-                "end": "(預定)116/10/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺中市",
                 "title": "國安段二期暨三期",
                 "mayor": "臺中市政府",
                 "households": "780",
@@ -2729,22 +2849,22 @@
             },
             {
                 "location": "臺中市",
-                "title": "鑫港尾段",
+                "title": "大里區光正段三期",
                 "mayor": "臺中市政府",
-                "households": "125",
-                "decide": "112/7/7",
-                "start": "(預定)114/3/31",
-                "end": "(預定)116/12/31",
+                "households": "550",
+                "decide": "113/4/29",
+                "start": "(預定)114/6/30",
+                "end": "(預定)117/12/31",
                 "status": "已決標待開工"
             },
             {
                 "location": "臺中市",
-                "title": "吉峰安居",
-                "mayor": "中央(住都中心)",
-                "households": "533",
-                "decide": "112/6/6",
-                "start": "(預定)113/7/31",
-                "end": "(預定)116/11/30",
+                "title": "北區圓滿好宅",
+                "mayor": "臺中市政府",
+                "households": "1085",
+                "decide": "113/3/25",
+                "start": "(預定)113/11/30",
+                "end": "(預定)118/6/30",
                 "status": "已決標待開工"
             },
             {
@@ -2759,22 +2879,22 @@
             },
             {
                 "location": "臺中市",
-                "title": "榮泉安居",
-                "mayor": "中央(住都中心)",
-                "households": "206",
-                "decide": "111/9/23",
-                "start": "(預定)113/7/31",
-                "end": "(預定)117/1/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺中市",
                 "title": "東區練武段1060地號",
                 "mayor": "臺中市政府",
                 "households": "486",
                 "decide": "112/7/13",
-                "start": "(預定)113/5/31",
+                "start": "(預定)113/6/30",
                 "end": "(預定)117/12/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺中市",
+                "title": "吉峰安居",
+                "mayor": "中央(住都中心)",
+                "households": "533",
+                "decide": "112/6/6",
+                "start": "(預定)113/7/31",
+                "end": "(預定)116/11/30",
                 "status": "已決標待開工"
             }
         ]
@@ -2829,22 +2949,22 @@
             },
             {
                 "location": "彰化縣",
-                "title": "靜修好室A",
-                "mayor": "中央(住都中心)",
-                "households": "80",
-                "decide": "112/9/28",
-                "start": "(預定)113/4/30",
-                "end": "(預定)116/6/30",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "彰化縣",
                 "title": "靜修好室B",
                 "mayor": "中央(住都中心)",
                 "households": "100",
                 "decide": "112/9/28",
                 "start": "(預定)114/1/31",
                 "end": "(預定)116/12/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "彰化縣",
+                "title": "靜修好室A",
+                "mayor": "中央(住都中心)",
+                "households": "80",
+                "decide": "112/9/28",
+                "start": "(預定)113/10/31",
+                "end": "(預定)116/6/30",
                 "status": "已決標待開工"
             }
         ]
@@ -2924,92 +3044,12 @@
             },
             {
                 "location": "臺南市",
-                "title": "和順安居",
-                "mayor": "中央(住都中心)",
-                "households": "1703",
-                "decide": "111/12/23",
-                "start": "113/3/1",
-                "end": "(預定)117/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "橋北安居",
-                "mayor": "中央(住都中心)",
-                "households": "241",
-                "decide": "111/6/28",
-                "start": "112/5/12",
-                "end": "(預定)115/11/30",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
                 "title": "新都安居",
                 "mayor": "中央(住都中心)",
                 "households": "621",
                 "decide": "110/3/18",
                 "start": "110/10/1",
                 "end": "(預定)114/1/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "東橋安居",
-                "mayor": "中央(住都中心)",
-                "households": "220",
-                "decide": "111/3/10",
-                "start": "112/5/18",
-                "end": "(預定)115/2/28",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "開南安居B",
-                "mayor": "中央(住都中心)",
-                "households": "150",
-                "decide": "110/10/21",
-                "start": "111/7/13",
-                "end": "(預定)114/9/30",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "小東路北側基地公營住宅",
-                "mayor": "臺南市政府",
-                "households": "379",
-                "decide": "110/5/20",
-                "start": "110/7/1",
-                "end": "(預定)114/3/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "精忠二村更新案",
-                "mayor": "臺南市政府",
-                "households": "110",
-                "decide": "109/2/29",
-                "start": "110/10/5",
-                "end": "(預定)113/10/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "二空新村更新案(A區)第一期",
-                "mayor": "臺南市政府",
-                "households": "75",
-                "decide": "109/2/29",
-                "start": "110/10/14",
-                "end": "(預定)114/3/31",
-                "status": "興建中"
-            },
-            {
-                "location": "臺南市",
-                "title": "開南安居A",
-                "mayor": "中央(住都中心)",
-                "households": "150",
-                "decide": "110/10/21",
-                "start": "111/7/13",
-                "end": "(預定)114/9/30",
                 "status": "興建中"
             },
             {
@@ -3024,6 +3064,86 @@
             },
             {
                 "location": "臺南市",
+                "title": "二空新村更新案(A區)第一期",
+                "mayor": "臺南市政府",
+                "households": "75",
+                "decide": "109/2/29",
+                "start": "110/10/14",
+                "end": "(預定)114/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "橋北安居",
+                "mayor": "中央(住都中心)",
+                "households": "241",
+                "decide": "111/6/28",
+                "start": "112/5/12",
+                "end": "(預定)115/11/30",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "開南安居A",
+                "mayor": "中央(住都中心)",
+                "households": "150",
+                "decide": "110/10/21",
+                "start": "111/7/13",
+                "end": "(預定)114/9/30",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "精忠二村更新案",
+                "mayor": "臺南市政府",
+                "households": "110",
+                "decide": "109/2/29",
+                "start": "110/10/5",
+                "end": "(預定)113/10/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "開南安居B",
+                "mayor": "中央(住都中心)",
+                "households": "150",
+                "decide": "110/10/21",
+                "start": "111/7/13",
+                "end": "(預定)114/9/30",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "東橋安居",
+                "mayor": "中央(住都中心)",
+                "households": "220",
+                "decide": "111/3/10",
+                "start": "112/5/18",
+                "end": "(預定)115/2/28",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "小東路北側基地公營住宅",
+                "mayor": "臺南市政府",
+                "households": "379",
+                "decide": "110/5/20",
+                "start": "110/7/1",
+                "end": "(預定)114/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
+                "title": "和順安居",
+                "mayor": "中央(住都中心)",
+                "households": "1703",
+                "decide": "111/12/23",
+                "start": "113/3/1",
+                "end": "(預定)117/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "臺南市",
                 "title": "新市安居",
                 "mayor": "中央(住都中心)",
                 "households": "670",
@@ -3034,22 +3154,12 @@
             },
             {
                 "location": "臺南市",
-                "title": "正強安居",
-                "mayor": "中央(住都中心)",
-                "households": "464",
-                "decide": "112/6/27",
+                "title": "永康區康橋段",
+                "mayor": "臺南市政府",
+                "households": "445",
+                "decide": "111/11/7",
                 "start": "(預定)113/8/31",
-                "end": "(預定)117/2/29",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺南市",
-                "title": "長勝好室",
-                "mayor": "中央(住都中心)",
-                "households": "140",
-                "decide": "112/6/29",
-                "start": "(預定)113/5/31",
-                "end": "(預定)116/10/31",
+                "end": "(預定)120/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -3064,52 +3174,12 @@
             },
             {
                 "location": "臺南市",
-                "title": "裕忠安居",
-                "mayor": "中央(住都中心)",
-                "households": "610",
-                "decide": "112/12/28",
-                "start": "(預定)113/12/31",
-                "end": "(預定)117/7/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺南市",
-                "title": "平實營區更新案第一期",
-                "mayor": "臺南市政府",
-                "households": "220",
-                "decide": "110/2/28",
-                "start": "(預定)113/12/31",
-                "end": "(預定)117/12/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺南市",
                 "title": "中興新城",
                 "mayor": "臺南市政府",
                 "households": "104",
                 "decide": "111/2/25",
                 "start": "(預定)114/12/31",
                 "end": "(預定)118/12/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺南市",
-                "title": "平實營區更新案第二期",
-                "mayor": "臺南市政府",
-                "households": "175",
-                "decide": "110/12/3",
-                "start": "(預定)113/12/31",
-                "end": "(預定)117/12/31",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "臺南市",
-                "title": "永康區康橋段",
-                "mayor": "臺南市政府",
-                "households": "445",
-                "decide": "111/11/7",
-                "start": "(預定)113/8/31",
-                "end": "(預定)120/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -3124,12 +3194,62 @@
             },
             {
                 "location": "臺南市",
+                "title": "長勝好室",
+                "mayor": "中央(住都中心)",
+                "households": "140",
+                "decide": "112/6/29",
+                "start": "(預定)113/8/31",
+                "end": "(預定)116/10/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺南市",
+                "title": "平實營區更新案第一期",
+                "mayor": "臺南市政府",
+                "households": "220",
+                "decide": "110/2/28",
+                "start": "(預定)113/12/31",
+                "end": "(預定)117/12/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺南市",
                 "title": "鯤鯓安居",
                 "mayor": "中央(住都中心)",
                 "households": "665",
                 "decide": "112/12/22",
                 "start": "(預定)113/12/31",
                 "end": "(預定)117/8/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺南市",
+                "title": "正強安居",
+                "mayor": "中央(住都中心)",
+                "households": "464",
+                "decide": "112/6/27",
+                "start": "113/5/6",
+                "end": "(預定)117/8/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺南市",
+                "title": "平實營區更新案第二期",
+                "mayor": "臺南市政府",
+                "households": "175",
+                "decide": "110/12/3",
+                "start": "(預定)113/12/31",
+                "end": "(預定)117/12/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "臺南市",
+                "title": "裕忠安居",
+                "mayor": "中央(住都中心)",
+                "households": "610",
+                "decide": "112/12/28",
+                "start": "(預定)113/12/31",
+                "end": "(預定)117/7/31",
                 "status": "已決標待開工"
             }
         ]
@@ -3139,12 +3259,32 @@
         "projects": [
             {
                 "location": "高雄市",
+                "title": "翠華國宅(一期社區)",
+                "mayor": "高雄市政府",
+                "households": "15",
+                "decide": "105/12/31",
+                "start": "105/1/1",
+                "end": "105/10/1",
+                "status": "既有"
+            },
+            {
+                "location": "高雄市",
                 "title": "翠華國宅(二期社區)",
                 "mayor": "高雄市政府",
                 "households": "10",
                 "decide": "85/3/1",
                 "start": "85/3/2",
                 "end": "88/5/14",
+                "status": "既有"
+            },
+            {
+                "location": "高雄市",
+                "title": "復興西區國宅",
+                "mayor": "高雄市政府",
+                "households": "90",
+                "decide": "105/12/31",
+                "start": "105/1/1",
+                "end": "105/1/1",
                 "status": "既有"
             },
             {
@@ -3159,22 +3299,12 @@
             },
             {
                 "location": "高雄市",
-                "title": "翠華國宅(一期社區)",
+                "title": "山明家園(山明社區)",
                 "mayor": "高雄市政府",
-                "households": "15",
-                "decide": "105/12/31",
-                "start": "105/1/1",
-                "end": "105/10/1",
-                "status": "既有"
-            },
-            {
-                "location": "高雄市",
-                "title": "復興西區國宅",
-                "mayor": "高雄市政府",
-                "households": "90",
-                "decide": "105/12/31",
-                "start": "105/1/1",
-                "end": "105/1/1",
+                "households": "23",
+                "decide": "-",
+                "start": "82/1/5",
+                "end": "84/10/4",
                 "status": "既有"
             },
             {
@@ -3199,26 +3329,6 @@
             },
             {
                 "location": "高雄市",
-                "title": "山明家園(山明社區)",
-                "mayor": "高雄市政府",
-                "households": "23",
-                "decide": "-",
-                "start": "82/1/5",
-                "end": "84/10/4",
-                "status": "既有"
-            },
-            {
-                "location": "高雄市",
-                "title": "五甲國宅公共出租住宅",
-                "mayor": "高雄市政府",
-                "households": "55",
-                "decide": "105/4/30",
-                "start": "105/4/6",
-                "end": "106/1/9",
-                "status": "新完工"
-            },
-            {
-                "location": "高雄市",
                 "title": "鳳山共合宅",
                 "mayor": "高雄市政府",
                 "households": "19",
@@ -3229,12 +3339,12 @@
             },
             {
                 "location": "高雄市",
-                "title": "前金警察宿舍",
+                "title": "五甲國宅公共出租住宅",
                 "mayor": "高雄市政府",
-                "households": "48",
-                "decide": "108/3/13",
-                "start": "108/4/30",
-                "end": "109/5/29",
+                "households": "55",
+                "decide": "105/4/30",
+                "start": "105/4/6",
+                "end": "106/1/9",
                 "status": "新完工"
             },
             {
@@ -3259,12 +3369,22 @@
             },
             {
                 "location": "高雄市",
-                "title": "鳳誠安居",
-                "mayor": "中央(住都中心)",
-                "households": "320",
-                "decide": "110/3/17",
-                "start": "110/11/19",
-                "end": "(預定)114/3/31",
+                "title": "前金警察宿舍",
+                "mayor": "高雄市政府",
+                "households": "48",
+                "decide": "108/3/13",
+                "start": "108/4/30",
+                "end": "109/5/29",
+                "status": "新完工"
+            },
+            {
+                "location": "高雄市",
+                "title": "新都段公營出租住宅",
+                "mayor": "高雄市政府",
+                "households": "114",
+                "decide": "110/9/15",
+                "start": "111/3/21",
+                "end": "(預定)113/5/31",
                 "status": "興建中"
             },
             {
@@ -3279,22 +3399,22 @@
             },
             {
                 "location": "高雄市",
+                "title": "鳳誠安居",
+                "mayor": "中央(住都中心)",
+                "households": "320",
+                "decide": "110/3/17",
+                "start": "110/11/19",
+                "end": "(預定)114/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
                 "title": "鳳翔安居",
                 "mayor": "中央(住都中心)",
                 "households": "440",
                 "decide": "110/7/30",
                 "start": "111/7/15",
                 "end": "(預定)115/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "明仁好室",
-                "mayor": "中央(住都中心)",
-                "households": "139",
-                "decide": "110/6/24",
-                "start": "110/12/23",
-                "end": "(預定)114/2/28",
                 "status": "興建中"
             },
             {
@@ -3319,12 +3439,62 @@
             },
             {
                 "location": "高雄市",
+                "title": "福山安居",
+                "mayor": "中央(住都中心)",
+                "households": "220",
+                "decide": "110/12/16",
+                "start": "111/9/1",
+                "end": "(預定)114/11/30",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
                 "title": "崇實安居",
                 "mayor": "中央(住都中心)",
                 "households": "859",
                 "decide": "110/3/18",
                 "start": "110/11/15",
                 "end": "(預定)114/5/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "興邦安居(一期)",
+                "mayor": "中央(住都中心)",
+                "households": "663",
+                "decide": "111/11/30",
+                "start": "112/11/8",
+                "end": "(預定)116/7/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "明仁好室",
+                "mayor": "中央(住都中心)",
+                "households": "139",
+                "decide": "110/6/24",
+                "start": "110/12/23",
+                "end": "(預定)114/2/28",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "前鎮亞灣智慧公宅(第一期)新建統包工程",
+                "mayor": "高雄市政府",
+                "households": "634",
+                "decide": "111/10/11",
+                "start": "112/8/3",
+                "end": "(預定)116/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "清豐安居",
+                "mayor": "中央(住都中心)",
+                "households": "1594",
+                "decide": "110/12/21",
+                "start": "111/12/27",
+                "end": "(預定)115/10/31",
                 "status": "興建中"
             },
             {
@@ -3344,97 +3514,7 @@
                 "households": "99",
                 "decide": "112/3/17",
                 "start": "112/3/18",
-                "end": "(預定)113/4/30",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "新都段公營出租住宅",
-                "mayor": "高雄市政府",
-                "households": "114",
-                "decide": "110/9/15",
-                "start": "111/3/21",
                 "end": "(預定)113/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "七賢安居",
-                "mayor": "中央(住都中心)",
-                "households": "606",
-                "decide": "111/12/1",
-                "start": "111/12/30",
-                "end": "(預定)117/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "福山安居",
-                "mayor": "中央(住都中心)",
-                "households": "220",
-                "decide": "110/12/16",
-                "start": "111/9/1",
-                "end": "(預定)114/11/30",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "興邦安居(一期)",
-                "mayor": "中央(住都中心)",
-                "households": "663",
-                "decide": "111/11/30",
-                "start": "112/11/8",
-                "end": "(預定)116/7/31",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "前鎮亞灣智慧公宅(第一期)新建統包工程",
-                "mayor": "高雄市政府",
-                "households": "634",
-                "decide": "111/10/11",
-                "start": "112/8/3",
-                "end": "(預定)116/6/30",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "大寮社會住宅",
-                "mayor": "高雄市政府",
-                "households": "384",
-                "decide": "111/8/9",
-                "start": "112/5/23",
-                "end": "(預定)115/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "水秀安居",
-                "mayor": "中央(住都中心)",
-                "households": "297",
-                "decide": "111/12/30",
-                "start": "112/12/27",
-                "end": "(預定)116/7/31",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "岡山大鵬九村社會住宅",
-                "mayor": "高雄市政府",
-                "households": "625",
-                "decide": "111/7/7",
-                "start": "112/4/28",
-                "end": "(預定)115/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "高雄市",
-                "title": "清豐安居",
-                "mayor": "中央(住都中心)",
-                "households": "1594",
-                "decide": "110/12/21",
-                "start": "111/12/27",
-                "end": "(預定)115/10/31",
                 "status": "興建中"
             },
             {
@@ -3455,6 +3535,46 @@
                 "decide": "110/10/19",
                 "start": "111/7/26",
                 "end": "(預定)114/8/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "水秀安居",
+                "mayor": "中央(住都中心)",
+                "households": "297",
+                "decide": "111/12/30",
+                "start": "112/12/27",
+                "end": "(預定)116/7/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "大寮社會住宅",
+                "mayor": "高雄市政府",
+                "households": "384",
+                "decide": "111/8/9",
+                "start": "112/5/23",
+                "end": "(預定)115/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "岡山大鵬九村社會住宅",
+                "mayor": "高雄市政府",
+                "households": "625",
+                "decide": "111/7/7",
+                "start": "112/4/28",
+                "end": "(預定)115/12/31",
+                "status": "興建中"
+            },
+            {
+                "location": "高雄市",
+                "title": "七賢安居",
+                "mayor": "中央(住都中心)",
+                "households": "606",
+                "decide": "111/12/1",
+                "start": "111/12/30",
+                "end": "(預定)117/6/30",
                 "status": "興建中"
             },
             {
@@ -3481,7 +3601,7 @@
                 "location": "高雄市",
                 "title": "永清安居B",
                 "mayor": "中央(住都中心)",
-                "households": "400",
+                "households": "402",
                 "decide": "112/6/20",
                 "start": "(預定)113/6/30",
                 "end": "(預定)117/3/31",
@@ -3489,21 +3609,11 @@
             },
             {
                 "location": "高雄市",
-                "title": "海景安居A",
+                "title": "興邦安居(二期)",
                 "mayor": "中央(住都中心)",
-                "households": "312",
-                "decide": "112/10/13",
-                "start": "(預定)113/10/31",
-                "end": "(預定)117/6/30",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "高雄市",
-                "title": "永清安居A",
-                "mayor": "中央(住都中心)",
-                "households": "800",
-                "decide": "112/6/20",
-                "start": "(預定)113/6/30",
+                "households": "960",
+                "decide": "112/6/29",
+                "start": "(預定)113/7/31",
                 "end": "(預定)117/3/31",
                 "status": "已決標待開工"
             },
@@ -3519,12 +3629,22 @@
             },
             {
                 "location": "高雄市",
-                "title": "興邦安居(二期)",
+                "title": "海景安居A",
                 "mayor": "中央(住都中心)",
-                "households": "960",
-                "decide": "112/6/29",
-                "start": "(預定)113/7/31",
-                "end": "(預定)117/3/31",
+                "households": "312",
+                "decide": "112/10/13",
+                "start": "(預定)113/10/31",
+                "end": "(預定)117/6/30",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "高雄市",
+                "title": "新盛好室",
+                "mayor": "中央(住都中心)",
+                "households": "196",
+                "decide": "113/2/2",
+                "start": "(預定)114/2/28",
+                "end": "(預定)117/12/31",
                 "status": "已決標待開工"
             },
             {
@@ -3539,22 +3659,22 @@
             },
             {
                 "location": "高雄市",
+                "title": "永清安居A",
+                "mayor": "中央(住都中心)",
+                "households": "798",
+                "decide": "112/6/20",
+                "start": "(預定)113/6/30",
+                "end": "(預定)117/3/31",
+                "status": "已決標待開工"
+            },
+            {
+                "location": "高雄市",
                 "title": "海景安居C",
                 "mayor": "中央(住都中心)",
                 "households": "396",
                 "decide": "112/12/15",
                 "start": "(預定)114/3/31",
                 "end": "(預定)117/6/30",
-                "status": "已決標待開工"
-            },
-            {
-                "location": "高雄市",
-                "title": "新盛好室",
-                "mayor": "中央(住都中心)",
-                "households": "196",
-                "decide": "113/2/2",
-                "start": "(預定)114/2/28",
-                "end": "(預定)117/12/31",
                 "status": "已決標待開工"
             }
         ]
@@ -3579,22 +3699,22 @@
         "projects": [
             {
                 "location": "嘉義市",
-                "title": "友忠好室",
-                "mayor": "中央(住都中心)",
-                "households": "144",
-                "decide": "110/10/21",
-                "start": "111/10/19",
-                "end": "(預定)114/11/30",
-                "status": "興建中"
-            },
-            {
-                "location": "嘉義市",
                 "title": "博愛安居",
                 "mayor": "中央(住都中心)",
                 "households": "206",
                 "decide": "110/11/24",
                 "start": "111/10/3",
                 "end": "(預定)114/6/30",
+                "status": "興建中"
+            },
+            {
+                "location": "嘉義市",
+                "title": "友忠好室",
+                "mayor": "中央(住都中心)",
+                "households": "144",
+                "decide": "110/10/21",
+                "start": "111/10/19",
+                "end": "(預定)114/11/30",
                 "status": "興建中"
             },
             {
@@ -3624,22 +3744,22 @@
             },
             {
                 "location": "屏東縣",
-                "title": "瑞屏安居",
-                "mayor": "中央(住都中心)",
-                "households": "520",
-                "decide": "111/1/22",
-                "start": "111/9/21",
-                "end": "(預定)115/5/31",
-                "status": "興建中"
-            },
-            {
-                "location": "屏東縣",
                 "title": "光春好室",
                 "mayor": "中央(住都中心)",
                 "households": "172",
                 "decide": "111/9/28",
                 "start": "112/7/6",
                 "end": "(預定)115/11/30",
+                "status": "興建中"
+            },
+            {
+                "location": "屏東縣",
+                "title": "瑞屏安居",
+                "mayor": "中央(住都中心)",
+                "households": "520",
+                "decide": "111/1/22",
+                "start": "111/9/21",
+                "end": "(預定)115/5/31",
                 "status": "興建中"
             }
         ]
@@ -3649,22 +3769,22 @@
         "projects": [
             {
                 "location": "花蓮縣",
-                "title": "中美好室",
-                "mayor": "中央(住都中心)",
-                "households": "126",
-                "decide": "111/6/16",
-                "start": "112/6/27",
-                "end": "(預定)115/2/28",
-                "status": "興建中"
-            },
-            {
-                "location": "花蓮縣",
                 "title": "美崙安居",
                 "mayor": "中央(住都中心)",
                 "households": "425",
                 "decide": "111/12/28",
                 "start": "112/11/14",
                 "end": "(預定)115/1/31",
+                "status": "興建中"
+            },
+            {
+                "location": "花蓮縣",
+                "title": "中美好室",
+                "mayor": "中央(住都中心)",
+                "households": "126",
+                "decide": "111/6/16",
+                "start": "112/6/27",
+                "end": "(預定)115/2/28",
                 "status": "興建中"
             }
         ]
@@ -3719,22 +3839,22 @@
         "projects": [
             {
                 "location": "澎湖縣",
-                "title": "案山段197地號",
-                "mayor": "澎湖縣政府",
-                "households": "70",
-                "decide": "111/11/9",
-                "start": "112/3/28",
-                "end": "(預定)115/12/31",
-                "status": "興建中"
-            },
-            {
-                "location": "澎湖縣",
                 "title": "文學好室",
                 "mayor": "中央(住都中心)",
                 "households": "78",
                 "decide": "111/11/22",
                 "start": "112/6/30",
                 "end": "(預定)115/3/31",
+                "status": "興建中"
+            },
+            {
+                "location": "澎湖縣",
+                "title": "案山段197地號",
+                "mayor": "澎湖縣政府",
+                "households": "70",
+                "decide": "111/11/9",
+                "start": "112/3/28",
+                "end": "(預定)115/12/31",
                 "status": "興建中"
             }
         ]
