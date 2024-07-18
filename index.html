@@ -62,7 +62,7 @@
       //初始設定
       function initial() {
         let cityArray = [];
-        fetch("https://olagebuge.github.io/custom-chart/full-cityhouses.json")
+        fetch("/full-cityhouses.json")
           .then((res) => res.json())
           .then((data) => {
             //根據縣市新增選項
@@ -86,7 +86,7 @@
       function refetch() {
         selectCity = selectBox.value;
         function fetchCity() {
-          fetch("https://olagebuge.github.io/custom-chart/full-cityhouses.json")
+          fetch("/full-cityhouses.json")
             .then((res) => res.json())
             .then((data) => {
               //若有變更選擇．重新fetch資料
